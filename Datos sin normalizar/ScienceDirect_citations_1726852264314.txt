@@ -1,0 +1,769 @@
+Soledad Gutiérrez-Oliva, Alejandro Toro-Labbé,
+The torsional problem of oxalyl chloride: a challenge for theoretical methods,
+Chemical Physics Letters,
+Volume 383, Issues 5–6,
+2004,
+Pages 435-440,
+ISSN 0009-2614,
+https://doi.org/10.1016/j.cplett.2003.10.150.
+(https://www.sciencedirect.com/science/article/pii/S0009261403019894)
+Abstract: The internal rotation of oxalyl chloride is investigated through ab initio Hartree–Fock and density functional theory methods. The most stable conformation is planar trans and a quasi-stable gauche isomer appearing about midway between the trans and cis isomers was also detected by the two methods. Stabilization of trans isomer is not only due to strong overlaps but also to through space interactions whereas the gauche conformation appears to be mainly stabilized by through bond interactions. In addition, the energy barrier at the cis conformation has been found to be mainly due to through space interactions.
+
+Cesar Machado Pereira, Nival Nunes de Almeida, Maria L.F. Velloso,
+Fuzzy Modeling to Forecast an Electric Load Time Series,
+Procedia Computer Science,
+Volume 55,
+2015,
+Pages 395-404,
+ISSN 1877-0509,
+https://doi.org/10.1016/j.procs.2015.07.089.
+(https://www.sciencedirect.com/science/article/pii/S1877050915015641)
+Abstract: This paper tests and compares two types of modelling to predict the same time series. A time series of electric load was observed and, as a case study, we opted for the metropolitan region of Bahia State. The combination of three exogenous variables were attempted in each model. The exogenous variables are: the number of customers connected to the electricity distribution network, the temperature and the precipitation of rain. The linear model time series forecasting used was a SARIMAX. The modelling of computational intelligence used to predict the time series was a Fuzzy Inference System. According to the evaluation of the attempts, the Fuzzy forecasting system presented the lowest error. But among the smallest errors, the results of the attempts also indicated different exogenous variables for each forecast model.
+Keywords: Forecast; Time Series; Electric Load; SARIMAX; Fuzzy Inference System
+
+Diego B. Colugnati, Aline P. Pansani, Carla A. Scorza, Roberta M. Cysneiros, Antonio-Carlos G. de Almeida, Fulvio A. Scorza,
+Phenytoin is not involved with changes in heart rate of rats with epilepsy,
+Epilepsy & Behavior,
+Volume 52, Part A,
+2015,
+Pages 42-43,
+ISSN 1525-5050,
+https://doi.org/10.1016/j.yebeh.2015.08.024.
+(https://www.sciencedirect.com/science/article/pii/S1525505015004850)
+
+Nektarios Aslanidis, Oscar Martinez,
+Correlation regimes in international equity and bond returns,
+Economic Modelling,
+Volume 97,
+2021,
+Pages 397-410,
+ISSN 0264-9993,
+https://doi.org/10.1016/j.econmod.2020.04.009.
+(https://www.sciencedirect.com/science/article/pii/S026499931931483X)
+Abstract: Measuring comovements across international financial markets is important for policy purposes and portfolio management. We develop a new approach to analyse such comovements in relation to key state variables, such as equity market volatility and short-term interest rates. These state variables can identify regimes in comovements through a fast, tractable threshold model. The advantage over existing methods is that our model can be easily estimated and does not have a serious bias, even when applied to large asset portfolios. Out-of-sample portfolio evaluation shows that our method outperforms the standard dynamic conditional correlation approach, especially during the recent global financial crisis when financial market comovements experienced substantial regime shifts. Overall, we contribute to the empirical literature by shedding new light on the fundamental drivers of comovements across international financial markets which can help guide analysis of systemic risk, asset allocation and hedging.
+Keywords: International equity and bond comovements; Threshold; State variables; Stock market volatility; Interest rates
+
+Julián Arco Díaz, José Sánchez Ramos, M. Carmen Guerrero Delgado, David Hidalgo García, Francisco Gil Montoya, Servando Álvarez Domínguez,
+A daily baseline model based on transfer functions for the verification of energy saving. A case study of the administration room at the Palacio de la Madraza, Granada,
+Applied Energy,
+Volume 224,
+2018,
+Pages 538-549,
+ISSN 0306-2619,
+https://doi.org/10.1016/j.apenergy.2018.04.060.
+(https://www.sciencedirect.com/science/article/pii/S0306261918306184)
+Abstract: Energy consumption in the building sector presents a high potential for reducing it by means of interventions to improve the energy efficiency of the building and/or its installations. After these interventions, it is necessary to ensure the energy impact expected by measurement and verification of savings protocols. The energy characterization of the starting situation, which takes place from the baseline, is one of the fundamental pillars of the measuring and verification of savings process. The baseline is necessary to determine the savings made after introducing an improvement measure. In this regard, researchers have provided various solutions for obtaining it. From the literature review, mathematical models stand out, which require very detailed knowledge of the building or a large amount of training data to get a good adjustment in the results. In addition, these models do not have the capacity to adapt to changes not previously considered in the knowledge base of the model. The baseline methodology proposed presents a combination of two models based on transfer functions. Both models are easily identifiable with experimental data and minimal monitoring is required to adjust them. The proposed formulation gives the models the ability to characterize the dynamic effects linked to the thermal inertia of the building and the operating conditions of the building by any variables that there may be. In addition, due to the linking of the coefficients of the models with the building’s characteristic energy parameters it is possible to perform quality estimates with different input variables from those used in their calibration. The proposed methodology has been validated experimentally in a building with the use of HVAC systems, and a very variable level of occupation, with average relative daily errors of less than 10% and a monthly maximum relative error of less than 5% in the estimate of HVAC consumption. In addition, to illustrate the usefulness of the proposed methodology, its possible application has been described.
+Keywords: Monitoring; Baseline model; Verification of energy saving; Transfer functions; Energy refurbishment
+
+Cristian Guerra, Yeray A. Rodríguez-Núñez, Efraín Polo-Cuadrado, Adolfo Ensuncho,
+Topological bonding fingerprints in photochemically substituted [2 + 2] cycloaddition,
+Journal of Photochemistry and Photobiology A: Chemistry,
+Volume 459,
+2025,
+116038,
+ISSN 1010-6030,
+https://doi.org/10.1016/j.jphotochem.2024.116038.
+(https://www.sciencedirect.com/science/article/pii/S1010603024005823)
+Abstract: Using the framework of the bonding evolution theory (BET), we investigated excited-state substituted [2 + 2] cycloaddition. Our findings demonstrate that the presence of non-bonding density centers during the S1 excited state results in the electronic activation of both unsubstituted and substituted ethylene. It should be noted that these electronic rearrangements imply a very high energy barrier in the ground state, where [2 + 2] cycloaddition is forbidden by the orbital symmetry rules. A crucial bonding process that leads to CC bond formation in both the ground and excited states is the presence of non-bonding centers. Hence, the nature of CC bond formation changes when electron-withdrawing or electron-donating groups are present in the reaction center. On the other hand, the non-polar behavior in cycloadditions is associated with low differences in electron density, whereas polar effects due to hydroxy and cyano substitutions emerge when the difference in electron density between the CC bonding centers is substantial. Consequently, the topological fingerprints of the CC bond creation in the photochemically induced [2 + 2] cycloadditions can be cusp (symmetric collapse of pairing density) if the reaction center is unsubstituted or fold if the reaction center undergoes some substitution (asymmetric collapse of pairing density).
+Keywords: Bonding Evolution Theory (BET); Excited-state [2 + 2] cycloaddition; Non-bonding density centers; Orbital symmetry rules; C–C bond formation
+
+José Thiago H. de A. Cabral, Adriano L.I. Oliveira, Fabio Q.B. da Silva,
+Ensemble Effort Estimation: An updated and extended systematic literature review,
+Journal of Systems and Software,
+Volume 195,
+2023,
+111542,
+ISSN 0164-1212,
+https://doi.org/10.1016/j.jss.2022.111542.
+(https://www.sciencedirect.com/science/article/pii/S0164121222002187)
+Abstract: Ensemble Effort Estimation (EEE) techniques combine several individual software estimation methods in order to address the weaknesses of individual methods for prediction tasks. A systematic review published in 2016 analyzed empirical studies on EEE techniques published between 2010 and (January) 2016. The research on EEE has continuously evolved over the past five years (2016–2020), generating new findings that should be aggregated to the existing body of evidence on the subject. The goal of this paper is to update the systematic review from 2016 with new findings from studies published between 2016 (full year) and 2020 (inclusive). To conduct our review update, we followed existing guidelines for updating systematic reviews in software engineering and other fields. We started with an appraisal of the background and methods of the 2016 review, which resulted in the updated review protocol used to conduct our study. We retrieved 3,682 papers using automatic searching techniques, from which we selected 30 papers for data extraction and analysis. Our findings reinforce the results of the previous review in that machine learning is still the technique most common to construct EEE and that the ensemble techniques have outperformed the individual models. We added new evidence showing that there is no clear superiority of an EEE model over the others. Also, we found that ensemble dynamic selection is still little used in Software Effort Estimation (SEE). This review adds new evidence about the use of EEE techniques in software development which reinforces previous findings and also shows research opportunities in constructing more effective EEE. Besides, ensemble dynamic selection appears as a promising area of research which still is underexplored.
+Keywords: Systematic literature review, Ensemble Effort Estimation; Software Engineering; Software effort estimation; Machine learning
+
+Marta Terroba, Juan Miguel Ribera, Daniel Lapresa, M. Teresa Anguera,
+Propuesta de intervención mediante un robot de suelo con mandos de direccionalidad programada: análisis observacional del desarrollo del pensamiento computacional en educación infantil,
+Revista de Psicodidáctica,
+Volume 26, Issue 2,
+2021,
+Pages 143-151,
+ISSN 1136-1034,
+https://doi.org/10.1016/j.psicod.2021.03.001.
+(https://www.sciencedirect.com/science/article/pii/S1136103421000356)
+Abstract: Resumen
+El presente artículo presenta una propuesta de intervención para el desarrollo del pensamiento computacional en educación infantil, mediante un robot de suelo con mandos de direccionalidad programada. En el seno de la metodología observacional, se ha diseñado un sistema de observación que permite el análisis e interpretación de la conducta desplegada en el desempeño de la propuesta de intervención. La fiabilidad del sistema de observación se ha garantizado en forma de concordancia interobservadores, calculada a través del coeficiente Kappa de Cohen (1960). En el seno de la teoría de la generalizabilidad, el plan de medida [Categorías] [Steps]/ [Participantes] ha permitido constatar una elevada fiabilidad de precisión de generalización de los resultados. La operatividad del sistema de observación ha quedado reflejada en las estructuras regulares de conducta (T-patterns) detectadas -mediante el software THEME-, que han permitido caracterizar dificultades en la asimilación de un lenguaje computacional incipiente relacionadas con la capacidad de orientación espacial y la capacidad de secuenciación del niño -situaciones que implican giro y número de comandos empleados en la secuencia-.
+The present work presents an intervention proposal for the development of computational thinking in early childhood education, through the use of a ground robot with programmed directional controls. Within the use of observational methodology, an observation system has been designed that allows the analysis and interpretation of the behavior displayed in the performance of the intervention proposal. The reliability of the observation system has been guaranteed in the form of inter-observer agreement, calculated using Cohen's (1960) Kappa coefficient. Within the theory of generalizability, the measurement plan [Categories] [Steps] / [Participants] has allowed to verify a high precision reliability of the generalization of the results. The operability of the observation system has been reflected in the regular behavior structures (T-patterns) detected -through the THEME software-, which have allowed characterizing difficulties in the assimilation of an incipient computational language related to the ability of spatial orientation and the sequencing capacity of children -situations involving turning and number of commands used in the sequence-.
+Keywords: Pensamiento computacional; Robótica; Educación Infantil; Metodología observacional; T-patterns; Computation; Robotics; Pre-primary school; Observational methodology; T-patterns
+
+Ewelina Bakala, Anaclara Gerosa, Juan Pablo Hourcade, Gonzalo Tejera,
+Preschool children, robots, and computational thinking: A systematic review,
+International Journal of Child-Computer Interaction,
+Volume 29,
+2021,
+100337,
+ISSN 2212-8689,
+https://doi.org/10.1016/j.ijcci.2021.100337.
+(https://www.sciencedirect.com/science/article/pii/S2212868921000556)
+Abstract: We conducted a systematic review of empirical studies aimed at exploring robot-mediated activities to promote the development of computational thinking in preschoolers. In this study, we investigated the robots used, proposed activities, and evaluation processes. We also analyzed research contexts and the stated motivations to conduct the studies. Our review identified characteristics of the robots, such as input and output interfaces, cost, and availability. We also categorized activities considering context, modality of work, type of activities, duration, adults’ role, scaffolding, unplugged activities, explicit debugging, communication and sharing instances, and teaching knowledge from other domains. We analyzed the computational thinking evaluation process looking at types of assessments, asset concepts, and research design. This paper presents a comprehensive overview of existing research, identifies existing gaps, and provides recommendations for future studies.
+Keywords: Educational robotics; Computational thinking; Preschool
+
+Luis A. Montero, Lourdes A. Dı́az, Norberto Castillo,
+UV–Vis spectrum of simple hydrocarbons in a zeolite cavity. A supramolecular charge transfer,
+Chemical Physics Letters,
+Volume 364, Issues 1–2,
+2002,
+Pages 176-179,
+ISSN 0009-2614,
+https://doi.org/10.1016/S0009-2614(02)01050-3.
+(https://www.sciencedirect.com/science/article/pii/S0009261402010503)
+Abstract: Experimental findings show that ethylene included in a zeolite cavity absorbs visible light to allow photochemical reactions. This evident supramolecular effect is explained in this Letter in terms of a charge transfer transition upon excitation. According a priori NDOL calculations the charge transfer of ethylene occurs between the HOMO, localized on the trapped molecule, and electronic states distributed on the zeolite network, together with a very perturbed intramolecular transition in ethylene. The cases of methane and ethane were also studied and a drop of about 4 eV is always observed in the first electronic transition energy when included in the zeolite cage with respect to the isolated molecules.
+
+Paul Pozo-Guerron, Luis E. Seijas, Jose Luis Burgos, Luis Rincon, F. Javier Torres, Jose R. Mora, Cesar Zambrano, Rafael Almeida,
+A topological study of the haxacoordinated carbon in the pentagonal-pyramidal benzene and hexamethylbenzene dications,
+Chemical Physics Letters,
+Volume 758,
+2020,
+137912,
+ISSN 0009-2614,
+https://doi.org/10.1016/j.cplett.2020.137912.
+(https://www.sciencedirect.com/science/article/pii/S0009261420308277)
+Abstract: The nature of the hexacoordinated carbon in the pentagonal-pyramidal benzene and hexamethylbenzene dications was investigated using the Atoms in Molecules (AIM’s analysis) and the electron localization function (ELF) analysis. The following conclusions were reached from the AIM analysis: (i) six bond critical points linked to the apical carbon atom were found; (ii) at the equilibrium geometry, no cage critical point was observed; and (iii) Bader’s charges are consistent with a cyclopentadiene cation linked to a [C-R]+ fragment. The topological analysis of the ELF shows a near ring basin between the apical carbon and the pentadiene ring.
+Keywords: Carbon hypercoordination; Topological analysis; Atoms in molecule; Electron localization function
+
+Charlene C. de Resende, Adriano C.M. Pereira, Rodrigo T.N. Cardoso, A.R. Bosco de Magalhães,
+Investigating market efficiency through a forecasting model based on differential equations,
+Physica A: Statistical Mechanics and its Applications,
+Volume 474,
+2017,
+Pages 199-212,
+ISSN 0378-4371,
+https://doi.org/10.1016/j.physa.2017.01.057.
+(https://www.sciencedirect.com/science/article/pii/S0378437117300663)
+Abstract: A new differential equation based model for stock price trend forecast is proposed as a tool to investigate efficiency in an emerging market. Its predictive power showed statistically to be higher than the one of a completely random model, signaling towards the presence of arbitrage opportunities. Conditions for accuracy to be enhanced are investigated, and application of the model as part of a trading strategy is discussed.
+Keywords: Stock markets; Financial series; Differential equation models; Econophysics
+
+Malte Henkel, Stoimen Stoimenov,
+Dynamical symmetries in the non-equilibrium dynamics of the directed spherical model,
+Nuclear Physics B,
+Volume 997,
+2023,
+116379,
+ISSN 0550-3213,
+https://doi.org/10.1016/j.nuclphysb.2023.116379.
+(https://www.sciencedirect.com/science/article/pii/S0550321323003085)
+Abstract: The dynamical scaling and ageing in the relaxational dynamics of the quenched directed spherical model is analysed. The exact two-time correlation and response functions display new regimes of ballistic or anisotropic ballistic scaling, at larger distances than probed in the usual regime of diffusive scaling. The role of long-ranged initial correlations on the existence of these scaling regimes is clarified. Their dynamical symmetries are described in terms of extensions of the Schrödinger algebra appropriate to non-equilibrium dynamics in that the anisotropic ballistic scaling regime can be interpreted in terms of meta-Schrödinger invariance while the regime of isotropic ballistic scaling is meta-conformally invariant.
+
+Alan Hernandez-Galvan, Graciela Ramirez-Alonso, Juan Ramirez-Quintana,
+A prototypical network for few-shot recognition of speech imagery data,
+Biomedical Signal Processing and Control,
+Volume 86, Part A,
+2023,
+105154,
+ISSN 1746-8094,
+https://doi.org/10.1016/j.bspc.2023.105154.
+(https://www.sciencedirect.com/science/article/pii/S1746809423005876)
+Abstract: Speech imagery (SI) is a Brain-Computer Interface (BCI) paradigm based on EEG signals analysis where the user imagines speaking out a vowel, phoneme, syllable, or word without producing any sound or facial movements. This paradigm is ideal for developing interfaces for patients diagnosed with neurological disorders since it helps them communicate with their surroundings. This paper presents a prototypical network named Proto-Speech to classify vowels, syllables, and words acquired with the SI paradigm. The embeddings of the prototypical network are produced with a 1D convolutional layer and two bidirectional Gated Recurrent Unit (GRU) layers. The meta-training strategy of Proto-Speech considers the eleven classes of the KaraOne dataset, and the meta-testing is configured with five binary classification tasks commonly used in KaraOne, and with an extra multi-classification scheme. Also, a second publically available dataset named ASU is used in meta-testing to classify long words, short words, vowels, short-long words, and a multiclass approach. Both meta-training and meta-testing are implemented in a subject-independent strategy. Experimental results indicate the best average accuracy obtained with the binary classifications tasks, vowel/consonant, non-nasal/nasal, non-bilabial/bilabial, non-iy/iy, and non-uw/uw with the KaraOne dataset are 99.89%, 99.89%, 99.88%, 99.91%, and 99.92%, respectively. For the multi-classification task is obtained an average accuracy of 91.51%. The average classification results considering a multiclass evaluation is 93.70% with the ASU dataset. These results surpass state-of-the-art methods evaluated with subject-dependent and subject-independent strategies.
+Keywords: Speech imagery (SI); Brain-computer interface (BCI); Electroencephalogram (EEG); Prototypical Network; Embedding
+
+Antonio Carvajal-Rodríguez,
+Incorporación de la programación informática en el currículum de Biología,
+Magister,
+Volume 27, Issue 2,
+2015,
+Pages 76-82,
+ISSN 0212-6796,
+https://doi.org/10.1016/j.magis.2015.12.002.
+(https://www.sciencedirect.com/science/article/pii/S0212679615000286)
+Abstract: Resumen
+La investigación en biología ha cambiado radicalmente debido al efecto combinado de los avances en biotecnología y ciencias de la computación. En consecuencia, la biología computacional y la bioinformática son tan esenciales para la biología del siglo xxi como la biología molecular lo fue en el anterior. Sin embargo, las competencias correspondientes a razonamiento matemático y computacional en el currículo de Biología apenas han cambiado en los últimos 25 años. La formación del biólogo debería ser tan sofisticada desde el punto de vista computacional como la del físico o la del ingeniero. La incorporación de estos cambios requiere tanto de un mayor esfuerzo de integración de las asignaturas cuantitativas existentes en el ámbito de los problemas biológicos como de la contextualización de las asignaturas propias de la biología desde un punto de vista más formal y de modelización. En este trabajo se revisan algunos de los esfuerzos que en este sentido se están haciendo en el panorama internacional y se presenta también la experiencia del autor en el diseño e impartición de un curso de iniciación a la programación para biólogos usando una metodología de aprendizaje basado en problemas.
+The joint effect of biotechnology and computing has changed the research in biology. Consequently, computational biology is as essential for 21st-century biologists as molecular biology was in the 20th. However, Biology curricula have little emphasis in quantitative thinking and computation. The education for biologists should become as sophisticated as the computational education of physicists and engineers. The necessary changes to reach this goal require the connection of mathematics and quantitative subjects with real biological problems and at the same time, teaching some biological subjects from a modeling and computational perspective. In the present work, some of the current international effort in this path is reviewed and additionally, the author's experience when teaching an introduction to programming for biologists is presented.
+Keywords: Docencia; Bioinformática; Biología computacional; Python; Teaching; Bioinformatics; Computational biology; Python
+
+Godfried Toussaint,
+Computational geometric aspects of rhythm, melody, and voice-leading,
+Computational Geometry,
+Volume 43, Issue 1,
+2010,
+Pages 2-22,
+ISSN 0925-7721,
+https://doi.org/10.1016/j.comgeo.2007.01.003.
+(https://www.sciencedirect.com/science/article/pii/S092577210900042X)
+Abstract: Many problems concerning the theory and technology of rhythm, melody, and voice-leading are fundamentally geometric in nature. It is therefore not surprising that the field of computational geometry can contribute greatly to these problems. The interaction between computational geometry and music yields new insights into the theories of rhythm, melody, and voice-leading, as well as new problems for research in several areas, ranging from mathematics and computer science to music theory, music perception, and musicology. Recent results on the geometric and computational aspects of rhythm, melody, and voice-leading are reviewed, connections to established areas of computer science, mathematics, statistics, computational biology, and crystallography are pointed out, and new open problems are proposed.
+Keywords: Musical rhythm; Melody; Voice-leading; Evenness measures; Rhythm similarity; Sequence comparison; Necklaces; Convolution; Computational geometry; Music information retrieval; Algorithms; Computational music theory
+
+Ramon Carbó-Dorca,
+Mathematical Elements of Quantum Electronic Density Functions,
+Editor(s): J.R. Sabin, E. Brändas,
+Advances in Quantum Chemistry,
+Academic Press,
+Volume 49,
+2005,
+Pages 121-207,
+ISSN 0065-3276,
+ISBN 9780120348497,
+https://doi.org/10.1016/S0065-3276(05)49003-6.
+(https://www.sciencedirect.com/science/article/pii/S0065327605490036)
+Abstract: This chapter is a discussion on the electronic density functions formal structure and mathematical properties. A primary objective of this study is focused on the easy description of the quantum object concept, in connection with the quantum similarity measures framework. Several mathematical tools are discussed concerning the development of this task, among others: inward matrix products, extended Hilbert and Sobolev spaces, convex sets, vector semispaces, generating rules, diagonal representations, etc.
+
+Marcos Pimenta de Abreu,
+A two-component method for solving multislab problems in radiative transfer,
+Journal of Quantitative Spectroscopy and Radiative Transfer,
+Volume 85, Issues 3–4,
+2004,
+Pages 311-336,
+ISSN 0022-4073,
+https://doi.org/10.1016/S0022-4073(03)00230-9.
+(https://www.sciencedirect.com/science/article/pii/S0022407303002309)
+Abstract: We describe a two-component method for solving mathematically formulated radiative transfer problems defined on multislab domains irradiated from one side with a monodirectional beam of radiation. Basic to the method is the decomposition of the mathematical problem into an uncollided problem with singular boundary conditions and a diffusive problem with homogeneous boundary conditions. In the method, the uncollided problem is considered as is and solved exactly, while the diffusive problem is considered approximately and the approximate problem is then solved exactly with a numerical method for slab-geometry discrete ordinates problems with depth-dependent anisotropic sources. We illustrate our mathematical method with two test problems relevant to atmospheric physics and we conclude this article with general remarks and ongoing research.
+Keywords: Radiative transfer; Monodirectional beam; Chandrasekhar decomposition; Multislab problems
+
+Hrayr Der Hagopian Tlapanco,
+Experimentos en una ciencia no experimental,
+Investigación Económica,
+Volume 75, Issue 295,
+2016,
+Pages 31-91,
+ISSN 0185-1667,
+https://doi.org/10.1016/j.inveco.2016.03.002.
+(https://www.sciencedirect.com/science/article/pii/S0185166716300029)
+Abstract: Resumen
+El presente documento tiene por objeto brindar argumentos a favor del empleo de experimentos en la economía. Más allá de convencer al lector que son viables, se pretende exponer otra forma de hacer ciencia económica que es tan válida como el método axiomático deductivo que aún predomina. Finalmente, se toca el tema de por qué ha sido descuidada la parte experimental (en especíﬁco en la economía conductual) y por qué no se han interesado más personas en esta área.
+The aim of this article is to provide reasonable arguments favoring the use of experiments in Economics. Rather than convincing the reader that experiments are plausible, this less common approach is intended to be presented as another way of doing science that is just as valid as the axiomatic deductive approach that still prevails. Finally, we bring up the issues of why the experimental side of Economics has been neglected (speciﬁcally behavioral economics) and why not enough people have been interested in this area.
+Keywords: Clasiﬁcación JEL: B41; D00; Y80.; economía experimental; economía conductual; método hipotético deductivo; interdisciplinariedad.; experimental economics; behavioral economics; hypothetical deductive method; interdisciplinarity.
+
+Paulina Sepulveda, Mirtha Cabezas, Jonathan García, Flery Fonseca-Salamanca,
+Aprendizaje basado en problemas: percepción del proceso enseñanza aprendizaje de las ciencias preclínicas por estudiantes de Kinesiología,
+Educación Médica,
+Volume 22, Issue 2,
+2021,
+Pages 60-66,
+ISSN 1575-1813,
+https://doi.org/10.1016/j.edumed.2019.01.004.
+(https://www.sciencedirect.com/science/article/pii/S1575181319300221)
+Abstract: Resumen
+Objetivo
+Conocer las opiniones de los estudiantes de Kinesiología acerca de la metodología de aprendizaje basado en problemas (ABP), en el Departamento de Ciencias Preclínicas de la Universidad de La Frontera.
+Material y método
+Se realizó la investigación bajo el paradigma cualitativo mediante un estudio de caso intrínseco. La muestra fue integrada por 11 alumnos de segundo año de la carrera de Kinesiología, quienes conformaron un grupo focal, previa firma de un consentimiento informado. El análisis de datos se realizó a través del método de comparación constante de Glaser y Strauss (1967) y los pasos descritos por Huberman y Miles: reducción de datos, disposición y transformación, obtención y verificación de conclusiones, utilizando el programa Atlas.ti como recurso computacional.
+Resultados
+Se identificaron 1.097 unidades de significado relevantes para el estudio, las cuales fueron agrupadas en 38 categorías, emergiendo 11 metacategorías y 4 dominios cualitativos: «valoración del aprendizaje basado en problemas», «trabajo en tutoría», «caso clínico» y «rol del tutor».
+Conclusión
+Los estudiantes perciben la metodología ABP como una estrategia que motiva y facilita su aprendizaje, donde construyen e integran conocimientos gracias al caso clínico, desarrollan competencias genéricas que no logran con la metodología tradicional, como el trabajo en equipo, el pensamiento crítico y aprender a aprender. Para ellos sentirse protagonista y gestores de su proceso educativo es fundamental para un aprendizaje significativo. Además, señalaron condiciones que pueden influir en el desarrollo del trabajo, como son: el tutor, los compañeros y el ambiente que se genera en los grupos de tutorías.
+Objective
+To determine the opinions of the Kinesiology student on problem-based learning (PBL) methodology in the Department of Preclinical Science of the University of La Frontera (Chile).
+Material and method
+A qualitative research using an intrinsic case study. The sample consisted of 11 second-year Kinesiology students, who formed a focus group after giving informed consent. The data analysis was made using the Glaser Strauss constant comparative method and following the Huberman-Miles steps: data reduction, data display, and conclusion drawing/verification using the Atlas.ti software as a computer resource.
+Results
+A total of 1,097 significance units were identified and grouped under 40 categories, with 11 meta-categories emerging, and four qualitative domains were generated, called: ‘assessment of problem-based learning’, ‘work in mentoring’, ‘clinical case’ and ‘tutor role’.
+Conclusion
+Students perceived PBL methodology as a facilitating and motivating learning strategy, helping them to build and integrate knowledge using r the clinical case study. The students also developed generic skills not achieved with the traditional methodology, such as teamwork, critical thinking, and learn to learn. For them feeling like a protagonist and managers of their own educational process is fundamental for meaningful learning. Furthermore, they pointed out conditions that can influence the development of classwork such as: the mentor, classmates, and the environment generated in the tutorial groups.
+Keywords: Aprendizaje basado en problemas; Educación de pregrado en salud; Tutoría; Problem-based learning; Undergraduate education in health; Tutorial
+
+Hernane B. de B. Pereira, Gilney F. Zebende, Marcelo A. Moret,
+Learning computer programming: Implementing a fractal in a Turing Machine,
+Computers & Education,
+Volume 55, Issue 2,
+2010,
+Pages 767-776,
+ISSN 0360-1315,
+https://doi.org/10.1016/j.compedu.2010.03.009.
+(https://www.sciencedirect.com/science/article/pii/S0360131510000898)
+Abstract: It is common to start a course on computer programming logic by teaching the algorithm concept from the point of view of natural languages, but in a schematic way. In this sense we note that the students have difficulties in understanding and implementation of the problems proposed by the teacher. The main idea of this paper is to show that the logical reasoning of computer programming students can be efficiently developed by using at the same time Turing Machine, cellular automata (Wolfram rule) and fractals theory via Problem-Based Learning (PBL). The results indicate that this approach is useful, but the teacher needs introducing, in an interdisciplinary context, the simple theory of cellular automata and the fractals before the problem implementation.
+Keywords: Applications in subject areas; Cooperative/collaborative learning; Interdisciplinary projects; Programming and programming languages; Teaching/learning strategies
+
+Paulo Figueiredo, Elisabeth Loiola,
+Screening Items in an Aging Chain with a Co-Flow Structure: An Application to the Product Pipeline Management Problem,
+RAI Revista de Administração e Inovação,
+Volume 11, Issue 1,
+2014,
+Pages 97-114,
+ISSN 1809-2039,
+https://doi.org/10.5773/rai.v11i1.1119.
+(https://www.sciencedirect.com/science/article/pii/S180920391630136X)
+Abstract: ABSTRACT
+In many situations, System Dynamics modelers have to capture attributes of items that are tracked in an aging chain. The outflow of items from the stocks in these chains usually depends on the attributes that are tracked in the co-flow. But these well known, classic models fail to account for a specific phenomenon, the screening of items. This study presents a new application of co-flows in aging chains: A co-flow that enables the process of screening, i.e. the process of either terminating or approving items depending on an attribute. Many possible applications are suggested. An application to product pipeline management is developed.
+RESUMO
+Em muitas situações na modelagem de dinâmica de sistemas, é necessário capturar atributos de items que são rastreados numa cadeia temporal. A saída de itens destes estoques geralmente depende dos atributos que são rastreados em um fluxo auxiliar. Contudo, estes modelos clássicos não consideram um fenômeno específico, a seleção de itens. Este estudo apresenta uma nova aplicação para fluxos auxiliares em cadeias temporais: Um fluxo auxiliar que permite o processo de seleção, i.e. o processo de eliminar ou aprovar itens dependendo do valor de um atributo. São sugeridas muitas aplicações possíveis para a nova estrutura. Uma aplicação para a gestão do funil de inovação é desenvolvida.
+Keywords: Screening; Co-flow; Extreme-value distribution; Gumbel distribution; Aging chains; Product development pipeline; Product development; Development funnel; System dynamics; Product portfolio management; Seleção; Fluxo auxiliar; Distribuição de probabilidade de valor extremo; Distribuição Gumbel; Cadeias temporais; Funil da inovação; Desenvolvimento de produtos; Gestão de portfolio de projetos; Dinâmica de sistemas
+
+Luca Tubiana, Gareth P. Alexander, Agnese Barbensi, Dorothy Buck, Julyan H.E. Cartwright, Mateusz Chwastyk, Marek Cieplak, Ivan Coluzza, Simon Čopar, David J. Craik, Marco Di Stefano, Ralf Everaers, Patrícia F.N. Faísca, Franco Ferrari, Achille Giacometti, Dimos Goundaroulis, Ellinor Haglund, Ya-Ming Hou, Nevena Ilieva, Sophie E. Jackson, Aleksandre Japaridze, Noam Kaplan, Alexander R. Klotz, Hongbin Li, Christos N. Likos, Emanuele Locatelli, Teresa López-León, Thomas Machon, Cristian Micheletti, Davide Michieletto, Antti Niemi, Wanda Niemyska, Szymon Niewieczerzal, Francesco Nitti, Enzo Orlandini, Samuela Pasquali, Agata P. Perlinska, Rudolf Podgornik, Raffaello Potestio, Nicola M. Pugno, Miha Ravnik, Renzo Ricca, Christian M. Rohwer, Angelo Rosa, Jan Smrek, Anton Souslov, Andrzej Stasiak, Danièle Steer, Joanna Sułkowska, Piotr Sułkowski, De Witt L. Sumners, Carsten Svaneborg, Piotr Szymczak, Thomas Tarenzi, Rui Travasso, Peter Virnau, Dimitris Vlassopoulos, Primož Ziherl, Slobodan Žumer,
+Topology in soft and biological matter,
+Physics Reports,
+Volume 1075,
+2024,
+Pages 1-137,
+ISSN 0370-1573,
+https://doi.org/10.1016/j.physrep.2024.04.002.
+(https://www.sciencedirect.com/science/article/pii/S0370157324001339)
+Abstract: The last years have witnessed remarkable advances in our understanding of the emergence and consequences of topological constraints in biological and soft matter. Examples are abundant in relation to (bio)polymeric systems and range from the characterization of knots in single polymers and proteins to that of whole chromosomes and polymer melts. At the same time, considerable advances have been made in the description of the interplay between topological and physical properties in complex fluids, with the development of techniques that now allow researchers to control the formation of and interaction between defects in diverse classes of liquid crystals. Thanks to technological progress and the integration of experiments with increasingly sophisticated numerical simulations, topological biological and soft matter is a vibrant area of research attracting scientists from a broad range of disciplines. However, owing to the high degree of specialization of modern science, many results have remained confined to their own particular fields, with different jargon making it difficult for researchers to share ideas and work together towards a comprehensive view of the diverse phenomena at play. Compelled by these motivations, here we present a comprehensive overview of topological effects in systems ranging from DNA and genome organization to entangled proteins, polymeric materials, liquid crystals, and theoretical physics, with the intention of reducing the barriers between different fields of soft matter and biophysics. Particular care has been taken in providing a coherent formal introduction to the topological properties of polymers and of continuum materials and in highlighting the underlying common aspects concerning the emergence, characterization, and effects of topological objects in different systems. The second half of the review is dedicated to the presentation of the latest results in selected problems, specifically, the effects of topological constraints on the viscoelastic properties of polymeric materials; their relation with genome organization; a discussion on the emergence and possible effects of knots and other entanglements in proteins; the emergence and effects of topological defects and solitons in complex fluids. This review is dedicated to the memory of Marek Cieplak.
+Keywords: Topology in soft condensed matter; Polymers and polymer melts; Topology in living matter — protein folding; Entangled proteins; DNA topology & genome organization; Topologically complex fluids
+
+Damien Depannemaecker, Luiz Eduardo Canton Santos, Antônio Márcio Rodrigues, Carla Alessandra Scorza, Fulvio Alexandre Scorza, Antônio-Carlos Guimarães de Almeida,
+Realistic spiking neural network: Non-synaptic mechanisms improve convergence in cell assembly,
+Neural Networks,
+Volume 122,
+2020,
+Pages 420-433,
+ISSN 0893-6080,
+https://doi.org/10.1016/j.neunet.2019.09.038.
+(https://www.sciencedirect.com/science/article/pii/S089360801930320X)
+Abstract: Learning in neural networks inspired by brain tissue has been studied for machine learning applications. However, existing works primarily focused on the concept of synaptic weight modulation, and other aspects of neuronal interactions, such as non-synaptic mechanisms, have been neglected. Non-synaptic interaction mechanisms have been shown to play significant roles in the brain, and four classes of these mechanisms can be highlighted: (i) electrotonic coupling; (ii) ephaptic interactions; (iii) electric field effects; and iv) extracellular ionic fluctuations. In this work, we proposed simple rules for learning inspired by recent findings in machine learning adapted to a realistic spiking neural network. We show that the inclusion of non-synaptic interaction mechanisms improves cell assembly convergence. By including extracellular ionic fluctuation represented by the extracellular electrodiffusion in the network, we showed the importance of these mechanisms to improve cell assembly convergence. Additionally, we observed a variety of electrophysiological patterns of neuronal activity, particularly bursting and synchronism when the convergence is improved.
+Keywords: Spiking neural network; Biophysical model; Synchronism; Burst activity; Convergence
+
+Bruna M. Rodrigues, Henrique F.V. Victória, Guilherme Leite, Klaus Krambrock, Otávio A. Chaves, Diego F. de Oliveira, Rafael de Q. Garcia, Leonardo De Boni, Luiz A.S. Costa, Bernardo A. Iglesias,
+Photophysical, photobiological, and biomolecule-binding properties of new tri-cationic meso-tri(2-thienyl)corroles with Pt(II) and Pd(II) polypyridyl derivatives,
+Journal of Inorganic Biochemistry,
+Volume 242,
+2023,
+112149,
+ISSN 0162-0134,
+https://doi.org/10.1016/j.jinorgbio.2023.112149.
+(https://www.sciencedirect.com/science/article/pii/S0162013423000314)
+Abstract: We report the synthesis and characterization of new tri-cationic corrole derivatives, containing Pt(II) or Pd(II) complexes attached at the peripheral position of thienyl moieties. Corrole derivatives were characterized through microanalysis, electrochemical, spectrometry and spectroscopy analysis. Singlet and triplet excited-states are investigated by photophysical/theoretical calculation methods and photobiological parameters were also evaluated spectroscopic techniques (UV–Vis and EPR). Also, the binding capacity of each corrole derivative with nucleic acids (DNA) and human serum albumin (HSA) was determined by UV–Vis, steady-state, and time-resolved fluorescence spectroscopy, combined with molecular docking analysis. Moreover, the new corroles containing peripheral complexes improve their interactions with biomacromolecules, generate reactive oxygen species under light source irradiation studied and has potential for application in photodynamic therapeutic processes.
+Keywords: Corroles; Thienyl-corroles; Platinum(II) corroles; Palladium(II) corroles; Photobiology
+
+Marcos Pimenta de Abreu,
+On computing the eigenvalue spectrum and elementary solutions of multigroup diffusion equations for neutron multiplication eigenvalue problems,
+Progress in Nuclear Energy,
+Volume 49, Issue 1,
+2007,
+Pages 61-67,
+ISSN 0149-1970,
+https://doi.org/10.1016/j.pnucene.2006.09.001.
+(https://www.sciencedirect.com/science/article/pii/S0149197006001016)
+Abstract: The aim of this article is to describe a numerical scheme for the generation of the eigenvalue spectrum and elementary solutions of local multigroup multiplication eigenvalue equations within the framework of spectral nodal diffusion methods. In contrast to the scheme that is currently used by other investigators for eigenvalue spectrum generation, the scheme described here is able to treat without further ado an arbitrary number of energy groups, incorporating easily energy group transitions in neutron outscattering events. We illustrate these positive features with numerical results for a four-group test problem, and we close this article with concluding remarks.
+Keywords: Neutron diffusion; Multigroup theory; Multiplication eigenvalue problems; Matrix analysis; Lower bound
+
+Eder Johnson de Area Leão Pereira, Marcus Fernandes da Silva, H.B.B. Pereira,
+Econophysics: Past and present,
+Physica A: Statistical Mechanics and its Applications,
+Volume 473,
+2017,
+Pages 251-261,
+ISSN 0378-4371,
+https://doi.org/10.1016/j.physa.2017.01.007.
+(https://www.sciencedirect.com/science/article/pii/S0378437117300079)
+Abstract: This paper provides a brief historical review of the relationship between economics and physics, beginning with Adam Smith being influenced by Isaac Newton’s ideas up to the present day including the new econophysics discipline and some of the tools applied to the economy. Thus, this work is expected to motivate new researchers who are interested in this new discipline.
+Keywords: Econophysics; Agents; Memory; Correlation; Complex networks
+
+R. Carbó-Dorca, L. Amat, E. Besalú, X. Gironés, D. Robert,
+Quantum mechanical origin of QSAR: theory and applications,
+Journal of Molecular Structure: THEOCHEM,
+Volume 504, Issues 1–3,
+2000,
+Pages 181-228,
+ISSN 0166-1280,
+https://doi.org/10.1016/S0166-1280(00)00363-8.
+(https://www.sciencedirect.com/science/article/pii/S0166128000003638)
+Abstract: In this paper, search is carried out on how to develop the formalism where quantum similarity measures (QSM) become a natural product of the theoretical framework. This fact is later used to establish a fundamental connection between quantum theory and QSAR, which is analysed in turn within the realm of discrete quantum chemistry. In order to perform such a task, several theoretical tools are revised in a previous step. The first section is devoted to construct the concept of tagged set. Next, the definition of quantum object (QO) is clarified by means of ideas from a quantum theory background and the previous tagged set formalism. In the definition of QO, density functions (DF) play a fundamental role and a possible simplified mathematical picture is presented. On the road to prepare the problem solving tools, convex sets result to be prominent, and the notion of vector semispace appears as a consequence. The transformation rule, a device to connect wavefunctions with DF, is defined in a new step. Various products of this preliminary discussion are described, among others the concept of kinetic energy and other observable distributions. QSM as a source of discrete representation of molecular structures is made evident in this context. Further theoretical development intends to study discretisation, the transformation of infinite dimensional functional spaces into n-dimensional ones. This result adds new perspectives to the discrete representation of QO, because it (a) provides a source of new QO descriptors, like a generalisation of scalar product and new similarity indices, (b) describes the QSPR theoretical background enabling the construction of the adequate mathematical tools in order to discuss connected problems (limitations of linear models, tuned-QSAR, p-valued classification of QO, among others), (c) allows the construction of sound and general alternatives of Hammet's σ or logP parameters. All the steps above summarised are completed and illustrated, when possible, with practical application examples and visualisation pictures.
+Keywords: Tagged sets; Tagged ensembles; Convex sets; Vector semispaces; Definite positive operators; Discrete molecular representations; Density functions; Kinetic energy and angular momentum density functions; Electrostatic molecular potentials; Quantum objects; Similarity matrices; QSAR; QSPR; p-Valued problems; Generalised scalar products; Generalised Carbó index
+
+Anderson S.L. Gomes, André L. Moura, Cid B. de Araújo, Ernesto P. Raposo,
+Recent advances and applications of random lasers and random fiber lasers,
+Progress in Quantum Electronics,
+Volume 78,
+2021,
+100343,
+ISSN 0079-6727,
+https://doi.org/10.1016/j.pquantelec.2021.100343.
+(https://www.sciencedirect.com/science/article/pii/S0079672721000288)
+Abstract: Random Lasers (RLs) and Random Fiber Lasers (RFLs) have been the subject of intense research since their first experimental demonstration in 1994 and 2007, respectively. These low coherence light sources rely on multiple scattering of light to provide optical feedback in a medium combining a properly excited gain material and a scattering disordered structure. It is the feedback mechanism which makes RLs/RFLs quite different from conventional lasers, with the later relying on an optical cavity usually formed by two static mirrors. This characteristic makes the RLs and RFLs devices to become cavityless, although not modeless, and present features of complex systems, whose statistics of intensity fluctuations are quite relevant. In addition, RLs can be designed in three-dimensional (3D) geometry, typically powders or colloids, in two-dimensional (2D) geometries, such as planar waveguides or thin-films, and one-dimensional (1D or quasi-1D) geometry, generally in optical fibers, known as the RFLs. The advantage of 1D geometry is the inherent directionality of the RFL emission, which otherwise is multidirectional in 3D geometry. In this review paper, we initially describe the basic theoretical framework supporting laser emission due to feedback in disordered structures. We then provide an updated vision of the types of RLs and RFLs that have been demonstrated and reported, from dyes solutions embedded with nano/submicron-scatterers composites to rare-earth doped micro or nanocrystals and random fiber Bragg gratings as the scattering structure. The influence of optical processes due to second-, third- and high-order nonlinearities on the intensity behavior of RLs are discussed. Subsequently, we review multidisciplinary studies that lead to the classification of RLs as complex systems exhibiting turbulence-like characteristics, photonic phase-transitions presenting replica symmetry breaking and intensity fluctuations satisfying Lévy-like statistics, and the so-called Floquet phase. Furthermore, we also highlight technological applications that includes sensing, optical amplification, and biomedical imaging. The review concludes pointing out potential directions in basic and applied research in the field of RL and RFL.
+Keywords: Random laser; Random fiber laser; Multiple scattering of light; Intensity fluctuations; Photonic phase-transitions; Replica symmetry breaking
+
+Victoria S. Aragón, Susana C. Esquivel, Carlos A. Coello Coello,
+A T-cell algorithm for solving dynamic optimization problems,
+Information Sciences,
+Volume 181, Issue 17,
+2011,
+Pages 3614-3637,
+ISSN 0020-0255,
+https://doi.org/10.1016/j.ins.2011.04.028.
+(https://www.sciencedirect.com/science/article/pii/S0020025511002027)
+Abstract: In this paper, a metaheuristic inspired on the T-Cell model of the immune system (i.e., an artificial immune system) is introduced. The proposed approach (called DTC, for Dynamic T-Cell) is used to solve dynamic optimization problems, and is validated using test problems taken from the specialized literature on dynamic optimization. Results are compared with respect to artificial immune approaches representative of the state-of-the-art in the area. Some statistical analyses are also performed, in order to determine the sensitivity of the proposed approach to its parameters.
+Keywords: Artificial immune systems; Dynamic optimization; Metaheuristics
+
+Luz Gil-Salom, Carmen Soler-Monreal,
+Writers' positioning in literature reviews in English and Spanish computing doctoral theses,
+Journal of English for Academic Purposes,
+Volume 16,
+2014,
+Pages 23-39,
+ISSN 1475-1585,
+https://doi.org/10.1016/j.jeap.2014.08.002.
+(https://www.sciencedirect.com/science/article/pii/S1475158514000605)
+Abstract: Making appropriate reference to other texts is an essential feature of successful academic writing (Hyland, 2000, Myers, 1990). Writers are expected to integrate others' ideas into their arguments to indicate what is already known about the area of study of the discipline, or to point out weaknesses, aligning themselves with a particular disciplinary framework (Thompson & Tribble, 2001). Literature reviews (LRs) of PhD theses provide support for the writer's position and show the novelty of her/his work. This study analysed the resources of evaluation at both rhetorical and linguistic levels used by the writers of 20 PhD LRs in computing in English and Spanish. The data reveal that the Spanish and the English PhD LRs have a similar rhetorical structure. However, the English writers use more strategies for the development of each move than the Spanish writers. Attitude markers are the most usual devices doctoral writers use to express opinion in both sets. Epistemic modality and a variety of discourse-based markers are typically found in the English LRs while the Spanish LRs seem to rely mainly on adversatives and certainty markers. Differences respond partly to individual writing styles, but also reflect rhetorical variation in the relationship with the audience.
+Keywords: Research writing; PhD theses; Literature reviews; Evaluation; Rhetorical structure; Variation
+
+André Andrade Longaray, Leonardo Ensslin, Ademar Dutra, Sandra Ensslin, Ricardo Brasil, Paulo Munhoz,
+Using MCDA-C to assess the organizational performance of industries operating at Brazilian maritime port terminals,
+Operations Research Perspectives,
+Volume 6,
+2019,
+100109,
+ISSN 2214-7160,
+https://doi.org/10.1016/j.orp.2019.100109.
+(https://www.sciencedirect.com/science/article/pii/S2214716018301945)
+Abstract: This article describes the use of the constructivist multicriteria decision aid (MCDA-C) model as an intervention instrument, using a case study of a fertilizer industry located at a Brazilian maritime port terminal, with the goal of developing a customized performance evaluation model to help its management process. The sequence of steps created to develop the model occurred interactively through interviews with the decision maker. The developed model allowed the decision maker to incorporate the unique aspects of the company and environment, thereby widening the performance evaluation possibilities and enhancing organizational management.
+Keywords: Multicriteria methods; Performance evaluation; MCDA-C; Maritime port terminals; Soft operations research; MACBETH
+
+
+Comunicaciones orales/Comunicações orais,
+Gaceta Sanitaria,
+Volume 38, Supplement 2,
+2024,
+Pages S58-S177,
+ISSN 0213-9111,
+https://doi.org/10.1016/S0213-9111(24)00080-3.
+(https://www.sciencedirect.com/science/article/pii/S0213911124000803)
+
+Alberto Fernández, Carlos Gómez, Roberto Hornero, Juan José López-Ibor,
+Complexity and schizophrenia,
+Progress in Neuro-Psychopharmacology and Biological Psychiatry,
+Volume 45,
+2013,
+Pages 267-276,
+ISSN 0278-5846,
+https://doi.org/10.1016/j.pnpbp.2012.03.015.
+(https://www.sciencedirect.com/science/article/pii/S0278584612000735)
+Abstract: Complexity estimators have been broadly utilized in schizophrenia investigation. Early studies reported increased complexity in schizophrenia patients, associated with a higher variability or “irregularity” of their brain signals. However, further investigations showed reduced complexities, thus introducing a clear divergence. Nowadays, both increased and reduced complexity values are reported. The explanation of such divergence is a critical issue to understand the role of complexity measures in schizophrenia research. Considering previous arguments a complementary hypothesis is advanced: if the increased irregularity of schizophrenia patients' neurophysiological activity is assumed, a “natural” tendency to increased complexity in EEG and MEG scans should be expected, probably reflecting an abnormal neuronal firing pattern in some critical regions such as the frontal lobes. This “natural” tendency to increased complexity might be modulated by the interaction of three main factors: medication effects, symptomatology, and age effects. Therefore, young, medication-naïve, and highly symptomatic (positive symptoms) patients are expected to exhibit increased complexities. More importantly, the investigation of these interacting factors by means of complexity estimators might help to elucidate some of the neuropathological processes involved in schizophrenia.
+Keywords: Complexity; Schizophrenia; Positive symptoms; Negative symptoms; Neuroleptics; Age
+
+Marco Fierro,
+El desarrollo conceptual de la ciencia cognitiva. Parte II*,
+Revista Colombiana de Psiquiatría,
+Volume 41, Issue 1,
+2012,
+Pages 185-196,
+ISSN 0034-7450,
+https://doi.org/10.1016/S0034-7450(14)60076-7.
+(https://www.sciencedirect.com/science/article/pii/S0034745014600767)
+Abstract: Resumen
+Introducción
+La ciencia cognitiva se ha constituido en el paradigma acerca de lo mental más influyente de finales del siglo XX y comienzos del XXI. Sus conceptos, el planteamiento de los problemas y las soluciones a estos han sufrido modificaciones significativas en pocos años.
+Método
+Se presentan y se discuten los conceptos fundamentales de la ciencia cognitiva, dividiéndola en cuatro etapas de desarrollo: los inicios, el cognitivismo clásico, el conexionismo y la corporalización-enacción. También se explora el ámbito clínico, sobre todo lo atinente a la psicoterapia cognitiva.
+Desarrollo y Conclusiones
+En la etapa de corporalización-enacción se destaca el papel del cuerpo, que con su conjunto evolutivamente determinado de movimientos da lugar a una manera de navegar el mundo y a un estilo de pensar. La realización de las tareas cognitivas es vista como un proceso que utiliza recursos del entorno capaces de amplificar las habilidades mentales y desplegarlas más allá del ámbito interno del cerebro. Por otra parte, se encuentra al cuerpo y la mente embebidos en el mundo, creando la cognición al interactuar con él, proceso denominado enacción. Desde esta perspectiva, se considera que hay una íntima conexión entre la percepción y la acción, de ahí el interés en las interacciones con el mundo en tiempo real más que en el razonamiento abstracto. En cuanto al ámbito clínico, específicamente la terapia cognitiva, hay poca discusión conceptual, debido quizá a que los buenos resultados en la práctica llevan a pensar que los fundamentos teóricos son firmes y poco problemáticos.
+Introduction
+Cognitive science has become the most influential paradigm on mental health in the late 20th and the early 21st centuries. In few years, the concepts, problem approaches and solutions proper to this science have significantly changed.
+Method
+Introduction and discussion of the fundamental concepts of cognitive science divided in four stages: Start, Classic Cognitivism, Connectionism, and Embodying / Enacting. The 2nd Part of the paper discusses the above mentioned fourth stage and explores the clinical setting, especially in terms of cognitive psychotherapy.
+Development and Conclusions
+The embodying/enacting stage highlights the role of the body including a set of determined evolutionary movements which provide a way of thinking and exploring the world. The performance of cognitive tasks is considered as a process that uses environmental resources that enhances mental skills and deploys them beyond the domestic sphere of the brain. On the other hand, body and mind are embedded in the world, thus giving rise to cognition when interacting, a process known as enacting. There is a close connection between perception and action, hence the interest in real-time interactions with the world rather than abstract reasoning. Regarding clinics, specifically the cognitive therapy, there is little conceptual discussion maybe due to good results from practice that may led us to consider that theoretical foundations are firm and not problem-raising.
+Keywords: Ciencia cognitiva; cognición; terapia cognitiva; corporalización; enacción; mente extendida; Cognitive science; cognition; cognitive therapy; embodiment; enacting; enhanced mind
+
+D. Puertas-Centeno,
+Differential-escort transformations and the monotonicity of the LMC-Rényi complexity measure,
+Physica A: Statistical Mechanics and its Applications,
+Volume 518,
+2019,
+Pages 177-189,
+ISSN 0378-4371,
+https://doi.org/10.1016/j.physa.2018.11.066.
+(https://www.sciencedirect.com/science/article/pii/S0378437118315036)
+Abstract: Escort distributions have been shown to be very useful in a great variety of fields ranging from information theory, nonextensive statistical mechanics till coding theory, chaos and multifractals. In this work we give the notion and the properties of a novel type of escort density, the differential-escort densities, which have various advantages with respect to the standard ones. We highlight the behavior of the differential Shannon, Rényi and Tsallis entropies of these distributions. Then, we illustrate their utility to prove the monotonicity property of the LMC-Rényi complexity measure and to study the behavior of general distributions in the two extreme cases of minimal and very high LMC-Rényi complexity. Finally, this transformation allows us to obtain the Tsallis q-exponential densities as the differential-escort transformation of the exponential density.
+Keywords: Differential-escort distributions; Shannon, Rényi and Tsallis entropies; Statistical complexity measures; LMC and LMC-Rényi complexity measures; Tsallis q-exponential densities; Power-law-decaying probability densities
+
+Marcos Pimenta de Abreu,
+Mixed singular-regular boundary conditions in multislab radiation transport,
+Journal of Computational Physics,
+Volume 197, Issue 1,
+2004,
+Pages 167-185,
+ISSN 0021-9991,
+https://doi.org/10.1016/j.jcp.2003.11.023.
+(https://www.sciencedirect.com/science/article/pii/S0021999103006247)
+Abstract: This article reports a computational method for approximately solving radiation transport problems with anisotropic scattering defined on multislab domains irradiated from one side with a beam of monoenergetic neutral particles. We assume here that the incident beam may have a monodirectional component and a continuously distributed component in angle. We begin by defining the target problem representing the class of radiation transport problems that we are focused on. We then Chandrasekhar decompose the target problem into an uncollided transport problem with left singular boundary conditions and a diffusive transport problem with regular boundary conditions. We perform an analysis of these problems to derive the exact solution of the uncollided transport problem and a discrete ordinates solution in open form to the diffusive transport problem. These solutions are the basis for the definition of a computational method for approximately solving the target problem. We illustrate the numerical accuracy of our method with three basic problems in radiative transfer and neutron transport, and we conclude this article with a discussion and directions for future work.
+Keywords: Radiation transport; Mixed beams; Multislab problems; Discrete ordinates; Analytical and numerical methods
+
+Miguel Perpiñá Tordera,
+¿Por qué miramos el asma a través del ojo de la cerradura?,
+Archivos de Bronconeumología,
+Volume 46, Issue 8,
+2010,
+Pages 433-438,
+ISSN 0300-2896,
+https://doi.org/10.1016/j.arbres.2010.03.010.
+(https://www.sciencedirect.com/science/article/pii/S0300289610000888)
+Abstract: Resumen
+Al igual que sucede con el resto de la patología, el estudio del asma se ha venido realizando tradicionalmente desde los postulados marcados por la ciencia reduccionista. Ese modelo sigue aportando respuestas a las preguntas teóricas y prácticas que las enfermedades plantean pero no nos ofrece una visión completa de su complejidad y multidimensionalidad. Para superar esta limitación surge la medicina orientada hacia sistemas basada en la aplicación de los conceptos y herramientas de la biología de sistemas. La biología de sistemas es una estrategia analítica transdisciplinar que, a partir de los datos generados por las ciencias ómicas, permite relacionar los elementos de un organismo o sistema biológico, comprender las propiedades emergentes del mismo y generar modelos matemáticos capaces de predecir su comportamiento dinámico. La aplicación de la biología de sistemas al asma comienza a dar ya los primeros pasos. Hoy el reto principal es comprender la necesidad del cambio de enfoque. El punto de partida pasa por abandonar la idea del asma como enfermedad exclusiva de la vía aérea considerando que en su patogénia participa todo el pulmón y, aún más, que posiblemente se trate, al menos en parte, de un proceso sistémico. Vistas nuestras limitaciones actuales, entender el asma y diseñar estrategias terapéuticas personalizadas para cada paciente, exige pensar en medicina de sistemas.
+As happens with the rest of pathology, the study of asthma has been traditionally conducted from postulates set by reductionist science. That model still provides answers to theoretical and practical questions that establish diseases, but does not offer us a complete view of their complexity and multidimensionality. To overcome this limitation has emerged medicine directed towards systems based on the application of biological systems concepts and tools. Biological systems is a cross-disciplinary strategy which, from the data generated by the “-omic” sciences, helps to relate the elements of an organism or biological system, to understand the properties arising from the same and to generate mathematical models capable of predicting their dynamic behaviour. The application of biological systems to asthma starts is starting to make ground. The main challenge today is to understand the need to change focus. The starting point is to abandon the idea that asthma is exclusively an airways disease and considering that the whole lung is involved and, even more, the possibility that it is, at least in part, a systemic process. In view of our current limitations, to understand asthma and design personalised treatment strategies for each patient, requires thinking of systems medicine.
+Keywords: Asma; Medicina orientada hacia sistemas; Biología de sistemas; Ciencias ómicas; Asthma; Systems oriented medicine; Biology systems; Omic sciences
+
+F. Cappuzzello, H. Lenske, M. Cavallaro, C. Agodi, N. Auerbach, J.I. Bellone, R. Bijker, S. Burrello, S. Calabrese, D. Carbone, M. Colonna, G. De Gregorio, J.L. Ferreira, D. Gambacurta, H. García-Tecocoatzi, A. Gargano, J.A. Lay, R. Linares, J. Lubian, E. Santopinto, O. Sgouros, V. Soukeras, A. Spatafora,
+Shedding light on nuclear aspects of neutrinoless double beta decay by heavy-ion double charge exchange reactions,
+Progress in Particle and Nuclear Physics,
+Volume 128,
+2023,
+103999,
+ISSN 0146-6410,
+https://doi.org/10.1016/j.ppnp.2022.103999.
+(https://www.sciencedirect.com/science/article/pii/S0146641022000576)
+Abstract: We review the status and prospects of heavy-ion double charge exchange (HI-DCE) reactions. Their important role for nuclear reaction, nuclear structure and double beta-decay investigations is outlined. From the experimental side the characteristically tiny cross sections for these processes and the high background generated by other more probable competing reactions is the main challenge, which has hindered HI-DCE spectroscopy until recent years. Modern magnetic spectrometers have proven to possess the right requisites to overcome past limitations, fostering the present and future development of the field. From the theory side, the description of the measured HI-DCE cross sections poses manifold challenges. Dealing with processes which involve composite nuclei, HI-DCE reactions can, in principle, proceed through several alternative paths. These, in turn, correspond to different reaction mechanisms probing competing aspects of nuclear structure, from mean field to various classes of nucleon–nucleon interactions and correlations. A powerful way to scrutinize the nuclear response to HI-DCE is to consistently link it to the information extracted from the competing direct reactions. Indeed, these complementary studies are mandatory in order to minimize the systematic errors in the data analyses and build a many-facets and parameter-free representation of the systems under study.
+Keywords: Nuclear double charge exchange reactions; Heavy-ion reactions; Double beta decay; Theory of charge exchange excitations; Multi-channel approach for direct reactions
+
+Michał Choraś, Konstantinos Demestichas, Agata Giełczyk, Álvaro Herrero, Paweł Ksieniewicz, Konstantina Remoundou, Daniel Urda, Michał Woźniak,
+Advanced Machine Learning techniques for fake news (online disinformation) detection: A systematic mapping study,
+Applied Soft Computing,
+Volume 101,
+2021,
+107050,
+ISSN 1568-4946,
+https://doi.org/10.1016/j.asoc.2020.107050.
+(https://www.sciencedirect.com/science/article/pii/S1568494620309881)
+Abstract: Fake news has now grown into a big problem for societies and also a major challenge for people fighting disinformation. This phenomenon plagues democratic elections, reputations of individual persons or organizations, and has negatively impacted citizens, (e.g., during the COVID-19 pandemic in the US or Brazil). Hence, developing effective tools to fight this phenomenon by employing advanced Machine Learning (ML) methods poses a significant challenge. The following paper displays the present body of knowledge on the application of such intelligent tools in the fight against disinformation. It starts by showing the historical perspective and the current role of fake news in the information war. Proposed solutions based solely on the work of experts are analysed and the most important directions of the application of intelligent systems in the detection of misinformation sources are pointed out. Additionally, the paper presents some useful resources (mainly datasets useful when assessing ML solutions for fake news detection) and provides a short overview of the most important R&D projects related to this subject. The main purpose of this work is to analyse the current state of knowledge in detecting fake news; on the one hand to show possible solutions, and on the other hand to identify the main challenges and methodological gaps to motivate future research.
+Keywords: Fake news; Machine Learning; Social media; Media content manipulation; Disinformation detection
+
+Verónica De Jesús Romo,
+¿Ciencia económica o el arte de hacer economía? Metodología científica y replicaciones en economía,
+Investigación Económica,
+Volume 75, Issue 296,
+2016,
+Pages 73-110,
+ISSN 0185-1667,
+https://doi.org/10.1016/j.inveco.2016.07.004.
+(https://www.sciencedirect.com/science/article/pii/S0185166716300182)
+Abstract: Resumen
+El objetivo de este artículo es argumentar que para que la economía se fundamente plenamente como una ciencia, y no simplemente como un arte basado en la intuición, se deben seguir ciertos principios científicos. El artículo contribuye al debate sobre la materia, específicamente en dos aspectos metodológicos: 1) el adecuado análisis de datos para la verificación de las hipótesis de una investigación y 2) la replicación de los hallazgos científicos con la finalidad de evaluar a los mismos. El primer aspecto, con base en el enfoque probabilístico de la econometría de Haavelmo (1944), implica que los economistas aseguremos que los supuestos probabilísticos de los modelos estadísticos que utilizamos en nuestras investigaciones se cumplan. El segundo aspecto plantea que las replicaciones son un medio para establecer la fragilidad (derivada por errores del manejo de bases de datos o por la inadecuada especificación de los modelos estadísticos), o la solidez (derivada de la robustez de los resultados ante cambios en el periodo de análisis, en la economía analizada, en la especificación de las variables, en el método de estimación, etc.) de los resultados reportados en una investigación publicada. El artículo contribuye con una ilustración de nuestra propuesta metodológica: se trata de la replicación del artículo de Kakkar (2001), “Long run real exchange rates: evidence from Mexico”, publicado en la revista Economics Letters.
+The aim of this article is to argue that for the economics to be fully settled as a science, and not simply as an art based on intuition, it has to follow certain scientific principles. The article contributes to the debate on the matter, specifically on two methodological aspects: 1) the proper analysis of data to confirm the hypothesis of a research, and 2) the replication of scientific findings in order to evaluate them. The first aspect, based on Haavelmo's monograph of 1944 entitled “The probabilistic approach to econometrics”, implies that economists should make sure that the probabilistic assumptions of the statistical models used in their research are met. The second aspect suggests that the replications are a means to show the fragility (arose by errors of mishandling databases or inadequate specification of statistical models), or the strength (arose from the robustness of the results from changes in time period, the economy under analysis, the specification of the variables, the estimation methods, etc.) of the results reported in a published research. The article contributes with an illustration of our own methodological proposal: it is a replication of an article by Kakkar (2001), entitled “Long run actual exchange rates: Evidence from Mexico”, published in the journal Economics Letters.
+Keywords: replicación; metodología de la ciencia; Economic Letters; Kakkar (2001); replication; methodology of science; Economic Letters; Kakkar (2001)
+
+C.R. Sánchez Reinoso, D.H. Milone, R.H. Buitrago,
+Efficiency study of different photovoltaic plant connection schemes under dynamic shading,
+International Journal of Hydrogen Energy,
+Volume 35, Issue 11,
+2010,
+Pages 5838-5843,
+ISSN 0360-3199,
+https://doi.org/10.1016/j.ijhydene.2009.12.130.
+(https://www.sciencedirect.com/science/article/pii/S0360319909020606)
+Abstract: An important growth in the power of the photovoltaic systems connected to a grid has recently been observed. In spite of the advances in module technology, the problems in the system design increased, especially regarding the surface of the earth they occupy. In this work we propose a complete model for plant simulation with different wiring diagrams and under dynamic shading. Results obtained from simulations showed that the configuration with the lowest performance was that of only one serial-parallel group, whereas the highest efficiency corresponded to a design of groups of modules in parallel connected then in series. In general, a higher efficiency was obtained diminishing the quantity of modules in series and increasing their number in parallel. The simulation model proposed allows exploring different alternatives of wiring modules and finding the most efficient configurations for photovoltaic plants of medium and high power.
+Keywords: Photovoltaic plant; Simulation; Efficiency; Dynamic shading
+
+Rafael Penadés Rubio, Victoria Villalta Gil, Núria Farriols Herrando, Carol Palma Sevillano, Carlos Salavera Bordás,
+Capítulo |13| - Esquizofrenia,
+Editor(s): Olga Bruna, Teresa Roig, Miguel Puyuelo, Carme Junqué, Ángel Ruano,
+Rehabilitación Neuropsicológica,
+Elsevier España,
+2011,
+Pages 207-e41,
+ISBN 9788445820667,
+https://doi.org/10.1016/B978-84-458-2066-7.00013-6.
+(https://www.sciencedirect.com/science/article/pii/B9788445820667000136)
+
+Tércia Zavaglia Torres, Ivo Pierozzi, Nadir Rodrigues Pereira, Alexandre de Castro,
+Knowledge management and communication in Brazilian agricultural research: An integrated procedural approach,
+International Journal of Information Management,
+Volume 31, Issue 2,
+2011,
+Pages 121-127,
+ISSN 0268-4012,
+https://doi.org/10.1016/j.ijinfomgt.2010.07.001.
+(https://www.sciencedirect.com/science/article/pii/S0268401210000940)
+Abstract: The great contemporary organizational challenge for enterprises is to create a conceptual and methodological framework allows the management of knowledge by means of networks designed for social interaction. This statement is based on the premise that the competitive drive and sustainable success of the company depend on the introduction of new forms of production innovative processes, which can only be ensured through integrated approaches to knowledge management and the incorporation information technologies (IT). This is a reality that has already been accepted by the Brazilian Agricultural Research Corporation (Embrapa, its acronym in Portuguese), a Brazilian research, development, and innovation (RD&I) institution supporting agricultural sector. For some years now, Embrapa has been incorporating what it has learned about knowledge management into its strategic planning process. In this paper, we present a new approach to managing knowledge and information, and we analyze the need for research institutions to administer the knowledge they produce through an RD&I management model based multi- and inter-disciplinary teams, and multi-institutional research networks.
+Keywords: Knowledge management; Research networks; Business communication; Organizational learning; RD&I institution management
+
+Ramon Carbó-Dorca, Tanmoy Chakraborty,
+Chapter 18 - Quantum similarity description of a unique classical and quantum QSPR algorithm in molecular spaces: the connection with Boolean hypercubes, algorithmic intelligence, and Gödel's incompleteness theorems,
+Editor(s): Savaş Kaya, László von Szentpály, Goncagül Serdaroğlu, Lei Guo,
+Chemical Reactivity,
+Elsevier,
+2023,
+Pages 505-572,
+ISBN 9780323902571,
+https://doi.org/10.1016/B978-0-32-390257-1.00025-5.
+(https://www.sciencedirect.com/science/article/pii/B9780323902571000255)
+Abstract: This study tries to provide a coherent and as complete as possible point of view of QSPR techniques. A broad study of some contemporary QSPR procedures and applications offers here the first step to propose a general QSPR algorithm within molecular space, founded on the quantum-mechanical statistical calculation of submicroscopic systems' observable properties. The proposed algorithm is valid for both QSPR algorithm classes: those originated in quantum similarity, based on quantum density functions, and also applicable to the classical procedures, using vectors made of molecular descriptors as well. Once this QSPR theoretical framework is presented, the structure and building up characteristics of Boolean hypercubes are employed to discuss the ultimate molecular information storage. The results of this last step are afterward employed to connect Boolean hypercubes with QSPR as a molecular information provider. Then it is shown that Boolean hypercubes can be also related to Gödel theorems. The connection QSPR–Boolean hypercubes–Gödel theorems demonstrates the intrinsic theoretical and practical incompleteness of any kind of QSPR procedure.
+Keywords: Molecular spaces; Parameter spaces; Chemical spaces; Molecular polyhedra; Quantitative structure–property relations (QSPR); Quantum QSPR (QQSPR); Classical QSPR (CQSPR); QSPR operators; Fundamental QSPR equation; Boolean hypercubes; Artificial intelligence; Neural networks; Algorithmic intelligence; Gödel incompleteness theorems
+
+M. Yoshida, H. Michel, L.A. Sazanov, S. Yoshikawa, J. Barber, J.K. Lanyi, S.P. Balashov, V.A. Shuvalov, A.G. Yakovlev, T.A. Shkuropatova, L.G. Vasilieva, A.Y. Shkuropatov, P. Gast, S.D. Dunn, P.A. Del Rizzo, Y. Bi, K.S. Wood, D.J. Cipriano, P. Turina, A. Rebecchi, M. D'Alessandro, S. Anefors, B.A. Melandri, J.E. Walker, S. Iwata, E. Padan, C. Hunte, E. Screpanti, M. Venturi, A. Rimon, H. Michel, F. Palmieri, B. Cannon, I.G. Shabalina, J. Nedergaard, D. Ricquier, M.D. Brand, D.B. Zorov, M. Juhaszova, S.J. Sollott, R. Pamplona, G. Barja, V. Longo, T.A. Prolla, A.P. Halestrap, T. Yagi, J.J. Lemasters, I. Kim, S. Rodriquez-Enriquez, H. Lihua, P. Pediaditakis, J.-S. Kim, P. Vandenabeele, B. Zhivotovsky, H. Vakifahmetoglu, M. Olsson, V. Gogvadze, S. Orrenius, L. Scorrano, M. Karbowski, K. Norris, R. Youle, A. Krauskopf, O. Eriksson, W.J. Craigen, M.A. Forte, P. Bernardi, J. Rydstrom, U. Brandt, P. Brzezinski, S.A. Siletsky, D. Zaslavsky, I.A. Smirnova, T.V. Vygodina, A.A. Konstantinov, M. Teixeira, M.I. Verkhovsky, W.A. Cramer, H. Zhang, M. Heinnickel, R. Agalarov, N. Svensen, C. Krebs, J.H. Golbeck, P. Joliot, A. Joliot, K. Moebius, R. van Grondelle, R. Dempski, T. Friedrich, E. Bamberg, B. Zimmermann, M. Diez, P. Graeber, M. Boersch, V. Mueller, O. Drory, N. Nelson, T.V. Zharova, A.D. Vinogradov, J. Heberle, G.C. Brown, V. Borutaite, J. Duszynski, R. Koziel, W. Brutkowski, J. Szczepanowska, K. Zablocki, V.B. Vasilyev, M.G. Bass, M.E. Kustova, V.A. Sokolova, E.S. Grachyova, O.V. Kidgotko, A.V. Sorokin, D.-W. Lee, Y. Ozturk, A. Mamedova, A. Osyczka, J.W. Cooley, F. Daldal, A.Y. Mulkidjanian, S. Papa, M. Lorusso, M. Di Paola, P.R. Rich, M. Iwaki, L.S. Yaguzhinsky, V.I. Yurkov, I.P. Krasinskaya, F. Goglia, A. Lombardi, M. Moreno, A. Lanni, P. Jezek, A. Dlaskova, K. Smolkova, J. Santorova, T. Spacek, K. Janouchova, M. Zackova, L. Hlavata, E.E. Pohl, R.K. Porter, F. Sluse, W. Jarmuszkiewicz, R. Navet, P. Douete, G. Mathy, C. Sluse-Goffar, A. Boveris, L.B. Valdez, T. Zaobornyj, J. Bustamante, M. Giorgio, V.G. Grivennikova, A.D. Vinogradov, Y.Y. Tyurina, V.A. Tyurin, N.V. Konduru, L. Basova, A.I. Potapovich, H. Bayir, D. Stoyanovsky, B. Fadeel, A.A. Shvedova, V.E. Kagan, M. Vyssokikh, A. Pustovidko, R. Simonyan, V.P. Skulachev, V.N. Anisimov, I.G. Popovich, M.A. Zabezhinski, S.V. Anisimov, A.V. Arutjunyan, S.V. Mylnikov, G.M. Vesnushkin, I.A. Vinogradova, M. Breitenbach, G. Heeren, N. Eberhard, P. Laun, S. Jarolim, M. Rinnerthaler, F. Madeo, S. Wissing, W.C. Burhans, A. Sainsard-Chanet, S. Lorin, E. Dufour, A. Trifunovic, J.L. Mott, D. Zhang, S.-W. Chang, H.P. Zassenhaus, R.A. Gottlieb, A. Hamacher-Brady, N. Brady, C. Giulivi, R. Mazzanti, D.G. Nicholls, A. Szewczyk, D.B. Zorov, M. Juhaszova, S.J. Sollott, B.V. Chernyak, D.S. Izyumov, K.G. Lyamzaev, A.A. Pashkovskaya, O.Y. Pletjushkina, Yu.A. Antonenko, D.V. Sakharov, K.W.A. Wirtz, V.P. Skulachev, A.V. Feofanov, G.V. Sharonov, R.V. Chertkova, B.V. Chernyak, D.A. Dolgikh, A.S. Arseniev, V.P. Skulachev, M.P. Kirpichnikov, F.F. Severin, S. Sokolov, A. Pozniakovsky, Y. Tsujimoto, M.A. Aon, S. Cortassa, B. O'Rourke, A.V. Kuznetsov, J. Troppmair, R. Sucher, M. Hermann, V. Saks, R. Margreiter, O.Yu Pletjushkina, K.G. Lyamzaev, E.N. Popova, O.K. Nepryahina, O.Yu Ivanova, L.V. Domnina, B.V. Chernyak, V.P. Skulachev, A.M. van der Bliek, L. Griparic, T. Kanazawa, M.D. Zappaterra, A. Zorzano, A. Cossarizza, K.D. Garlid, C. Quinlan, J.R. Burton, A. Andrukhiv, A.D.T. Costa, M.A. Selak, E. Gottlieb, J.B. Hoek, J.G. Pastorino, S. Pepe, F. Sheeran,
+MITCHELL MEDAL LECTURE,
+Biochimica et Biophysica Acta (BBA) - Bioenergetics,
+Volume 1757, Issues 5–6, Supplement,
+2006,
+Pages 1-551,
+ISSN 0005-2728,
+https://doi.org/10.1016/j.bbabio.2006.06.009.
+(https://www.sciencedirect.com/science/article/pii/S0005272806002131)
+
+M. Navarrete, A. Silva, M. Sanz, R. Vernal,
+Variabilidad de la Síntesis de RANKL por Linfocitos T frente a Distintos Serotipos Capsulares de Porphyromonas gingivalis,
+Revista Clínica de Periodoncia, Implantología y Rehabilitación Oral,
+Volume 3, Issue 1,
+2010,
+Pages 19-23,
+ISSN 0718-5391,
+https://doi.org/10.1016/S0718-5391(10)70036-7.
+(https://www.sciencedirect.com/science/article/pii/S0718539110700367)
+Abstract: Resumen
+Propósito
+Las periodontitis representan un grupo heterogéneo de infecciones periodontales cuya etiología son las bacterias residentes en el bio lm subgingival. Aunque este bio lm está constituido por una amplia variedad de especies bacterianas, sólo un número limitado de especies, como Porphyromonas gingivalis, se ha asociado a la etiología de la enfermedad. P. gingivalis expresa diversos factores de virulencia que pueden causar daño directo a los tejidos del hospedero; sin embargo, su mayor patogenicidad involucra la inducción de una respuesta inmuno-inflamatoria, durante la cual se secretan una amplia variedad de citoquinas, quimioquinas y mediadores inflamatorios que pueden inducir la destrucción de los tejidos de soporte de los dientes y la pérdida de ellos.
+Método
+En esta investigación, se evaluó si los distintos serotipos capsulares (K) de P. gingivalis pueden determinar los niveles de síntesis de RANKL, citoquina clave en la destrucción del hueso alveolar durante la periodontitis. Para ello, se cuanti caron los niveles de expresión de RANKL mediante PCR cuantitativa y los niveles de secreción mediante ELISA en linfocitos T activados en presencia de los serotipos capsulares K1-K6 de P. gingivalis, y estos se correlacionaron a los niveles de expresión de los factores de transcripción asociados a cada uno de los fenotipos de linfocitos efectores: Th1 (T-bet), Th2 (GATA-3), Th17 (RORC2) y Treg (Foxp3).
+Resultados
+Mayores niveles de expresión y secreción de RANKL fueron detectados en linfocitos T activados en presencia de los serotipos K1 y K2 de P. gingivalis, en comparación a los detectados ante los otros serotipos. Además, estos mayores niveles de RANKL se correlacionaron positivamente con los niveles de expresión de RORC2.
+Conclusión
+Estos datos demuestran que la síntesis de RANKL por linfocitos T se restringe a ciertos serotipos capsulares de P. gingivalis (K1 y K2) y permiten sugerir que los serotipos K1 y K2 de P. gingivalis podrían asociarse a la destrucción del hueso alveolar y a la pérdida de los dientes durante la periodontitis.
+Aim
+Periodontitis represents a heterogenic group of periodontal infections elicited by bacteria residing at the subgingival bio lm. Although this bio lm is constituted by a broad variety of bacterial species, only a limited number has been associated with the periodontitis aetiology, among them Porphyromonas gingivalis. P. gingivalis express a number of virulence factors that contribute to direct tissue damage; however, their pathogenicity relies mainly on the induction of a host immuno-inflammatory response. This leads to the release of a broad array of cytokines, chemokines and inflammatory mediators, which cause destruction of the tooth-supporting alveolar bone and ultimately tooth loss.
+Method
+In the present investigation, in order to determine whether different P. gingivalis serotypes might lead to a differential RANKL synthesis, a key cytokine involved in alveolar bone resorption, the mRNA expression and secretion of RANKL and the expression of transcription factors T-bet, GATA-3, RORC2 and Foxp3, the master-switch genes controlling the Th1, Th2, Th17, and Treg cell differentiation, respectively, were analyzed on human T cells activated with different P. gingivalis capsular (K) serotypes.
+Results
+T lymphocytes responding to P. gingivalis serotypes K1 or K2, but not to the other serotypes, led to an increased expression and secretion of RANKL. In addition, these higher RANKL levels correlate with RORC2 expression upon activation with K1 or K2 serotypes.
+Conclusion
+These data demonstrated that RANKL expression and secretion by T lymphocytes was restricted to particular P. gingivalis serotypes (namely K1 and K2), and allowed to suggest a link between these serotypes with alveolar bone destruction and teeth loosening during the periodontitis.
+Keywords: RANKL; Porphyromonas gingivalis; Th17; periodontitis; linfocitos T; RANKL; Porphyromonas gingivalis; Th17; periodontitis; T lymphocytes
+
+Santiago Alonso-García, Antonio-Vicente Rodríguez Fuentes, Magdalena Ramos Navas-Parejo, Juan-José Victoria-Maldonado,
+Enhancing computational thinking in early childhood education with educational robotics: A meta-analysis,
+Heliyon,
+Volume 10, Issue 13,
+2024,
+e33249,
+ISSN 2405-8440,
+https://doi.org/10.1016/j.heliyon.2024.e33249.
+(https://www.sciencedirect.com/science/article/pii/S2405844024092806)
+Abstract: This paper deals within a context where technology plays a pivotal role in education. In this sense, it is essential to highlight the emergence of new competencies and skills in education due to technological advancements. Legislative frameworks have been developed to incorporate digital literacy, access to robotics, and computational thinking, between others. Hence, this review and meta-analysis aim at identifying the influence of robotics activities on computational thinking through a PRISMA-guided review. The findings reveal that interventions conducted in early childhood education significantly impact computational thinking. Results also showcase that, despite perceived barriers related to technology accessibility, the presence of legislation and contexts prioritizing these competencies is more relevant than the digital access gap.
+Keywords: Computational thinking; Preschool education; Robotics; Technology education; Meta-analysis
+
+Rafaella F. Fernandes, Lenize F. Maia, Mara R.C. Couri, Luiz Antonio S. Costa, Luiz Fernando C. de Oliveira,
+Raman spectroscopy as a tool in differentiating conjugated polyenes from synthetic and natural sources,
+Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy,
+Volume 134,
+2015,
+Pages 434-441,
+ISSN 1386-1425,
+https://doi.org/10.1016/j.saa.2014.06.022.
+(https://www.sciencedirect.com/science/article/pii/S138614251400910X)
+Abstract: This work presents the Raman spectroscopic characterization of synthetic analogs of natural conjugated polyenals found in octocorals, focusing the unequivocal identification of the chemical species present in these systems. The synthetic material was produced by the autocondensation reaction of crotonaldehyde, generating a demethylated conjugated polyene containing 11 carbon–carbon double bonds, with just a methyl group on the end of the carbon chain. The resonance Raman spectra of such pigment has shown the existence of enhanced modes assigned to ν1(CC) and ν2(CC) modes of the main chain. For the resonance Raman spectra of natural pigments from octocorals collected in the Brazilian coast, besides the previously cited bands, it could be also observed the presence of the ν4(CCH3), related to the vibrational mode who describes the vibration of the methyl group of the central carbon chain of carotenoids. Other interesting point is the observation of overtones and combination bands, which for carotenoids involves the presence of the ν4 mode, whereas for the synthetic polyene this band, besides be seen at a slightly different wavenumber position, does not appear as an enhanced mode and also as a combination, such as for the natural carotenoids. Theoretical molecular orbital analysis of polyenal-11 and lycopene has shown the structural differences which are also responsible for the resonance Raman data, based on the appearance of the (CH3) vibrational mode in the resonant transition only for lycopene. At last, the Raman band at ca. 1010cm−1, assigned to the (CH3) vibrational mode, can be used for attributing the presence of each one of the conjugated polyenes: the resonance Raman spectrum containing the band at ca. 1010cm−1 refers to the carotenoid (in this case lycopene), and the absence of such band in resonance conditions refers to the polyenal (in this case the polyenal-11).
+Keywords: Carotenoids; Lycopene; Polyenal; Raman effect; Corals; DFT calculations
+
+Serna M. Edgar, Polo José Antonio,
+Lógica y abstracción en la formación de ingenieros: una relación necesaria,
+Ingeniería, Investigación y Tecnología,
+Volume 15, Issue 2,
+2014,
+Pages 299-310,
+ISSN 1405-7743,
+https://doi.org/10.1016/S1405-7743(14)72218-8.
+(https://www.sciencedirect.com/science/article/pii/S1405774314722188)
+Abstract: Resumen
+Este artículo se enfoca en la lógica y la abstracción vistas como una relación necesaria en los procesos formativos de los ingenieros. Se describe la importancia y la necesidad de formar en esta área del conocimiento y de la relación entre el ejercicio profesional de los ingenieros y el desarrollo y potencialización de su capacidad lógico-interpretativa y abstractiva para la resolución de problemas. Es un trabajo de investigación-revisión-reflexión acerca de la importancia de estos dos componentes, vistos estructuralmente desde el currículo. Es el producto de una primera fase de la investigación sobre “desarrollo de la capacidad lógico-interpretativa y abstractiva como componente básico para el ejercicio profesional de los ingenieros”.
+This article is about the logic and abstraction seen as a necessary relation in the formative process engineers. It describes the importance and the need for training in this area of knowledge and the relationship between professional exercise of the engineers and the development and/or potentiation of logical-interpretative and abstractive ability for problem solution. It is a research-review-reflection work about the importance of these two components, viewed structurally from the curriculum. It is the product of the first phase of the research “The capacity logical-interpretative and abstractive as a basic component for professional exercise of the engineers”.
+Keywords: procesos formativos; ingeniería; pensamiento lógico; capacidad; training processes; engineering; logical thinking; ability abstractive
+
+A. Achahbar, P.L. Garrido, J. Marro,
+Lattice gas near two dimensions,
+Physics Letters A,
+Volume 172, Issues 1–2,
+1992,
+Pages 29-33,
+ISSN 0375-9601,
+https://doi.org/10.1016/0375-9601(92)90184-N.
+(https://www.sciencedirect.com/science/article/pii/037596019290184N)
+Abstract: We report theoretical and computer studies of steady states in a particle-conserving lattice gas near 2D. The system comprises two equal parallel square lattice planes; any particle can hop between them, and there is attraction only between particles on nearest neighbor sites within the same plane. Surprisingly enough, we find an equilibrium critical point for each particle density, and two different phase transitions (one of them is discontinuous while the other is similar to a nonclassical one in several nonequilibrium systems) when a large driving constant field is applied.
+
+Nathália Magalhães P. Rosa, Frederico Henrique do C. Ferreira, Nicholas P. Farrell, Luiz Antônio S. Costa,
+Substitution-inert polynuclear platinum complexes and Glycosaminoglycans: A molecular dynamics study of its non-covalent interactions,
+Journal of Inorganic Biochemistry,
+Volume 232,
+2022,
+111811,
+ISSN 0162-0134,
+https://doi.org/10.1016/j.jinorgbio.2022.111811.
+(https://www.sciencedirect.com/science/article/pii/S0162013422001003)
+Abstract: An impressive class of formally substitution-inert polynuclear platinum complexes known as Substitution-inert Polynuclear Platinum (II) Complexes (SI-PPCs) present an attractive approach for medicinal inorganic chemistry through high-affinity non-covalent interactions with biomolecules, such as DNA and Glycosaminoglycans (GAGs). This interaction occurs through the formation of non-covalent cyclic structures called clamps and forks with the phosphate and sulfate groups present in these biomolecules. This work shows several analyses of the non-covalent interactions formed between heparin (PDB code: 1HPN) and SI-PPCs obtained through molecular dynamics (MD) simulations. Root Mean Square Deviation (RMSD) results showed that the “non-covalent” di-nuclear platinum compound, DiplatinNC ([{trans-Pt(NH3)2(NH2(CH2)6NH3+)}2-μ-NH2(CH2)6NH2]6+) and AH44 ([{Pt(NH3)3}2{(μ-(H2N(CH2)6NH2)2-(trans-Pt(NH3)2}]6+, 0,0,0/t,t,t,) complexes, which are both 6+ charged complexes, were the most rigid. On the other hand, the Root Mean Square Fluctuation (RMSF) showed that there is a reduction in the atomic fluctuation of atoms in the central region of the heparin molecule; the solvent accessible surface area (SASA) analysis also indicates a reduction in the accessible area by the heparin when interacting with SI-PPCs. The evaluation of H-Bond data confirms the formation of the non-covalent interactions, which may suggest a decrease in the action of 1HPN by preventing the action of enzymes on this substrate. In addition, thermodynamic results indicate that this interaction is spontaneous, considering the negative variations in the Gibbs free energy presented by the studied systems.
+Keywords: Sulfate clamps; Biomolecules; TriplatinNC; SI-PPCs; Molecular dynamics: non-covalent interactions
+
+Benjamín Callejas Bedregal, Santiago Figueira,
+On the computing power of fuzzy Turing machines,
+Fuzzy Sets and Systems,
+Volume 159, Issue 9,
+2008,
+Pages 1072-1083,
+ISSN 0165-0114,
+https://doi.org/10.1016/j.fss.2007.10.013.
+(https://www.sciencedirect.com/science/article/pii/S0165011407004873)
+Abstract: We work with fuzzy Turing machines (FTMs) and we study the relationship between this computational model and classical recursion concepts such as computable functions, recursively enumerable (r.e.) sets and universality. FTMs are first regarded as acceptors. It has recently been shown by J. Wiedermann that these machines have more computational power than classical Turing machines. Still, the context in which this formulation is valid has an unnatural implicit assumption. We settle necessary and sufficient conditions for a language to be r.e., by embedding it in a fuzzy language recognized by a FTM. We do the same thing for n-r.e. set. It is shown that there is no universal fuzzy machine, and “universality” is analyzed for smaller classes of FTMs. We argue for a definition of computable fuzzy function, when FTMs are understood as transducers. It is shown that, in this case, our notion of computable fuzzy function coincides with the classical one.
+Keywords: Fuzzy Turing machine; Fuzzy function; Fuzzy set; Universal machine; Recursively enumerable set
+
+Marcos Esdras Leite, Felipe Teixeira Dias, Jefferson William Lopes Almeida, Narciso Ferreira dos Santos-Neto,
+Land use and environmental impacts: Flood model in a medium-sized Brazilian city as a tool for urban sustainability,
+Environmental Science & Policy,
+Volume 151,
+2024,
+103613,
+ISSN 1462-9011,
+https://doi.org/10.1016/j.envsci.2023.103613.
+(https://www.sciencedirect.com/science/article/pii/S1462901123002629)
+Abstract: Thinking, articulating, and promoting research focused on themes and issues inherent to urban spaces has posed challenges to various areas of science, particularly encouraging multidisciplinary research. Among the various studies on urban phenomena, those that reflect structural problems, whether of natural origin or resulting from human actions in space, stand out. Examples include recurrent flooding in various cities. In this regard, with the aim of correlating urban problems with the perspectives inherent to Urban Sustainability, this research aims to propose a flood model as a tool for thinking and planning space utilization. The method used consisted of creating a Flood Model, adopting an applied research approach and employing a multidisciplinary theoretical-methodological framework. This research was conducted using a medium-sized city, Montes Claros, in the state of Minas Gerais, Brazil. Geotechnologies and Geographic Information System (GIS) were utilized in constructing the Flood Model. As conclusions, the results point towards new perspectives on the conception of Urban Policies and Planning, seeking to establish guidelines to achieve the sustainability of urban spaces and to prevent flooding disasters and risks based on the structured model in this study. Additionally, it underscored the need for oversight of installation works in subdivisions and public area paving to require the construction of an appropriate drainage system tailored to the local reality, as well as the regulation of subdivisions and occupations in floodplains of watercourses, primarily through technical, management, and policy approaches.
+Keywords: Urban Sustainability; Urban Geography; Urban Planning; Geotechnologies; Brazilian City
+
+Jair M. Abe, Kazumi Nakamatsu, João I. da Silva Filho,
+Three decades of paraconsistent annotated logics: a review paper on some applications,
+Procedia Computer Science,
+Volume 159,
+2019,
+Pages 1175-1181,
+ISSN 1877-0509,
+https://doi.org/10.1016/j.procs.2019.09.286.
+(https://www.sciencedirect.com/science/article/pii/S1877050919314838)
+Abstract: In this expository work, we sketch some applications of annotated logics. Such logics were discovered in the late 1980s and nowadays have become one of the most fertile logics for applications. They constitute a two-sorted logic, and they are paraconsistent and in general paracomplete and non-alethic logics.
+Keywords: annotated logic; paraconsistent logic; paracomplete logic; non-classical logic; applications
+
+Edward P. Stabler,
+Representing knowledge with theories about theories,
+The Journal of Logic Programming,
+Volume 9, Issue 1,
+1990,
+Pages 105-138,
+ISSN 0743-1066,
+https://doi.org/10.1016/0743-1066(90)90035-4.
+(https://www.sciencedirect.com/science/article/pii/0743106690900354)
+Abstract: Theories about proofs in other theories can be used not only to provide representations of completed proofs, but also to provide an elegant, declarative, and logically pure method for controlling deductions. This idea is used implicitly in a widening range of applications, and deserves explicit consideration. In this paper, a technique for generating a standard proof-representation-building metatheory for Horn-clause theories defined, its logical semantics is carefully considered, and the sense in which the technique is correct and complete is defined. Then we show how such metatheories can elegantly represent a wide range of problems. We focus on some problems which are naturally formulated in terms of overly general axioms together with conditions on proofs which block exactly the derivations of incorrect results: diagnosis, planning, and natural-language parsing. This surprising approach can yield representations that are succinct, feasible, and close to the most intuitive, informal statement of the problem. Methods for using such an approach efficiently with left-to-right theorem provers are described.
+
+Marta Terroba, Juan Miguel Ribera, Daniel Lapresa, M. Teresa Anguera,
+Education intervention using a ground robot with programmed directional controls: observational analysis of the development of computational thinking in early childhood education,
+Revista de Psicodidáctica (English ed.),
+Volume 26, Issue 2,
+2021,
+Pages 143-151,
+ISSN 2530-3805,
+https://doi.org/10.1016/j.psicoe.2021.03.002.
+(https://www.sciencedirect.com/science/article/pii/S2530380521000113)
+Abstract: The present work presents an intervention proposal for the development of computational thinking in early childhood education, through the use of a ground robot with programmed directional controls. Within the use of observational methodology, an observation system has been designed that allows the analysis and interpretation of the behavior displayed in the performance of the intervention proposal. The reliability of the observation system has been guaranteed in the form of inter-observer agreement, calculated using Cohen’s (1960) Kappa coefficient. Within the theory of generalizability, the measurement plan [Categories] [Steps]/[Participants], has allowed to verify a high precision reliability of the generalization of the results. The operability of the observation system has been reflected in the regular behavior structures (T-patterns) detected -through the Theme software-, which have allowed characterizing difficulties in the assimilation of an incipient computational language related to the ability of spatial orientation and the sequencing capacity of children -situations involving turning and number of commands used in the sequence-.
+Resumen
+El presente artículo presenta una propuesta de intervención para el desarrollo del pensamiento computacional en Educación Infantil, mediante un robot de suelo con mandos de direccionalidad programada. En el seno de la metodología observacional, se ha diseñado un sistema de observación que permite el análisis e interpretación de la conducta desplegada en el desempeño de la propuesta de intervención. La fiabilidad del sistema de observación se ha garantizado en forma de concordancia interobservadores, calculada a través del coeficiente Kappa de Cohen (1960). En el seno de la teoría de la generalizabilidad, el plan de medida [Categorías] [Steps]/ [Participantes], han permitido constatar una elevada fiabilidad de precisión de generalización de los resultados. La operatividad del sistema de observación ha quedado reflejada en las estructuras regulares de conducta (T-patterns) detectadas -mediante el software Theme-, que han permitido caracterizar dificultades en la asimilación de un lenguaje computacional incipiente relacionadas con la capacidad de orientación espacial y la capacidad de secuenciación del niño -situaciones que implican giro y número de comandos empleados en la secuencia-.
+Keywords: computation; robotics; pre-primary school; observational methodology; T-patterns; computación; robótica; Educación Infantil; metodología observacional; T-patterns
+
+
+MESAS ESPONTÁNEAS/TABELAS ESPONTÂNEAS,
+Gaceta Sanitaria,
+Volume 37, Supplement 1,
+2023,
+Pages S6-S56,
+ISSN 0213-9111,
+https://doi.org/10.1016/S0213-9111(23)00047-X.
+(https://www.sciencedirect.com/science/article/pii/S021391112300047X)
+
+Andrea León, E.A. Velásquez, J. Mazo-Zuluaga, J. Mejía-López, J.M. Florez, P. Vargas,
+Magnetic effects of interstitial hydrogen in nickel,
+Journal of Magnetism and Magnetic Materials,
+Volume 421,
+2017,
+Pages 7-12,
+ISSN 0304-8853,
+https://doi.org/10.1016/j.jmmm.2016.07.017.
+(https://www.sciencedirect.com/science/article/pii/S0304885316314044)
+Abstract: Hydrogen storage in materials is among the most relevant fields when thinking about energy conversion and storage. In this work we present a study that responds to a couple of questions concerning induced electronic changes that H produces in ferromagnetic nickel (Ni) host. We calculate and explain the change of magnetic properties of Ni with different concentrations of H. Density functional theory calculations (DFT) were performed for super-cells of fcc Ni with interstitial H in octahedral sites at different concentrations. In order to physically explain the effect of magnetization diminishing as the hydrogen concentration increases, we propose a simple Stoner type of model to describe the influence of the H impurity on the magnetic properties of Ni. The exchange splitting reduction, as shown in first principles calculations, is clearly explained within this physical model. Using a paramagnetic Ni fcc band with variable number of electrons and a Stoner model allow us to obtain the correct trend for the magnetic moment of the system as a function of the H concentration.
+Keywords: NiHx; Metal hydrides; Stoner model; Ferromagnetic nickel; Interstitial hydrogen; ab initio calculations
+
+Paul L. Ayers, Russell J. Boyd, Patrick Bultinck, Michel Caffarel, Ramon Carbó-Dorca, Mauro Causá, Jerzy Cioslowski, Julia Contreras-Garcia, David L. Cooper, Philip Coppens, Carlo Gatti, Simon Grabowsky, Paolo Lazzeretti, Piero Macchi, Ángel Martín Pendás, Paul L.A. Popelier, Klaus Ruedenberg, Henry Rzepa, Andreas Savin, Alexander Sax, W.H. Eugen Schwarz, Shant Shahbazian, Bernard Silvi, Miquel Solà, Vladimir Tsirelson,
+Six questions on topology in theoretical chemistry,
+Computational and Theoretical Chemistry,
+Volume 1053,
+2015,
+Pages 2-16,
+ISSN 2210-271X,
+https://doi.org/10.1016/j.comptc.2014.09.028.
+(https://www.sciencedirect.com/science/article/pii/S2210271X14004344)
+Abstract: The paper collects the answers of the authors to the following questions: •What is the significance of topological approach?•Can new chemical concepts be found by a topological approach?•What is the status of a chemical concept within a topological approach?•Should topological approaches provide measurable quantities?•Is it possible to predict the outcome of a topological approach without performing a calculation on a computer?•What are new domains for which topological approaches would be useful?
+Keywords: Topological methods; Methodology; Chemical concepts; Observables
