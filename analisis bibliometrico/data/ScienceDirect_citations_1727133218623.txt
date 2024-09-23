@@ -1,0 +1,1263 @@
+L.Wilson Pearson,
+Present thinking of the use of the singularity expansion in electromagnetic scattering computation,
+Wave Motion,
+Volume 5, Issue 4,
+1983,
+Pages 355-368,
+ISSN 0165-2125,
+https://doi.org/10.1016/0165-2125(83)90022-7.
+(https://www.sciencedirect.com/science/article/pii/0165212583900227)
+Abstract: While the singularity expansion of electromagnetic scattering responses has received a great deal of attention over the last several years, a number of uncertainties have persisted in connection with its applicability and completeness. Recently, the dominant questions have been clarified, at least for one with pragmatic computational goals. This paper surveys the present understanding of the singularity expansion from the pragmatist's point-of-view. Attention is given to recent work which clarifies points which have been debated in the past. The interpretation of the expansion in the presence of a time-limited excitation function is discussed. Various means for determining the expansion parameters for a given object are surveyed.
+
+Tatsuya Daikoku,
+Computational models and neural bases of statistical learning in music and language: Comment on “Creativity, information, and consciousness: The information dynamics of thinking” by Wiggins,
+Physics of Life Reviews,
+Volumes 34–35,
+2020,
+Pages 48-51,
+ISSN 1571-0645,
+https://doi.org/10.1016/j.plrev.2019.09.001.
+(https://www.sciencedirect.com/science/article/pii/S1571064519301411)
+
+Tomas Ståhl, Sinem Yilmaz, Nathan Digby, Philip Stasko,
+Valuing epistemic rationality bolsters the effect of analytic thinking on skepticism toward pseudo-profound bullshit,
+Personality and Individual Differences,
+Volume 217,
+2024,
+112452,
+ISSN 0191-8869,
+https://doi.org/10.1016/j.paid.2023.112452.
+(https://www.sciencedirect.com/science/article/pii/S0191886923003756)
+Abstract: We examine in three studies whether skepticism toward pseudo-profound bullshit (BS) requires sufficient analytic sophistication as well as motivation to form beliefs based on logic and evidence. Across studies, the positive relationship between individual differences in cognitive sophistication and skepticism toward BS was stronger among people who ascribe high (vs. low) value to being epistemically rational. Moreover, experimentally reducing people's ability to engage in analytic thinking (by inducing cognitive load) reduced skepticism toward BS among individuals who ascribe high value to being epistemically rational. By contrast, skepticism toward BS was equally low in the no-load condition as under cognitive load among people who ascribe low value to epistemic rationality (Study 2). We also demonstrate that cognitive sophistication, coupled with ascribing high value to being epistemically rational, predicts skepticism toward BS, regardless of the source's credibility (Study 3).
+Keywords: Pseudo-profound bullshit; Epistemically suspect beliefs; Cognitive ability; Analytic thinking; Cognitive load; Importance of rationality; Source credibility
+
+Rosy Tsopra, Nathan Peiffer-Smadja, Caroline Charlier, Florence Campeotto, Cédric Lemogne, Philippe Ruszniewski, Benoît Vivien, Anita Burgun,
+Putting undergraduate medical students in AI-CDSS designers’ shoes: An innovative teaching method to develop digital health critical thinking,
+International Journal of Medical Informatics,
+Volume 171,
+2023,
+104980,
+ISSN 1386-5056,
+https://doi.org/10.1016/j.ijmedinf.2022.104980.
+(https://www.sciencedirect.com/science/article/pii/S1386505622002945)
+Abstract: Introduction
+Digital health programs are urgently needed to accelerate the adoption of Artificial Intelligence and Clinical Decision Support Systems (AI-CDSS) in clinical settings. However, such programs are still lacking for undergraduate medical students, and new approaches are required to prepare them for the arrival of new and unknown technologies. At University Paris Cité medical school, we designed an innovative program to develop the digital health critical thinking of undergraduate medical students that consisted of putting medical students in AI-CDSS designers’ shoes.
+Methods
+We followed the six steps of Kern’s approach for curriculum development: identification of needs, definition of objectives, design of an educational strategy, implementation, development of an assessment and design of program evaluation.
+Results
+A stand-alone and elective AI-CDSS program was implemented for fourth-year medical students. Each session was designed from an AI-CDSS designer viewpoint, with theoretical and practical teaching and brainstorming time on a project that consisted of designing an AI-CDSS in small groups. From 2021 to 2022, 15 students were enrolled: they rated the program 4.4/5, and 80% recommended it. Seventy-four percent considered that they had acquired new skills useful for clinical practice, and 66% felt more confident with technologies. The AI-CDSS program aroused great enthusiasm and strong engagement of students: 8 designed an AI-CDSS and wrote two scientific 5-page articles presented at the Medical Informatics Europe conference; 4 students were involved in a CDSS research project; 2 students asked for a hospital internship in digital health; and 1 decided to pursue PhD training.
+Discussion
+Putting students in AI-CDSS designers’ shoes seemed to be a fruitful and innovative strategy to develop digital health skills and critical thinking toward AI technologies. We expect that such programs could help future doctors work in rapidly evolving digitalized environments and position themselves as key leaders in digital health.
+Keywords: Digital health; Artificial Intelligence; Clinical Decision Support System; Teaching; Education; Medical Student
+
+Oğuzhan Atabek, Ayhan Şavklıyıldız, Günseli Orhon, Omer Halil Colak, Arda Özdemir, Utku Şenol,
+The effect of anxiety on mathematical thinking: An fMRI study on 12th-grade students,
+Learning and Motivation,
+Volume 77,
+2022,
+101779,
+ISSN 0023-9690,
+https://doi.org/10.1016/j.lmot.2021.101779.
+(https://www.sciencedirect.com/science/article/pii/S0023969021000734)
+Abstract: During adolescence, anxiety may rise more significantly due to factors such as academic achievement and has a negative impact on learning and thinking skills. Adolescents with higher levels of math anxiety need more time to analyse and repress or miss the solutions when they are presented with even the simplest arithmetic problems. fMRI is being used for investigating cognitive processes such as learning, memory, and creativity and emotional states such as anxiety. However, there is a lack of research focusing on fMRI studies on the relationships between anxiety and brain functions in adolescence. The purpose of this study was to demonstrate the relationship between anxiety and mathematical thinking capabilities of the 12th-grade students in Turkey. Initially, 68 12th-grade students were surveyed by state-trait anxiety inventory and perceived stress scale. Participants who were in the highest 20 % (n1 = 9) and the lowest 20 % (n2 = 14) groups (n = 23) were selected for the functional magnetic resonance imaging (fMRI) study. The modifications of participants’ cerebral activation patterns were monitored via a 3 T MRI scanner while solving six mathematics questions. Subsequently, the data were analysed to reveal how anxiety levels correlate with brain activations and academic achievement. Activity in the frontal cortex of all participants increased during the use of mathematical skills. However, a significantly higher level of increment –intensively in the right frontal cortex- was detected on the participants with high anxiety. No statistically significant difference was observed between academic achievements and anxiety levels of the subjects.
+Keywords: Mathematical thinking; Anxiety; fMRI; Adolescence; Education
+
+Elizabeth C. Stade, Lyle Ungar, Shreya Havaldar, Ayelet Meron Ruscio,
+Perseverative thinking is associated with features of spoken language,
+Behaviour Research and Therapy,
+Volume 165,
+2023,
+104307,
+ISSN 0005-7967,
+https://doi.org/10.1016/j.brat.2023.104307.
+(https://www.sciencedirect.com/science/article/pii/S0005796723000566)
+Abstract: Perseverative thinking (PT), such as rumination or worry, is a transdiagnostic process implicated in the onset and maintenance of emotional disorders. Existing measures of PT are limited by demand and expectancy effects, cognitive biases, and reflexivity, leading to calls for unobtrusive, behavioral measures. In response, we developed a behavioral measure of PT based on language. A mixed sample of 188 participants with major depressive disorder, generalized anxiety disorder, or no psychopathology completed self-report PT measures. Participants were also interviewed, providing a natural language sample. We examined language features associated with PT, then built a language-based PT model and examined its predictive power. PT was associated with multiple language features, most notably I-usage (e.g., “I”, “me”; β = 0.25) and negative emotion language (e.g., “anxiety”, “difficult”; β = 0.19). In machine learning analyses, language features accounted for 14% of the variance in self-reported PT. Language-based PT predicted the presence and severity of depression and anxiety, psychiatric comorbidity, and treatment seeking, with effects in the r = 0.15–0.41 range. PT has face-valid linguistic correlates and our language-based measure holds promise for assessing PT unobtrusively. With further development, this measure could be used to passively detect PT for deployment of “just-in-time” interventions.
+Keywords: Worry; Rumination (cognitive process); Major depression; Generalized anxiety disorder; Natural language processing; Machine learning
+
+Bhuwan Paudel, Kasun Hewage, Sandun Wannniarachchi, Piyaruwan Perera, Gyan Chhipi-Shrestha, Rehan Sadiq,
+Life cycle thinking-based analysis of diesel and electric-powered buses for Canadian transit systems,
+International Journal of Sustainable Transportation,
+Volume 18, Issue 5,
+2024,
+Pages 437-452,
+ISSN 1556-8318,
+https://doi.org/10.1080/15568318.2024.2343727.
+(https://www.sciencedirect.com/science/article/pii/S155683182400008X)
+Abstract: Increasing greenhouse gas emissions from the conventional fleet of diesel buses has made Canadian transit agencies explore low-emission alternative fuels. Despite electric buses showing great potential to reduce emissions during their operational phase, the transformation from diesel buses to electric buses would require in-depth analysis pertaining to their economic and social implications. Published literature highlights the importance of developing a comprehensive framework that considers multiple decision parameters over a life cycle perspective for analyzing different fuel options to replace the existing fleet of diesel buses. This paper assesses the triple-bottom-line sustainability of diesel and electric buses in different regions of Canada. Moreover, a framework is proposed to incorporate multiple decision criteria (life cycle environmental, economic, and social impacts) over different perspectives to make the best decisions for transitioning the diesel bus fleet. The results showed that the environmental performance of electric buses highly depended on the electricity grid mix. Despite diesel buses having a low cost of production compared to electric buses, most provinces showed a low life cycle operational cost for electric buses. Electric buses’ life cycle social impacts are high during their production stage, whereas diesel buses have the highest social impacts during their operational phase. Overall, electric buses have a high sustainability performance in all provinces and territories in Canada except Nunavut. The proposed framework and findings can aid policymakers and planners in implementing electric buses for public transit systems in Canada and beyond.
+Keywords: Bus transit; diesel bus; life cycle sustainability assessment; life cycle thinking; transport electrification
+
+Nikola Erceg, Zvonimir Galić, Andreja Bubić,
+Normative responding on cognitive bias tasks: Some evidence for a weak rationality factor that is mostly explained by numeracy and actively open-minded thinking,
+Intelligence,
+Volume 90,
+2022,
+101619,
+ISSN 0160-2896,
+https://doi.org/10.1016/j.intell.2021.101619.
+(https://www.sciencedirect.com/science/article/pii/S0160289621001033)
+Abstract: We conducted two studies with two goals in mind. First, we investigated the dimensionality of several prominent cognitive bias tasks to see whether a single rationality factor can explain a performance on these tasks. Second, we validated this factor by correlating it with a number of constructs from its nomological network (fluid intelligence, numeracy, actively open-minded thinking, conspiracy and superstitious thinking, personality traits) and several real-life outcomes (decision-outcome inventory, job and career satisfaction, peer-rated decision-making quality). Although in both studies one-factor solution was the most appropriate for our tasks, this factor (i.e., “rationality factor”) was weak and only able to account for modest portion of variance among the tasks. Across both studies, the two strongest correlates of this rationality factor were numeracy and actively open-minded thinking. We conclude that cognitive bias tasks are highly heterogeneous, having very little in common. What they had in common, however, was largely underpinned by abilities and dispositions assessed with numeracy and actively open-minded thinking. We discuss how our findings relate to the dual-process theories and offer our view on the place of rationality in a broader model of human intelligence.
+Keywords: Rationality; Cognitive bias; Numeracy; Actively open-minded thinking; Intelligence
+
+Yun Li, Yu Peng, Jian Zheng,
+Intelligent ship collision avoidance model integrating human thinking experience,
+Ocean Engineering,
+Volume 286, Part 1,
+2023,
+115510,
+ISSN 0029-8018,
+https://doi.org/10.1016/j.oceaneng.2023.115510.
+(https://www.sciencedirect.com/science/article/pii/S0029801823018942)
+Abstract: With the maturation of intelligent ship collision avoidance technology, the acceptability of this technology has gained attention and the ship collision avoidance model is confronting interpretability and trustworthiness difficulties. Therefore, this paper integrates human thinking experience into actual collision avoidance decision-making to propose an intelligent collision avoidance model that is more in line with the operator ‘s understanding, thus improving trustworthiness and autonomy. The general architecture of collision avoidance model is divided into two modules: a basic model and an analytical model, by adopting from human thinking patterns of fast and slow. The basic model considers the COLREGS and navigation experience to solve the encounter situation of two ships. The analytical model addresses the collision avoidance issues in complex scenarios with multi-ships, by introducing the repulsive force and the driving force parts of the social force model, which are used to implement course mapping adjustment and gentle course fluctuation respectively. Additionally, a field theory-based effect evaluation model is designed to blend human experience with algorithmic benefits for making the optimal decision in complex scenarios. The results show that when the basic model and the analytical model work together, this architecture performs effectively in a variety of scenarios. It is worth mentioning that the collision avoidance model can potentially be developed to advance collision-free and human-like process trajectory navigation in multi-ship situations.
+Keywords: Ship collision avoidance; Human thinking experience; Social force model; Effect evaluation model; Ship encounter situation
+
+Yannis Zavoleas,
+Patterns of nature: Bio-systemic design thinking in meeting sustainability challenges of an increasingly complex world,
+Developments in the Built Environment,
+Volume 7,
+2021,
+100048,
+ISSN 2666-1659,
+https://doi.org/10.1016/j.dibe.2021.100048.
+(https://www.sciencedirect.com/science/article/pii/S2666165921000077)
+Abstract: This present work weaves a thread between natural patterns and their systemic applications in architecture, urbanism and landscape design. To that end, computational approaches have greatly assisted the study of dynamic parameters describing natural phenomena, and in physical space design as input/output algorithmic operations bringing together data and expertise. Apart from its direct applications, computation signifies a concept about soft data management that was developed well before computers were introduced into practice. An interest in malleable patterns guiding design during late modernism was suggestive of alternative methods responding to socioecological aims. Patterns were no longer rigid geometric references imposed upon a scheme, but ones supporting complexity, mutation and evolution as in a bio-systemic context. These earlier endeavours may set the intellectual framing of recent advancements in computing, promoting architectural thinking as a comprehensive model of cross-scientific action in analogy with nature's synergistic functions.
+Keywords: Bio-systemic thinking; Computing; Dynamic pattern; Nature design; Sustainability
+
+Yangping Li, Roger E. Beaty, Simone Luchini, Weiping Hu, Yoed N. Kenett,
+The role of semantic memory networks in crystallized intelligence and creative thinking ability,
+Learning and Individual Differences,
+Volume 111,
+2024,
+102426,
+ISSN 1041-6080,
+https://doi.org/10.1016/j.lindif.2024.102426.
+(https://www.sciencedirect.com/science/article/pii/S1041608024000190)
+Abstract: Crystallized intelligence (Gc)—knowledge acquired through education and experience—supports creativity. Yet whether Gc contributes to creativity beyond providing access to more knowledge, remains unclear. We explore the role of a “flexible” semantic memory network structure as a potential shared mechanism of Gc and creativity. Across two studies (N = 506 and N = 161) participants completed Gc tests of vocabulary knowledge and were divided into low, medium, and high Gc groups. They also completed two alternate uses task, to assess verbal creativity, and a semantic fluency task, to estimate semantic memory networks. Across both studies, the semantic memory network structure of the high Gc group was more flexible—less structured, more clustered, and more interconnected—than that of the low Gc group. The high Gc group also outperformed the low Gc group on the creativity tasks. Our results suggest that flexible access to semantic memory supports both verbal intelligence and creativity.
+Educational relevance statement
+Crystallized intelligence (Gc)—knowledge acquired through education and experience—supports creativity, yet whether Gc contributes to creativity beyond providing access to more knowledge (semantic memory), remains unclear. In this two-part study, we find that individuals with higher Gc tended to have a more flexible semantic memory structure, which in turn supported greater verbal creativity. This finding suggests that building students' vocabulary knowledge and verbal skills may not just expand their knowledge base, but also increase creativity through enabling more flexible access to that knowledge. If supported by further research, this could mean educational interventions targeting growth in Gc and semantic flexibility may foster students' creative capacities beyond just improving content mastery. Overall, this research highlights the interplay between building domain knowledge and cultivating creative thinking, suggesting educators should aim to develop both abilities in tandem rather than treating them separately.
+Keywords: Crystallized intelligence; Divergent thinking; Knowledge; Semantic network; Verbal creativity
+
+Nelson Cowan,
+Working memory: The information you are now thinking of,
+Reference Module in Neuroscience and Biobehavioral Psychology,
+Elsevier,
+2024,
+,
+ISBN 9780128093245,
+https://doi.org/10.1016/B978-0-443-15754-7.00029-8.
+(https://www.sciencedirect.com/science/article/pii/B9780443157547000298)
+Abstract: Working memory is the limited information that we keep in mind and use to carry out thinking. This chapter explains the early and modern history of investigation of working memory, current controversies regarding the nature of working memory, and practical applications of the concept. Working memory is important because its limits help define what one can or cannot comprehend. A better understanding of working memory should allow improvements in the diagnosis and treatment of various neural conditions. Thinking broadly, studying working memory and other general limitations of the cognitive system could produce more humble and accommodating styles of interaction with other people, as one keeps in mind one's own cognitive limitations.
+Keywords: Immediate memory; Memory capacity; Memory decay; Partial report; Recall; Recognition; Selective attention; Short-term memory; Working memory; Working memory capacity
+
+Rajat Kumar Behera, Pradip Kumar Bala, Nripendra P. Rana,
+Assessing the intention to adopt computational intelligence in interactive marketing,
+Journal of Retailing and Consumer Services,
+Volume 78,
+2024,
+103765,
+ISSN 0969-6989,
+https://doi.org/10.1016/j.jretconser.2024.103765.
+(https://www.sciencedirect.com/science/article/pii/S0969698924000614)
+Abstract: Interactive marketing (IM) can be used by e-commerce businesses to provide interactive and personalised experiences to e-customers by building sustainable relationships and delivering value. Computational intelligence (CI) is the ability of a machine to learn specific tasks via data or experimental observation for understanding and analysing customer behavioural patterns. Thus, this study explores how e-customers may intend to adopt CI in e-commerce within the boundaries of IM. Using online surveys, the primary data were collected from 315 e-customers of e-commerce businesses. Subsequently, the quantitative approach was used to analyse the data. The finding reveals that using a variety of techniques such as fuzzy logic, learning theory, evolutionary computation, genetic algorithms, and deep learning, CI predicts e-customer behaviour in a changing environment. Such a prediction results in desirable impacts, including more successful IM campaigns and retention actions. Further, CI uses a computational thinking approach, including the specification of the problem, algorithmic expression, solution implementation, and solution evaluation, for the identification and classification of stock-keeping units. This allows e-customers to compare the attributes of similar products.
+Keywords: Computational intelligence; Interactive marketing; Adoption intention; E-commerce; E-Customer
+
+Stella M. Sanchez, Aki Tsuchiyagaito, Rayus Kuplicki, Heekyeong Park, Ivan Postolski, Michael Rohan, Martin P. Paulus, Salvador M. Guinjoan,
+Repetitive Negative Thinking–Specific and –Nonspecific White Matter Tracts Engaged by Historical Psychosurgical Targets for Depression,
+Biological Psychiatry,
+Volume 94, Issue 8,
+2023,
+Pages 661-671,
+ISSN 0006-3223,
+https://doi.org/10.1016/j.biopsych.2023.03.012.
+(https://www.sciencedirect.com/science/article/pii/S0006322323011630)
+Abstract: Background
+Repetitive negative thinking (RNT) is a frequent symptom of major depressive disorder (MDD) that is associated with poor outcomes and treatment resistance. While most studies on RNT have focused on structural and functional characteristics of gray matter, this study aimed to examine the association between white matter (WM) tracts and interindividual variability in RNT.
+Methods
+A probabilistic tractography approach was used to characterize differences in the size and anatomical trajectory of WM fibers traversing psychosurgery targets historically useful in the treatment of MDD (anterior capsulotomy, anterior cingulotomy, and subcaudate tractotomy) in patients with MDD and low (n = 53) or high (n = 52) RNT, and healthy control subjects (n = 54). MDD samples were propensity matched on depression and anxiety severity and demographics.
+Results
+WM tracts traversing left hemisphere targets and reaching the ventral anterior body of the corpus callosum (thus extending to contralateral regions) were larger in the high-RNT MDD group compared with low-RNT (effect size D = 0.27, p = .042) and healthy control (D = 0.23, p = .02) groups. MDD was associated with greater size of tracts that converge onto the right medial orbitofrontal cortex regardless of RNT intensity. Other RNT-nonspecific findings in MDD involved tracts reaching the left primary motor and right primary somatosensory cortices.
+Conclusions
+This study provides the first evidence to our knowledge that WM connectivity patterns, which could become targets of intervention, differ between high- and low-RNT participants with MDD. These WM differences extend to circuits that are not specific to RNT, possibly subserving reward mechanisms and psychomotor activity.
+Keywords: Depression; Diffusion tensor imaging; Probabilistic tractography; Psychosurgery; Repetitive negative thinking; White matter tracts
+
+Jing Chen, Baoguo Shi, Qunlin Chen, Jiang Qiu,
+Comparisons of convergent thinking: A perspective informed by culture and neural mechanisms,
+Thinking Skills and Creativity,
+Volume 49,
+2023,
+101343,
+ISSN 1871-1871,
+https://doi.org/10.1016/j.tsc.2023.101343.
+(https://www.sciencedirect.com/science/article/pii/S1871187123001128)
+Abstract: Research is gradually becoming oriented toward investigating creativity within socio-cultural contexts. Currently, many cross-cultural studies have focused on divergent thinking (DT) but lack evidence regarding convergent thinking (CT). In this review, we summary the cultural aspects of CT, specifically studies involving the Remote Associates Test (RAT), considering variations in RAT versions, thinking styles, and control strategies. Additionally, we performed summary from the brain activation patterns of C-RAT and E-RAT to support our propositions. We proposed a theoretical framework that differs from previous conclusions, which suggested that CT and DT are independent sub-components of creativity and that CT only benefits from persistence. Variations observed among different RAT sets may partially explain differences in creative performance. Western individuals benefit from a bias towards flexibility, facilitating the formation of more distant and weaker associations to promote CT. Eastern individuals, on the other hand, prioritize the usefulness of solutions and tend to engage in a holistic thinking style to foster CT. The common neural activation across cultures supports the partial reliance of CT on flexibility, while the additional activation observed only in E-RAT can be attributed to individual's cognitive effort to suppress close thoughts in order to form remote associations, and reach a unique solution by the evaluation of potential candidate ideas.
+Keywords: Convergent thinking; Creativity; RAT; Cultural differences
+
+Muhammad Adnan, Baohua Xiao, Muhammad Ubaid Ali, Shaheen Bibi, Hong Yu, Peiwen Xiao, Peng Zhao, Haiyan Wang, Xianjin An,
+Human inventions and its environmental challenges, especially artificial intelligence: New challenges require new thinking,
+Environmental Challenges,
+Volume 16,
+2024,
+100976,
+ISSN 2667-0100,
+https://doi.org/10.1016/j.envc.2024.100976.
+(https://www.sciencedirect.com/science/article/pii/S2667010024001422)
+Abstract: Artificial intelligence (AI) is an umbrella term for a wide range of machine intelligence systems that can replicate the behavior of humans. AI and Big Data have emerged as defining characteristics of the fourth industrial revolution (IR). AI has developed tools. Because of the novelty, the investigation of IR, AI, and their environmental effects is still in the early stages of exploration. This study investigates how IR and AI affect human and environmental health and also discusses IR, AI, machine-human ideas, innovation, and AI's environmental benefits, further examines the challenges of these innovations, and recommends additional studies to explain their progress. As a result, the application of AI technology in environmental management, particularly concerning pollution, has become a significant advancement in reshaping our approach to monitoring the environment. Numerous countries are reaping substantial advantages by integrating AI in creating, executing, and assessing measures to address environmental degradation. These innovations can yield societal advantages and contribute to achieving the Sustainable Development Goals (SDGs) 2030; unfortunately, it is important to acknowledge that these benefits may not align well with environmental sustainability objectives, and the increasing number of electronic gadgets presents an additional concern. Conducting future research is crucial to investigate the growing prevalence of electronic devices utilized for AI, its potential ramifications for the future trajectory of climate change, and the approaches being taken to address the issue. Future research should prioritize conducting lifecycle environmental impact analyses, developing sustainable AI hardware, optimizing renewable energy usage, advancing climate modeling techniques, finding effective solutions for managing e-waste, utilizing AI for environmental monitoring and protection, conducting socio-environmental impact studies, developing policies and regulations, creating energy-efficient AI algorithms, and integrating circular economy principles to ensure that AI advancements align with environmental sustainability.
+Keywords: Industrial revolution; Artificial intelligence; Machine learning; Environment; Technology
+
+Michael Jacob, Parham Pourdavood, Daniel Mathalon, Susanna Fryer, Judith Ford,
+33. Testing Novel EEG Measures of the Dynamic Core Model of Consciousness: Relevance to Schizophrenia and Negative Thinking,
+Biological Psychiatry,
+Volume 95, Issue 10, Supplement,
+2024,
+Pages S88-S89,
+ISSN 0006-3223,
+https://doi.org/10.1016/j.biopsych.2024.02.211.
+(https://www.sciencedirect.com/science/article/pii/S0006322324003123)
+
+Zhanluo Zhang, Zilong Zhuang, Wei Qin, Runzhi Tan, Chengliang Liu, Heng Huang,
+Systems thinking and time-independent solutions for integrated scheduling in automated container terminals,
+Advanced Engineering Informatics,
+Volume 62, Part A,
+2024,
+102550,
+ISSN 1474-0346,
+https://doi.org/10.1016/j.aei.2024.102550.
+(https://www.sciencedirect.com/science/article/pii/S1474034624001988)
+Abstract: Automated container terminals are complex systems where multiple subsystems are deeply interconnected. To enhance overall efficiency, integrating the scheduling of these subsystems is crucial. While most existing literature emphasizes scheduling methods rooted in processing and setup times, obtaining these times is challenging due to the dynamic nature of terminals. This study proposes optimization solutions for integrated scheduling that bypass the need for specific processing and setup times, using systems thinking to prioritize operations based on their connections with the entire problem. A novel complex network modeling technique transforms the scheduling problem into a network, where operations act as nodes and operational constraints as edges. This transformation facilitates the determination of connections between operations based on network topology. Vital node identification metrics based on such connections are then explored to prioritize operations, leading to the design of complex network-based heuristic rules. Furthermore, the complex network modeling technique enables a network-based simulation framework, offering an efficient way to simulate and monitor real-world processes from a network perspective. Extensive numerical experiments demonstrate the effectiveness of these proposed rules, with insights derived from analyzing container handling equipment utilization, setup, and wait times.
+Keywords: Automated container terminal; Integrated scheduling; Complex network; Systems thinking; Time-independent solutions
+
+Ayten Aktoprak, Cigdem Hursen,
+A BIBLIOMETRIC AND CONTENT ANALYSIS OF CRITICAL THINKING IN PRIMARY EDUCATION,
+Thinking Skills and Creativity,
+Volume 44,
+2022,
+101029,
+ISSN 1871-1871,
+https://doi.org/10.1016/j.tsc.2022.101029.
+(https://www.sciencedirect.com/science/article/pii/S1871187122000323)
+Abstract: Critical thinking is an effective skill that allows students to be successful in the continually changing world by playing a role in their thinking development. Although the significance of critical thinking in primary education has been discussed in many studies, the number of studies conducted on the subject is limited. This study aims to systematically review and analyse the literature by taking a holistic approach to previous studies in order to clearly identify the gaps in the field and the steps to be taken for future studies. In this context, two different analysis methods were employed in the study. This review aims to reveal information that has not been fully captured or evaluated previously, including information related to important sources, documents, countries, and keywords used in the field. According to the results obtained from the study, the country with the highest publication performance is the United States of America, and the most cited publication source is the Journal of Thinking Skills and Creativity. The most frequently studied concepts in the documents are identified as 21st century skills, assessment, creativity, learning, teaching, teacher, education, and primary school. Another result obtained reveals that articles on critical thinking, which increased between 2015 and 2020, mostly discussed critical thinking in the fields of mathematics and science education. Studies that examine the development of critical thinking skills through the implementation of different teaching methods are particularly in the majority. According to the analysis results of the article methodologies, it is revealed that the majority are based on the qualitative research approach, the criterion sampling method is used with small sample groups, and the most preferred data collection tool is the document. In addition to revealing the current status regarding the research tendencies of critical thinking in primary education, these results have the potential to guide researchers, countries and primary school teachers working in the field.
+Keywords: primary education; student; thinking; critical thinking skills; bibliometric analysis
+
+Pavel S. Sorokin, Svetlana E. Chernenko,
+Skills as declared learning outcomes of entrepreneurship training in higher education institutions across the globe: Classification and analysis with a focus on thinking skills,
+Thinking Skills and Creativity,
+Volume 46,
+2022,
+101177,
+ISSN 1871-1871,
+https://doi.org/10.1016/j.tsc.2022.101177.
+(https://www.sciencedirect.com/science/article/pii/S1871187122001808)
+Abstract: The study identifies and classifies skills as declared learning outcomes in entrepreneurship education programs and courses in higher education by looking at globally recognized universities, indexed in authoritative QS ranking and mentioned in literature (43 universities). We analyze descriptions of the declared expected results of entrepreneurship education located on universities’ official websites. We take into account both, available documents and general descriptions on the webpages. The method is manual content-analysis. We find a lack of consistency and high differentiation, including formulations related to thinking skills. We develop the classification of declared outcomes of entrepreneurship education in higher education institutions based on the ideas of human capital theory. This classification considers the role of thinking skills, which remains on periphery of current discussions about learning outcomes of entrepreneurship education.
+Keywords: Skills; Universities; Learning outcomes; Human capital
+
+Yi Lang, Fan Zhang, Jun Yin,
+Team zhongyong thinking and team incremental and radical creativity,
+Journal of Innovation & Knowledge,
+Volume 7, Issue 3,
+2022,
+100196,
+ISSN 2444-569X,
+https://doi.org/10.1016/j.jik.2022.100196.
+(https://www.sciencedirect.com/science/article/pii/S2444569X22000361)
+Abstract: Zhongyong thinking is a cognitive thinking style that plays a pivotal role for Chinese employees and organizations, and whether it harms or benefits creativity has long been discussed. In this study, we empirically examine the relationship between team Zhongyong thinking and team incremental and radical creativity. Specifically, we propose that team Zhongyong thinking has a stronger indirect relationship with team incremental creativity than with radical creativity via team decision comprehensiveness. Furthermore, environmental dynamism moderates this indirect relationship, and team Zhongyong thinking has a stronger indirect effect on team creativity via team decision comprehensiveness when environmental dynamism is higher. Data collected from 106 teams comprising 770 subordinates and 106 supervisors in China using the survey method reveal that team Zhongyong thinking is positively related to team incremental creativity but not team radical creativity via team decision comprehensiveness. Moreover, environmental dynamism moderates the influence of team Zhongyong thinking on team incremental creativity via team decision comprehensiveness. Specifically, when environmental dynamism is higher, this influence is stronger. These findings imply that via extensive information searching and inclusive decision-making, team Zhongyong thinking can benefit team incremental creativity, especially in a changing environment, but this thinking style has no significant influence on team radical creativity.
+Keywords: Zhongyong thinking; team decision comprehensiveness; environmental dynamism; team incremental creativity; team radical creativity
+
+Baqir Lalani, Payam Aminpour, Steven Gray, Meredith Williams, Lucie Büchi, Jeremy Haggar, Philip Grabowski, José Dambiro,
+Mapping farmer perceptions, Conservation Agriculture practices and on-farm measurements: The role of systems thinking in the process of adoption,
+Agricultural Systems,
+Volume 191,
+2021,
+103171,
+ISSN 0308-521X,
+https://doi.org/10.1016/j.agsy.2021.103171.
+(https://www.sciencedirect.com/science/article/pii/S0308521X21001244)
+Abstract: CONTEXT
+Conservation Agriculture (CA) usage, particularly in Southern Africa, has remained low with lower yield, higher weed pressure and lower soil quality cited as reasons for ‘disadoption’.
+OBJECTIVE
+Using a detailed case study of 50 farmers in two villages in Cabo Delgado (Northern Mozambique), this study seeks to test the hypothesis that farmers' perceptions of CA are associated with distinctly different ‘mental models’ and if these "ways of thinking" overlap with farmers' identified/self-identified groupings (e.g. CA users, ‘disadopters’ and conventional tillage users). Secondly, we examine whether these different mental models (perceptions) are associated with actual differences in on-farm measurements. Finally, we explore the hypothesis that ‘systems thinking’ (i.e., understanding nonlinear causal relationships and internal feedback loops that drive a complex system) and CA usage are positively associated.
+METHODS
+Fuzzy Cognitive Mapping (FCM) was used to elicit representations of farmers' mental models. To explore the association between farmers' mental models of CA/conventional practices and on-farm measurements we evaluated cowpea aboveground biomass, yield, weed cover, and soil quality parameters from the farmer's main plot. We drew on network analysis to measure structural metrics of cognitive maps that provide important information about a person's mental model (perceptions) of causal interdependencies of farming dynamics.
+RESULTS AND CONCLUSIONS
+We find evidence of two data-driven distinct clusters of farmers' mental models that are in relative alignment with farmers' identified/self-identified groupings. Cluster 1 mainly consists of conventional users and cluster 2 mainly consists of CA users/disadopters. While no significant differences in socio-demographic variables were observed, clusters of mental models were associated with key differences in on-farm measurements. Importantly, cluster 1, who tended to be conventional users, had lower yields, lower soil cover, significantly lower carbon stock and higher weed coverage than cluster 2. Soil quality indicators were higher in cluster 2 as were farmers' overall revenue per hectare. Moreover, cluster 2 had significantly higher degrees of ‘systems thinking’ (measured through complex network analysis of graphical mental models) than cluster 1 which had higher forms of linear thinking. We argue that higher forms of experiential learning and practice of CA relate to higher degrees of systems thinking and stronger positive perceptions of CA, even among the CA ‘disadopters’.
+SIGNIFICANCE
+Our findings highlight the importance of systems thinking abilities and inclusion of biophysical, socio-economic and mental modelling variables rather than simple binary measurements which may have led to erroneous conclusions on CA and thus has implications for how CA is understood and promoted in future.
+Keywords: Conservation Agriculture; Decision-making; Mental models; Cropping systems
+
+Aki Tsuchiyagaito, Masaya Misaki, Gabe Cochran, Noah S. Philip, Martin P. Paulus, Salvador M. Guinjoan,
+Thalamo-cortical circuits associated with trait- and state-repetitive negative thinking in major depressive disorder,
+Journal of Psychiatric Research,
+Volume 168,
+2023,
+Pages 184-192,
+ISSN 0022-3956,
+https://doi.org/10.1016/j.jpsychires.2023.10.058.
+(https://www.sciencedirect.com/science/article/pii/S0022395623005034)
+Abstract: Background
+Repetitive negative thinking (RNT), often referred to as rumination in the mood disorders literature, is a symptom dimension associated with poor prognosis and suicide in major depressive disorder (MDD). Given the transdiagnostic nature of RNT, this study aimed to evaluate the hypothesis that neurobiological substrates of RNT in MDD may share the brain mechanisms underlying obsessions, particularly those involving cortico-striatal-thalamic-cortical (CSTC) circuits.
+Methods
+Thirty-nine individuals with MDD underwent RNT induction during fMRI. Trait-RNT was measured by the Ruminative Response Scale (RRS) and state-RNT was measured by a visual analogue scale. We employed a connectome-wide association analysis examining the association between RNT intensity with striatal and thalamic connectivity.
+Results
+A greater RRS score was associated with hyperconnectivity of the right mediodorsal thalamus with prefrontal cortex, including lateral orbitofrontal cortex, along with Wernicke's area and posterior default mode network nodes (t = 4.66–6.70). A greater state-RNT score was associated with hyperconnectivity of the right laterodorsal thalamus with bilateral primary sensory and motor cortices, supplementary motor area, and Broca's area (t = 4.51–6.57). Unexpectedly, there were no significant findings related to the striatum.
+Conclusions
+The present results suggest RNT in MDD is subserved by abnormal connectivity between right thalamic nuclei and cortical regions involved in both visceral and higher order cognitive processing. Emerging deep-brain neuromodulation methods may be useful to establish causal relationships between dysfunction of right thalamic-cortical circuits and RNT in MDD.
+Keywords: Thalamus; Repetitive negative thinking; Rumination; Depression; Functional connectivity; Cortico-striatal-thalamic-cortical circuit
+
+Heni Pujiastuti, Rudi Haryadi,
+The Effectiveness of Using Augmented Reality on the Geometry Thinking Ability of Junior High School Students,
+Procedia Computer Science,
+Volume 234,
+2024,
+Pages 1738-1745,
+ISSN 1877-0509,
+https://doi.org/10.1016/j.procs.2024.03.180.
+(https://www.sciencedirect.com/science/article/pii/S1877050924005398)
+Abstract: This study aimed to test the effectiveness of using augmented reality applications in learning geometry in junior high school students. The method used in this study is the quasi-experiment method. In this study, researchers used learning with augmented reality to find its effect on student learning outcomes in grade 8 junior high school, which has an average age of 13 years. The research design used in this study was a quasi-experimental nonequivalent control group design. This study, 2 sample classes were taken: an experimental class (learning with augmented reality) and a control class (learning without augmented reality). The experimental and control classes have the same characteristics; each has 20 male and 20 female students. The instrument used in this research is a geometric thinking ability test. This study uses a test instrument in the form of essay questions. The instrument was given twice, namely during the pretest and post-test. There are ten essay questions made. After obtaining the data from the pretest and post-test results, the normalized gain score formula (N-Gain) was used to know the increase in geometric thinking skills. The N-Gain result of the experimental class is 78% or 0.78, which is in the high category. Whereas in the control class, it was 50% or 0.58, this result is in the moderate category. The N-gain results show that there is a difference between the experimental class and the control class. In this case, the effectiveness of using augmented reality for learning geometry in junior high school students is higher than those who did not receive augmented reality treatment. From the N-gain value, it proves that learning using augmented reality learning media is effective in increasing the ability to think Geometry. Then the results of observations made during learning activities using augmented reality show that students look active and make students more enthusiastic when learning Geometry. The results of the responses showed that 39 students had become more proactive in learning Geometry by using augmented reality applications.
+Keywords: augmented reality; thinking ability; geometry
+
+Yong Liu, Attila Pásztor,
+Survey on the influential demographic factors of Chinese undergraduate students’ critical thinking disposition: Evidence from plausible values,
+Thinking Skills and Creativity,
+Volume 50,
+2023,
+101397,
+ISSN 1871-1871,
+https://doi.org/10.1016/j.tsc.2023.101397.
+(https://www.sciencedirect.com/science/article/pii/S1871187123001657)
+Abstract: Critical thinking disposition (CTD), the facet of critical thinking, regarded as the basis to activate critical thinking skills, is the inclination to think critically. Previous studies on the factors influencing CTD in undergraduate students yielded inconsistent results, often examining these factors based on raw scores without considering plausible values (PVs) which can unbiasedly provide estimates that are closer to the truth. This study aims to explore the factors (e.g., gender, year of study, major, parents' educational level, family income, residence, and type of university) that potentially influence undergraduate students' CTD using PVs. This study involved 661 Chinese undergraduate students (female students represented 50.4%), utilizing the Employer–Employee–Supported Critical Thinking Disposition Inventory for data collection. After calculating PVs using item response theory, linear regression models through dummy variable regression on the PVs were conducted. The findings revealed that when the factors were examined individually, CTD may vary by type of university, year of study, parents’ educational level, and family income. However, when the factors were integrated into a comprehensive robust regression model, family income was identified as the unique factor influencing CTD, indicating that individuals from higher-income families exhibited higher CTD levels than students from lower-income families. Demographic factors accounted for 5%–10% of the variation. Future research should investigate additional factors that may substantially impact on college students’ CTD. It is crucial for educators to acknowledge the disparities in CTD prevalence based on family income and devise an effective way to promote CTD among individuals from low-income backgrounds.
+Keywords: Critical thinking disposition; Undergraduate students; Influencing factors; Plausible values
+
+Roger E. Beaty, Qunlin Chen, Alexander P. Christensen, Yoed N. Kenett, Paul J. Silvia, Mathias Benedek, Daniel L. Schacter,
+Default network contributions to episodic and semantic processing during divergent creative thinking: A representational similarity analysis,
+NeuroImage,
+Volume 209,
+2020,
+116499,
+ISSN 1053-8119,
+https://doi.org/10.1016/j.neuroimage.2019.116499.
+(https://www.sciencedirect.com/science/article/pii/S1053811919310900)
+Abstract: Cognitive and neuroimaging evidence suggests that episodic and semantic memory—memory for autobiographical events and conceptual knowledge, respectively—support different aspects of creative thinking, with a growing number of studies reporting activation of brain regions within the default network during performance on creative thinking tasks. The present research sought to dissociate neural contributions of these memory processes by inducing episodic or semantic retrieval orientations prior to performance on a divergent thinking task during fMRI. We conducted a representational similarity analysis (RSA) to identify multivoxel patterns of neural activity that were similar across induction (episodic and semantic) and idea generation. At the behavioral level, we found that semantic induction was associated with increased idea originality, assessed via computational estimates of semantic distance between concepts. RSA revealed that multivoxel patterns during semantic induction and subsequent idea generation were more similar (compared to episodic induction) within the left angular gyrus (AG), posterior cingulate cortex (PCC), and left anterior inferior parietal lobe (IPL). Conversely, activity patterns during episodic induction and subsequent generation were more similar within left parahippocampal gyrus and right anterior IPL. Together, the findings point to dissociable contributions of episodic and semantic memory processes to creative cognition and suggest that distinct regions within the default network support specific memory-related processes during divergent thinking.
+Keywords: Creativity; Default network; Episodic memory; Semantic memory; Representational similarity analysis
+
+Isolda Margarita Castillo-Martínez, Amadeo José Argüelles-Cruz, Octavio Elías Piñal-Ramírez, Leonardo David Glasserman-Morales, María Soledad Ramírez-Montoya, Alejandra Carreon-Hermosillo,
+Towards the development of complex thinking in university students: Mixed methods with ideathon and artificial intelligence,
+Computers and Education: Artificial Intelligence,
+Volume 5,
+2023,
+100186,
+ISSN 2666-920X,
+https://doi.org/10.1016/j.caeai.2023.100186.
+(https://www.sciencedirect.com/science/article/pii/S2666920X23000656)
+Abstract: This article examines the capacity of an artificial intelligence (AI) platform to assess university students' mastery of complex thinking. Central questions addressed include the identification of essential technical elements that contribute to the platform's effectiveness, and how the AI platform can boost student motivation and cultivate complex thinking. The research employed a mixed-methods approach, anchored by an Ideathon centered on the Sharing Economy. Qualitative insights were drawn from semi-structured interviews with nine university students. The results indicate that the platform effectively evaluates complex thinking proficiency, differentiating between systemic, scientific, and innovative thinking. Notably, the AI-driven personalization of the platform was found to significantly enhance student motivation. This study highlights the capabilities of AI platforms in competency assessment and suggests that future research should investigate how such data can inform strategies to develop complex reasoning among diverse university student populations.
+Keywords: Human-computer interface; Cultural and social implications; Teaching/learning strategies; Distributed learning environments; Data science applications in educa-tion
+
+Peter Organisciak, Selcuk Acar, Denis Dumas, Kelly Berthiaume,
+Beyond semantic distance: Automated scoring of divergent thinking greatly improves with large language models,
+Thinking Skills and Creativity,
+Volume 49,
+2023,
+101356,
+ISSN 1871-1871,
+https://doi.org/10.1016/j.tsc.2023.101356.
+(https://www.sciencedirect.com/science/article/pii/S1871187123001256)
+Abstract: Automated scoring for divergent thinking (DT) seeks to overcome a key obstacle to creativity measurement: the effort, cost, and reliability of scoring open-ended tests. For a common test of DT, the Alternate Uses Task (AUT), the primary automated approach casts the problem as a semantic distance between a prompt and the resulting idea in a text model. This work presents an alternative approach that greatly surpasses the performance of the best existing semantic distance approaches. Our system, Ocsai, fine-tunes deep neural network-based large-language models (LLMs) on human-judged responses. Trained and evaluated against one of the largest collections of human-judged AUT responses, with 27 thousand responses collected from nine past studies, our fine-tuned large-language-models achieved up to r = 0.81 correlation with human raters, greatly surpassing current systems (r = 0.12–0.26). Further, learning transfers well to new test items and the approach is still robust with small numbers of training labels. We also compare prompt-based zero-shot and few-shot approaches, using GPT-3, ChatGPT, and GPT-4. This work also suggests a limit to the underlying assumptions of the semantic distance model, showing that a purely semantic approach that uses the stronger language representation of LLMs, while still improving on existing systems, does not achieve comparable improvements to our fine-tuned system. The increase in performance can support stronger applications and interventions in DT and opens the space of automated DT scoring to new areas for improving and understanding this branch of methods.
+Keywords: Divergent thinking; Alternate uses test; Large-language models; Automated scoring
+
+N. Voulvoulis, T. Giakoumis, C. Hunt, V. Kioupi, N. Petrou, I. Souliotis, C. Vaghela, WIH. binti Wan Rosely,
+Systems thinking as a paradigm shift for sustainability transformation,
+Global Environmental Change,
+Volume 75,
+2022,
+102544,
+ISSN 0959-3780,
+https://doi.org/10.1016/j.gloenvcha.2022.102544.
+(https://www.sciencedirect.com/science/article/pii/S0959378022000826)
+Abstract: The Sustainable Development Goals (SDGs), adopted as reference and universal guidepost for transitioning to Sustainable Development by the United Nations in 2015 as part of the 2030 Agenda for Sustainable Development, are intended to be used as a set of interconnected goals and global targets for ‘Transforming our world’, as the 2030 Agenda is titled. This is a far more challenging task than business as usual; it requires systems thinking for understanding the conditions that generate and propagate sustainability challenges, moving away from the reductionist and anthropocentric thinking that created them in the first place. Taking a systems approach to addressing these challenges has been gaining currency with academics and policymakers alike, and here we make the case for holistic, integrated, and interdisciplinary thinking that challenges assumptions and worldviews, crucially based on public participation and engagement, to create the enabling conditions for sustainability to emerge. System transformations require interconnected changes to technologies, social practices, business models, regulations and societal norms, an intentional process designed to fundamentally alter the components and structures that cause the system to behave in its current unsustainable ways, a paradigm shift enabling the transition to sustainability.
+Keywords: Sustainability; Transformation; Policy; Systemic; Reductionist; Interventions; Vision
+
+Jorge Sanabria-Z, Marco Cruz-Sandoval, Athziri Moreno-Romo, Sofía Bosch-Gómez, María Soledad Ramírez-Montoya,
+Research foresight in bridging open science and open innovation: Overview based on the complex thinking paradigm,
+International Journal of Innovation Studies,
+Volume 8, Issue 1,
+2024,
+Pages 59-75,
+ISSN 2096-2487,
+https://doi.org/10.1016/j.ijis.2023.08.002.
+(https://www.sciencedirect.com/science/article/pii/S2096248723000280)
+Abstract: Open innovation benefits from access to cutting-edge discoveries to increase their transformation into tangible applications for the benefit of society. Improving research quality has been proposed as a primary objective of open science by the United Nations, to increase science reproducibility, impact, and trust, leading to robust decision-making and policies. However, opening access to data and processes is insufficient for researchers to achieve open innovation in the context of globalization, for example, by gathering insights from external and internal sources. Developing the appropriate mindset to manage complexity and generate synergy among researchers in academia, industry, and the government is essential to catalyze knowledge and transform it into relevant innovations for society. To gain insights into the roles and challenges of researchers aiming to bridge the gap between open science and open innovation, a decade-plus Mapping Literature Review was conducted based on the complex thinking paradigm. Complex thinking allows for novel connections of the information collected through open science and open innovation, considering different forms of engaging with alternative means of knowledge creation that may promote innovative and critical thinking. The findings revealed: a) broad positioning of the terms in the European Union; b) open access and open data as current driving themes; c) a constant trade-off between the terms “open data” and “information protection”; d) lack of studies on researchers’ complex thinking to help them manage openness; e) absence of the environmental helix in the initiatives; and (f) challenges in innovative communication and collaborative practices among public and private entities. Overall, we identified an opportunity to develop researchers’ complex thinking such that the openness of information becomes a shared responsibility among partners across multiple helices. This shared responsibility can have methodological implications that permeate how open science and open innovation are theorized and, in practice, facilitate the development of fundamental collaborative research procedures.
+Keywords: Open innovation; Open science; Complex thinking; Ecosystems; Research enhancement; Educational innovation; Higher education
+
+Cihan Demir, Brian F. French, Brian Hand,
+Cross-cultural critical thinking profiles: A multigroup latent profile analysis,
+Thinking Skills and Creativity,
+Volume 48,
+2023,
+101286,
+ISSN 1871-1871,
+https://doi.org/10.1016/j.tsc.2023.101286.
+(https://www.sciencedirect.com/science/article/pii/S1871187123000561)
+Abstract: Background
+Critical thinking (CT) is an important 21st-century skill which enables individuals to actively use their knowledge and problem-solving skills to overcome life challenges. Educators, employers, and policymakers focus on CT skills to foster scientific thinking in education. In many countries, the development of CT skills has become a major component in education. CT skills training is offered to students based on the assumption that every student learns these skills in the same manner (i.e., homogeneity assumption). However, if heterogenous groups exist, accounting for this may provide more effective CT skills training.
+Methods
+Latent profile analysis (LPA) was applied to the Cornell Critical Thinking Test (CCTT) with middle school students from South Korea (N = 520), Turkey (N = 996), and the United States (N = 1,599), separately, to determine if CT subpopulations exist for each country. Generalizability of the latent profiles across countries were investigated through a multi-group LPA similarity assessment.
+Results
+Employing multiple fit criteria, a three-profile solution was identified for each country, and multi-group LPA analysis supported the similarity of the profiles across countries.
+Conclusion
+Similar CT skill profiles across countries suggest that interventions for developing CT skills may be appropriate across educational contexts. Further work is needed to understand the mechanisms behind a student's CT profile and inform interventions or curricula for fostering CT skills. Future directions and limitations were discussed.
+Keywords: Critical thinking; Cross-culture; Science education; Latent profile analysis
+
+Timothy H. Lehmann,
+Using algorithmic thinking to design algorithms: The case of critical path analysis,
+The Journal of Mathematical Behavior,
+Volume 71,
+2023,
+101079,
+ISSN 0732-3123,
+https://doi.org/10.1016/j.jmathb.2023.101079.
+(https://www.sciencedirect.com/science/article/pii/S0732312323000494)
+Abstract: Algorithmic thinking is emerging as an important competence in mathematics education, yet research appears to be lagging this shift in curricular focus. The aim of this generative study is to examine how students use the cognitive skills of algorithmic thinking to design algorithms. Task-based interviews were conducted with four pairs of Year 12 students (n = 8) to analyze how they used decomposition and abstraction to specify the projects, designed algorithms to solve scheduling problems by first devising fundamental operations and then using algorithmic concepts to account for complex and special cases of the problems, and tested and debugged their algorithms. A deductive-inductive analytical process was used to classify students’ responses according to the four cognitive skills to develop sets of subskills to describe how the students engaged these cognitive skills.
+Keywords: Algorithmic thinking; Algorithm; Critical path analysis; Discrete mathematics; Graph theory
+
+Jill Zarestky, Michelle Bigler, Mollie Brazile, Tobin Lopes, Wolfgang Bangerth,
+Reflective Writing Supports Metacognition and Self-regulation in Graduate Computational Science and Engineering,
+Computers and Education Open,
+Volume 3,
+2022,
+100085,
+ISSN 2666-5573,
+https://doi.org/10.1016/j.caeo.2022.100085.
+(https://www.sciencedirect.com/science/article/pii/S2666557322000131)
+Abstract: Computational Science and Engineering (CS&E) is a relatively new discipline for which no consensus exists on how classes should best be taught. Many CS&E courses are compressed add-ons to existing programs and, consequently, must cover a breadth of topics encompassing modules from mathematics, statistics, computer science, and application disciplines. Additionally, these courses would benefit from embedded 21st century skills, including problem-solving, critical thinking, and lifelong learning behaviors, but such skills are often neglected in course design even though the education and workforce literature are clear about their importance for future careers. The breadth and complexity in course design necessary to incorporate all of these components create a challenge for instructors and students. In this interpretive study, we investigate student experiences and perceived outcomes in a technology-mediated graduate-level CS&E course designed to address the difficulties associated with this wide range of disciplinary topics and professional skills. Our course design is based on reflective practice and principles of metacognition, and applies elements such as a flipped classroom, student journals, and reflective writing exercises; these design goals directly support students’ metacognition and foster self-regulated learning behaviors that, in turn, develop critical thinking and problem-solving abilities. We evaluate this design using student reflective writing and surveys. Results indicate reflective writing activities in course design helped develop students’ metacognitive awareness, self-regulated learning behaviors, problem-solving, and critical thinking skills. This course design can serve as a template for others teaching technology-mediated courses in CS&E and related areas, and aiming to develop students’ 21st century professional skills.
+Keywords: 21st century skills; Computational engineering and sciences; Graduate education; Flipped class; Reflective writing
+
+Ana Clara Ventura, Bárbara M. Brizuela, Maria Blanton, Katharine Sawrey, Angela Murphy Gardiner, Ashley Newman-Owens,
+A learning trajectory in Kindergarten and first grade students’ thinking of variable and use of variable notation to represent indeterminate quantities,
+The Journal of Mathematical Behavior,
+Volume 62,
+2021,
+100866,
+ISSN 0732-3123,
+https://doi.org/10.1016/j.jmathb.2021.100866.
+(https://www.sciencedirect.com/science/article/pii/S0732312321000274)
+Abstract: Given the importance of understanding and using indeterminate quantities in algebraic thinking, the development of learning trajectories about how Kindergarten and first grade students understand variable and use variable notation in the context of algebraic expressions is critical. Based on an empirically developed learning trajectory, we analyzed children’s responses at three different points in a classroom teaching experiment. Our purpose was to describe levels of thinking among 16 students (eight in Kindergarten and eight in first grade). Our results revealed qualitative changes in the thinking about indeterminate quantities of most student participants. As students progressed through the experiment, we found that they advanced from what we characterized as a “Pre-variable” Level to a “Letters as representing indeterminate quantities as varying unknowns; explicit operations on indeterminate quantities” Level. Learning trajectories such as that developed here hold promise for informing the design of interventions that support young children’s early algebraic thinking.
+Keywords: Early algebraic thinking; Qualitative changes; Classroom teaching experiment; Candy Box Task
+
+Julio Ariel Dueñas Santana, Almerinda Di Benedetto, Orelvis González Gómez, Ernesto Salzano,
+Towards sustainable hydrogen production: An integrated approach for Sustainability, Complexity, and Systems Thinking in the energy sector,
+Journal of Cleaner Production,
+Volume 449,
+2024,
+141751,
+ISSN 0959-6526,
+https://doi.org/10.1016/j.jclepro.2024.141751.
+(https://www.sciencedirect.com/science/article/pii/S0959652624011995)
+Abstract: The energy sector constitutes a dynamic and complex system, indicating that its actions are influenced not just by its individual components but also by the emergent behavior resulting from interactions among them. Moreover, there are crucial limitations of previous approaches for addressing the sustainability challenge of the energy sector. Changing, transforming, and integrating paradigms are the most relevant leverage points for transforming a given system. In other words, nowadays the integration of new predominant paradigms in order to provide a unified framework could aim at this actual transformation looking for a sustainable future. This research aims to develop a new unified framework for the integration of the following three paradigms: (1) Sustainability, (2) Complexity, and (3) Systems Thinking which will be applied to achieving sustainable energy production (using hydrogen production as a case study). The novelty of this work relies on providing a holistic perspective through the integration of the aforementioned paradigms considering the multiple and complex interdependencies among the economy, the environment, and the economy. For this purpose, an integrated seven-stage approach is introduced which explores from the starting point of the integration of paradigms to the application of this integration to sustainable energy production. After applying the Three-Paradigm approach for sustainable hydrogen production as a case study, 216 feedback loops are identified, due to the emerged complexity linked to the analyzed system. Additionally, three system dynamics-based models are developed (by increasing the level of complexity) as part of the application of the Three-Paradigm approach. This research can be of interest to a broad professional audience (e.g. engineers, policymakers) as looks into the sustainability of the energy sector from a holistic perspective, considering a newly developed Three-Paradigm model considering complexity and using a Systems Thinking approach.
+Keywords: Systems thinking; Sustainability; Complexity; Sustainable hydrogen production; Causal loop diagram; System dynamics
+
+Kok Siew Ng, Elias Martinez Hernandez, Aki Yamaguchi,
+Chapter 2 - A new systems thinking approach to sustainable resource management,
+Editor(s): Kok Siew Ng, Elias Martinez Hernandez, Aki Yamaguchi,
+A New Systems Thinking Approach to Sustainable Resource Management,
+Elsevier,
+2024,
+Pages 13-35,
+ISBN 9780323998697,
+https://doi.org/10.1016/B978-0-323-99869-7.00001-2.
+(https://www.sciencedirect.com/science/article/pii/B9780323998697000012)
+Abstract: Both developed and developing nations require a significant amount of resources to sustain various human activities and promote economic growth. The increasing demand for resources is driven by a growing population and expanding economic development, inevitably leading to changes in consumption patterns within society. Therefore, sustainable resource management is crucial to minimizing the depletion of finite resources, reducing waste and emissions, and maintaining human well-being and socio-economic stability. Achieving this requires maintaining a balance between the supply and demand of natural resources, preventing overconsumption and overproduction, and promoting reuse, recycling, and recovery practices. A “new” system thinking approach is presented in this chapter aiming to realize a coherent systems approach that transcends discipline-specific approaches, avoiding limitations on insights and fostering innovation for discovering effective solutions. The new systems thinking framework for sustainable resource management comprises three key phases: problem and system definitions; system mapping and integration; and integrated sustainability assessment. This framework involves adopting an interdisciplinary approach, engaging stakeholders, conducting qualitative and quantitative assessments, and integrating sustainability thinking to address system problems effectively.
+Keywords: Complex system; Decoupling; Interdisciplinary collaboration; Material footprint; Sustainability thinking; Sustainable resource management
+
+Dazhi Yang, Dennis van der Meer,
+Post-processing in solar forecasting: Ten overarching thinking tools,
+Renewable and Sustainable Energy Reviews,
+Volume 140,
+2021,
+110735,
+ISSN 1364-0321,
+https://doi.org/10.1016/j.rser.2021.110735.
+(https://www.sciencedirect.com/science/article/pii/S1364032121000307)
+Abstract: Forecasts are always wrong, otherwise, they are merely deterministic calculations. Besides leveraging advanced forecasting methods, post-processing has become a standard practice for solar forecasters to improve the initial forecasts. In this review, the post-processing task is divided into four categories: (1) deterministic-to-deterministic (D2D) post-processing, (2) probabilistic-to-deterministic (P2D) post-processing, (3) deterministic-to-probabilistic (D2P) post-processing, and (4) probabilistic-to-probabilistic (P2P) post-processing. Additionally, a total of ten overarching thinking tools, namely, (1) regression (D2D), (2) filtering (D2D), (3) resolution change (D2D), (4) summarizing predictive distribution (P2D), (5) combining deterministic forecasts (P2D), (6) analog ensemble (D2P), (7) method of dressing (D2P), (8) probabilistic regression (D2P), (9) calibrating ensemble forecasts (P2P), and (10) combining probabilistic forecasts (P2P), are proposed. These thinking tools can be thought of as the “style” or “mechanism” of post-processing. In that, the utilization of thinking tools circumvents the common pitfalls of classifying the literature by methods (e.g., statistics, machine-learning, or numerical weather prediction), which often leads to a “who used what method” type of roster review that is clearly ineffective, non-exhaustive, and dull. When myriads of post-processing methods are mapped to countable few thinking tools, it allows solar forecasters to enumerate the styles of adjustment that could be performed on a set of initial forecasts, which makes a post-processing task clearly goal-driven. Besides the thinking tools, this paper also emphasizes on the value of post-processing, and provides an outlook for future research. Although this paper is revolved around solar, the materials herein discussed can also be applied to wind and other forecasting areas.
+Keywords: Solar forecasting; Post-processing; Review; Probabilistic forecasting
+
+Javier Fernández-López de Pablo, Valéria Romano, Maxime Derex, Erik Gjesfjeld, Claudine Gravel-Miguel, Marcus J. Hamilton, Andrea Bamberg Migliano, Felix Riede, Sergi Lozano,
+Understanding hunter–gatherer cultural evolution needs network thinking,
+Trends in Ecology & Evolution,
+Volume 37, Issue 8,
+2022,
+Pages 632-636,
+ISSN 0169-5347,
+https://doi.org/10.1016/j.tree.2022.04.007.
+(https://www.sciencedirect.com/science/article/pii/S0169534722000908)
+Abstract: Hunter–gatherers past and present live in complex societies, and the structure of these can be assessed using social networks. We outline how the integration of new evidence from cultural evolution experiments, computer simulations, ethnography, and archaeology open new research horizons to understand the role of social networks in cultural evolution.
+Keywords: hunter–gatherer; social networks; cultural evolution; archaeology; evolutionary anthropology
+
+Xin Wang, Katarzyna Jankowiak, Bing Mei,
+Priming creativity: On how a divergent thinking task modulates lexico-semantic processing,
+Journal of Neurolinguistics,
+Volume 67,
+2023,
+101135,
+ISSN 0911-6044,
+https://doi.org/10.1016/j.jneuroling.2023.101135.
+(https://www.sciencedirect.com/science/article/pii/S091160442300012X)
+Abstract: Little is known on how a task promoting divergent thinking processes modulates brain responses to sentences of different semantic complexity (i.e., novel metaphoric, literal, and anomalous sentences). In the present ERP study, we examined the processing of the three sentence types in two groups of participants: one performing an alternate uses task (AUT) between individual experimental blocks (i.e., the AUT group), and the other one performing no such a task (i.e., the noAUT group). The results showed a graded N400 and LPC effects from literal, to novel metaphoric, and to anomalous sentences in both groups of participants. Importantly, we found a general group effect across all the sentence types, reflected in more positive P200 and less negative N400 responses in the AUT compared to the noAUT group, indicating that while the AUT group engaged more attentional resources during early lexical access, they required less extended cognitive mechanisms at the stage of lexico-semantic processing. The group effect was further observed in the LPC time window, where more positive amplitudes were found in the AUT relative to the noAUT group, suggesting a stronger semantic interconnectivity at the meaning integration stage when primed with a task eliciting divergent thinking processes.
+Keywords: Novel metaphors; Divergent thinking; Alternate uses task; ERPs
+
+Kathryn E. Schertz, Hiroki P. Kotabe, Kimberly L. Meidenbauer, Elliot A. Layden, Jenny Zhen, Jillian E. Bowman, Tanvi Lakhtakia, Muxuan Lyu, Olivia A. Paraschos, Elizabeth A. Janey, Anya L. Samtani, Andrew J. Stier, Kathryn Gehrke, Stephen C. Van Hedger, Kathleen D. Vohs, Marc G. Berman,
+Nature's path to thinking about others and the surrounding environment,
+Journal of Environmental Psychology,
+Volume 89,
+2023,
+102046,
+ISSN 0272-4944,
+https://doi.org/10.1016/j.jenvp.2023.102046.
+(https://www.sciencedirect.com/science/article/pii/S0272494423000944)
+Abstract: Research has shown differences in pro-social and pro-environmental attitudes after exposure to different physical environments. It is unclear whether these perspective shifts are associated with changes in conscious thoughts and feelings about other people and the environment. In Study 1, we used a within-subject experiment to measure social and environmental thought content throughout 1-h environmental explorations of a nature conservatory and an indoor mall. At three survey time points, participants (N = 86, undergraduates and community members) reported whom they were thinking about and how connected they felt to the physical and social environment. Using Bayesian multi-level models, we found that while visiting the conservatory, participants were less likely to think about themselves, felt closer to people nearby and around the world, and felt higher connectedness to their social and physical environment. In Study 2, we used a correlational design to investigate the association between perceived naturalness of city parks and feelings of connection to nearby others and the physical environment while visiting. Participants (N = 303, Chicago residents) reported feeling higher levels of connection to nearby people and the physical environment when they were visiting city parks rated as more natural. These studies further our understanding of the ways in which natural environments influence conscious thoughts and feelings about the social and physical environment.
+Keywords: Social orientation; Natural environments; Public spaces; Experience sampling
+
+Christian Dindler, Ole Sejer Iversen, Mikkel Hjorth, Rachel Charlotte Smith, Hannah Djurssø Nielsen,
+DORIT: An analytical model for computational empowerment in K-9 education,
+International Journal of Child-Computer Interaction,
+Volume 37,
+2023,
+100599,
+ISSN 2212-8689,
+https://doi.org/10.1016/j.ijcci.2023.100599.
+(https://www.sciencedirect.com/science/article/pii/S2212868923000363)
+Abstract: This paper presents and explores an analytical, research-based model for computational empowerment in K-9 education. The model, entitled DORIT (“Do your Own Research In Technology”), contributes to Child–Computer Interaction research by providing scaffolding for teachers to create teaching activities emphasising a critical inquiry approach to computational empowerment. We present the DORIT model, its research base and report from a study where 18 in-service teachers took part in codesigning and testing lesson plans based on the model for grades 1, 6, 7 and 9. The lesson plans serve as proof-of-concept demonstrations of how the DORIT model can scaffold teaching activities. We further analyse how the teachers used the model in practice, and report from post-interviews with the teachers regarding their experiences with the model. We conclude the paper by discussing the potentials and challenges of the DORIT model to support computational empowerment in future CCI research.
+Keywords: Computational empowerment; DORIT; Analytical model; Ethical and societal implications; Technology education
+
+Holger Schlör, Carolin Märker, Sandra Venghaus,
+Developing a nexus systems thinking test –A qualitative multi- and mixed methods analysis,
+Renewable and Sustainable Energy Reviews,
+Volume 138,
+2021,
+110543,
+ISSN 1364-0321,
+https://doi.org/10.1016/j.rser.2020.110543.
+(https://www.sciencedirect.com/science/article/pii/S1364032120308273)
+Abstract: The most pressing global challenges have been summarized in the UN Sustainable Development Goals. Given the complex feedbacks and interdependencies among them, fulfilling these goals requires a holistic approach leading to profound transitions. The food-energy-water nexus is often proposed to be one such holistic approach. However, to date no consistent definition of the nexus concept exists, while research interest in the nexus rapidly grows. Therefore, in this paper, the nexus is defined as a concept of systems thinking. A nexus systems thinking test is developed that can be used as a new way of categorizing nexus research. To examine the test's viability and suitability, it is applied to a sample data set of nexus-related research papers. By means of a multi- and mixed methods document analysis it is analyzed if the papers conceptualize the nexus approach as a systems thinking concept. The results show that all papers meet the four system criteria. Different emphasis, however, is put on certain aspects. The nexus systems thinking test proved to be a viable systematic method to investigate if and in which way nexus research incorporates a systems thinking perspective. It does not only offer a new way of categorizing nexus related research, but also allows assessing its quality from a comprehensive nexus perspective. The test thus provides valuable and systematic understanding of a rapidly developing, central research field within sustainability science.
+Keywords: Food-energy-water nexus; Nexus conceptualization; Systems thinking; Qualitative analysis; Mixed methods
+
+Laura Alba-Juez,
+Fast and slow thinking as secret agents behind speakers’ (un)conscious pragmatic decisions and judgements,
+Journal of Pragmatics,
+Volume 179,
+2021,
+Pages 70-76,
+ISSN 0378-2166,
+https://doi.org/10.1016/j.pragma.2021.04.016.
+(https://www.sciencedirect.com/science/article/pii/S0378216621001478)
+Abstract: In this article I discuss and explore how two cognitive systems –fast and slow thinking– may affect our pragmatic decisions and judgements. I draw on Kahneman's (2011) description of mental life by the metaphor of two agents, System 1 and System 2, which respectively produce fast and slow thinking. The capabilities of System 1 include –among other things– mental, linguistic and sociopragmatic activities, all of which have an effect on people's relational work (Locher and Watts 2005). Research in psychology (cf. McGuire and Botvinick 2010; Simon 1992; Klein 1999) suggests that the ‘intuitive’ System 1 is frequently more influential than the ‘rational’ System 2, the former thus being the secret author of many of human beings' choices and judgments, including those speakers make in discourse. My approach in this study is therefore multidisciplinary. Drawing from Cognitive Psychology, Cognitive Pragmatics, Functional Linguistics, (Socio)pragmatics and Discourse Analysis, I theoretically explore how the systems of fast and slow thinking participate in our discourse-pragmatic decisions and activities. I also analyze different examples of statements and short narratives where the (un)conscious exploitation of the interplay between these two systems (for the negotiation of pragmatic meanings) can be appreciated.
+Keywords: Fast thinking; Slow thinking; (Socio)pragmatic decisions; System 1; System 2
+
+María-Soledad Ramírez-Montoya, May Portuguez-Castro,
+Expanding horizons for the future with an open educational model for complex thinking: external and internal validation,
+On the Horizon,
+Volume 32, Issue 1,
+2024,
+Pages 32-48,
+ISSN 1074-8121,
+https://doi.org/10.1108/OTH-12-2023-0042.
+(https://www.sciencedirect.com/science/article/pii/S1074812124000034)
+Abstract: Purpose
+The challenges facing 21st-century society are becoming increasingly complex, requiring the development of new citizen competencies. This study aims to validate an educational model focused on developing complex thinking in higher education students. Current educational models lack future-ready competencies, necessitating the emergence of new models to guide future generations toward the common good.
+Design/methodology/approach
+This was an adaptation of the causal-layered analysis (CLA) applied to 415 participants from higher education institutions in Mexico, Panama and Spain. Sessions were designed to present the proposed educational model and explore participants’ perceptions of its significance and contributions to future education.
+Findings
+Key findings include the following: participants perceived complexity as difficult and challenging; causes of problems were linked to outdated educational models requiring replacement by those that develop students’ competencies; participants envisioned changes that would develop individuals capable of understanding and transforming society; and participants recognized the model’s transformative potential, offering a novel proposal for 21st-century education.
+Originality/value
+This research sought to gather opinions from different stakeholders using the CLA methodology, providing a deep understanding of participants’ perspectives on the proposed solution.
+Keywords: Complex thinking; Educational innovation; Higher education; Educational model
+
+Hause Lin, Gordon Pennycook, David G. Rand,
+Thinking more or thinking differently? Using drift-diffusion modeling to illuminate why accuracy prompts decrease misinformation sharing,
+Cognition,
+Volume 230,
+2023,
+105312,
+ISSN 0010-0277,
+https://doi.org/10.1016/j.cognition.2022.105312.
+(https://www.sciencedirect.com/science/article/pii/S0010027722003018)
+Abstract: Recent experiments have found that prompting people to think about accuracy reduces misinformation sharing intentions. The process by which this effect operates, however, remains unclear. Do accuracy prompts cause people to “stop and think,” increasing deliberation? Or do they change what people think about, drawing attention to accuracy? Since these two accounts predict the same behavioral outcomes (i.e., increased sharing discernment following a prompt), we used computational modeling of sharing decisions with response time data, as well as out-of-sample ratings of headline perceived accuracy, to test the accounts' divergent predictions across six studies (N = 5633). The results suggest that accuracy prompts do not increase the amount of deliberation people engage in. Instead, they increase the weight participants put on accuracy while deliberating. By showing that prompting people makes them think better even without thinking more, our results challenge common dual-process interpretations of the accuracy-prompt effect. Our findings also highlight the importance of understanding how social media distracts people from considering accuracy, and provide evidence for scalable interventions that redirect people's attention.
+Keywords: Misinformation; Decision making; Dual process; Drift-diffusion model; Social media
+
+Adriana Medina-Vidal, José Carlos Vázquez-Parra, Marco Cruz-Sandoval, María Alejandra Clavijo-Loor,
+Complex thinking and its relationship with gender and age in a group of Mexican students,
+Learning and Motivation,
+Volume 84,
+2023,
+101937,
+ISSN 0023-9690,
+https://doi.org/10.1016/j.lmot.2023.101937.
+(https://www.sciencedirect.com/science/article/pii/S0023969023000681)
+Abstract: The literature addresses the importance of developing competencies, but not from the complexity theory, nor does it show the importance of the correlation between gender and age in this process. This article aims to show the results of a study seeking a possible correlation between the perceived achievement of complex thinking competency and gender and age in a student population attending a technological university in western Mexico. The intention is to argue whether there is a statistically significant difference in the acquisition and development of this competency between men and women of different ages during their training. Methodologically, a multivariate descriptive statistical analysis was carried out to demonstrate the relationship between these indicators. We concluded that there is evidence of a gender gap in developing the perceived achievement of the complex thinking competency and its sub-competencies since neither in the overall result nor in the specific results by indicator did women achieve results proportional to those of their male peers, although, in most competencies, they initially surpassed them. The learning experience shows that the gender gap in perceived achievement of complex thinking competency widens as the student population advances in their training process.
+Keywords: Professional Education; Educational Innovation; Future of Education; Complex thinking; Gender Gap, Higher Education
+
+Giorgia Adorni, Simone Piatti, Volodymyr Karpenko,
+Virtual CAT: A multi-interface educational platform for algorithmic thinking assessment,
+SoftwareX,
+Volume 27,
+2024,
+101737,
+ISSN 2352-7110,
+https://doi.org/10.1016/j.softx.2024.101737.
+(https://www.sciencedirect.com/science/article/pii/S2352711024001080)
+Abstract: The virtual Cross Array Task (CAT) is an educational platform designed to evaluate algorithmic thinking (AT) skills among students within Swiss compulsory education. This tool introduces an adaptable multi-interface system, enabling users to interact via intuitive gesture-based commands or through a visual programming interface that uses drag-and-drop blocks, facilitating a versatile approach to constructing and understanding algorithms. The platform encompasses a comprehensive training module for skill acquisition and a validation module for assessment. The system offers real-time feedback to users during activities, adjusting dynamically based on their actions, providing insights into progress and areas for improvement, thereby facilitating learning and performance enhancement. With multilingual capabilities extended to English, German, French, and Italian, the virtual CAT is intricately crafted to meet the diverse needs of educational contexts across various regions. Preliminary application and evaluation through a small-scale study indicate the virtual CAT’s potential to offer scalable assessment and a robust platform for integrating AT into broader educational and research methodologies, setting the stage for its integration into academic research and daily pedagogical practice.
+Keywords: Algorithmic thinking; Educational assessment; Multilingual learning tool; Child-computer interaction; Gesture-based interface; Visual programming interface
+
+Yoed N. Kenett, Roger E. Beaty,
+On semantic structures and processes in creative thinking,
+Trends in Cognitive Sciences,
+Volume 27, Issue 11,
+2023,
+Pages 979-980,
+ISSN 1364-6613,
+https://doi.org/10.1016/j.tics.2023.07.011.
+(https://www.sciencedirect.com/science/article/pii/S1364661323001924)
+
+Lindsay Rondot, Phillip P. Witkowski, Erie D. Boorman,
+Exploring the frontal pole: Bridging theories and revealing associated neural computations,
+Editor(s): Jordan Henry Grafman,
+Encyclopedia of the Human Brain (Second Edition),
+Elsevier,
+2025,
+Pages 145-158,
+ISBN 9780128204818,
+https://doi.org/10.1016/B978-0-12-820480-1.00105-4.
+(https://www.sciencedirect.com/science/article/pii/B9780128204801001054)
+Abstract: The frontopolar cortex (FPC) has long been enigmatic. Indeed, studies have found it to be important for diverse cognitive functions, encompassing prospective memory, cognitive control, relational thinking, and exploratory decision-making. In this article, we will provide a comprehensive review of the literature on the current understanding of the functions of the FPC and its role in these cognitive processes, including important findings and insights gained from recent studies. These encompass the FPC's involvement in monitoring and switching between abstract representations, rule integration, role in analogical reasoning, exploration of alternative choices, and its implications in adaptive behavior and learning.
+Keywords: Anterior prefrontal cortex; Broadmann area 10; Cognitive functions; Counterfactual reasoning; Decision-making; Exploration; Frontal polar cortex; Hierarchical cognitive control; Neuroimaging; Prospective memory; Relational thinking; Rostral lateral prefrontal cortex
+
+Kok-Sing Tang, Karen Murcia, Jeff Brown, Emma Cross, Sarsha Mennell, Julia Seitz, Shanii R.P. Phillips, Daniel Sabatino,
+Exploring the multimodal affordances of digital coding devices in fostering creative thinking in early childhood education,
+Thinking Skills and Creativity,
+Volume 53,
+2024,
+101602,
+ISSN 1871-1871,
+https://doi.org/10.1016/j.tsc.2024.101602.
+(https://www.sciencedirect.com/science/article/pii/S1871187124001408)
+Abstract: Digital technologies are increasingly acknowledged for their potential to enrich early childhood learning experiences, particularly in the area of creativity. However, research has tended to focus upon end products and skill development, and little is known about creative development processes. This study sought to explore young children's creative processes as they engaged with three digital coding devices over an eight-week period as part of a Digital Discovery Program. It employed a microethnography to provide nuanced observations of five young children's (aged 4–5 years) interactions and behaviours. Data was collected through approximately 40 hours of video recordings, capturing the dynamic and multimodal aspects of the childrenʼs play and learning experiences. A multimodal interaction analysis was used to examine the multimodal design affordances of each device as mapped against Murcia et al.'s (2020) A-E of Creativity Framework. The findings revealed a clear interplay between digital technologies and various modes of communication, with children demonstrating creativity through their verbal expressions, manipulation of the devices, and spatial understanding of their physical environment. By understanding the multimodal affordances of digital devices aligned with educational frameworks and embracing child-specific definitions of creativity, educators, curriculum designers, policymakers, and researchers can collectively promote creativity and enrich digital learning and play for young children.
+Keywords: Creativity; Digital technology; Early years learning; Multimodality
+
+Arturo Estrada Rodríguez, Giuditta Pezzotta, Roberto Pinto, David Romero,
+A framework for cost estimation in product-service systems: A systems thinking approach,
+CIRP Journal of Manufacturing Science and Technology,
+Volume 38,
+2022,
+Pages 748-759,
+ISSN 1755-5817,
+https://doi.org/10.1016/j.cirpj.2022.06.013.
+(https://www.sciencedirect.com/science/article/pii/S1755581722001201)
+Abstract: Original Equipment Manufacturers (OEMs) are increasingly undergoing a transition into the offering of Product-Service System (PSS) solutions. This transition has proven to be a difficult challenge characterised by inadequate contract decisions due to cost under-estimations and performance overpromises. Despite the relevance of cost estimation for the OEM’s transition into the PSS scheme, little research attention has been received until recently for the development of cost estimation frameworks appropriate for the PSS context. To fill this gap, this paper proposes a framework for cost estimation in the PSS context based on the “systems-thinking” approach, composed of a set of iterative modules and methodological foundations that bring into discussion several properties relevant to the PSS context. A numerical control multi-axis machine centre PSS is illustrated to evidence the capability of the framework to analyse the cost impacts on both the customer and on the OEM side and to support the design and improvement of PSS configurations and associated contract mechanisms.
+Keywords: Product-Service Systems (PSS); PSS cost estimation framework; PSS design; PSS engineering; PSS contract design
+
+Sandrine Lacroix, Martijn Kuller, Garance Gougeon, Justine Petrucci, Florence Lemieux-Chalifour, Alexandre Rioux, Danielle Dagenais, Françoise Bichai,
+Can we stop reinventing the wheel in blue-green infrastructure planning? Using value-focused thinking to enable transferability of a multicriteria planning support system,
+Landscape and Urban Planning,
+Volume 252,
+2024,
+105188,
+ISSN 0169-2046,
+https://doi.org/10.1016/j.landurbplan.2024.105188.
+(https://www.sciencedirect.com/science/article/pii/S0169204624001877)
+Abstract: Strategic planning approaches are essential for addressing the complex and multi-dimensional challenges in selecting blue-green infrastructure (BGI) location. The development of planning support systems (PSS) for BGI siting often lacks a value-based approach with early stakeholder engagement. In this study, we used value-focused thinking (VFT) to adapt and develop a BGI planning support framework to the Canadian urban context, moving towards an objective-driven framework. We provide a hierarchical objectives framework for BGI planning in urban areas, aligned with stakeholder values, with three-level information: higher-level objectives, lower-level objectives and measurable spatial attributes. To assess site performance across these attributes, value scales elicitation was conducted with 17 experts. The engagement of 37 stakeholders in co-creating and validating our objectives set helped identify common concerns and refine our framework, focusing on the most relevant objectives for stakeholders. The VFT approach and the resulting framework can be easily transferred to other cities in Quebec (Canada), but also to other urban contexts looking to optimize BGI site selection to maximize benefits across the multiple functions of BGI and opportunities arising from the urban context.
+Keywords: Urban planning; GIS-MCDA; Blue-green infrastructure; Suitability mapping; Value-focused thinking
+
+Denis G. Dumas, Yixiao Dong, Mark Leveling,
+The zone of proximal creativity: What dynamic assessment of divergent thinking reveals about students’ latent class membership,
+Contemporary Educational Psychology,
+Volume 67,
+2021,
+102013,
+ISSN 0361-476X,
+https://doi.org/10.1016/j.cedpsych.2021.102013.
+(https://www.sciencedirect.com/science/article/pii/S0361476X21000722)
+Abstract: Divergent Thinking is a domain-general mental attribute closely associated with creativity that can be quantified through the use of text-mining algorithms. Past research has shown that students’ Divergent Thinking is malleable in response to relatively simple contextual prompts. In addition, there is substantial variance in the degree to which individual students’ Divergent Thinking is malleable, suggesting the presence of a student-specific zone-of-proximal-development in relation to creativity. Here, we adopted a dynamic assessment paradigm that included multiple conditions under which student Divergent Thinking was measured and fit a latent profile analysis model to that dynamic assessment data. We found that, although on average the Originality of student responses can be augmented through a prompt to generate surprising or unusual ideas, three latent classes emerged that differed significantly on their patterns of augmentation. These three latent classes were termed: (a) Conventional Thinkers (7.80% of the sample), whose response to the Divergent Thinking task were highly constrained and unoriginal across all conditions (b) Prompted Shifters (66.56%), whose Originality significantly increased across conditions, and (c) Idea Generators (25.64%), whose responses were highly original across all conditions. These latent profiles were validated in regard to personality characteristics and domain-specific creative activities, with Idea Generators reporting significantly more Openness and Intellect, less Industriousness, and more creative activities across the domains of Literature, Music, Sports, Visual Art, Science, and Cooking than did the other latent classes.
+Keywords: Creativity; Dynamic assessment; Divergent thinking; Latent profile analysis
+
+Kai Wei, Daimeng Shang, Xi Zhong,
+Life-cycle thinking-based decision support framework for multispan simply supported bridges under typhoon-induced wave, current and surge conditions,
+Ocean Engineering,
+Volume 288, Part 1,
+2023,
+115965,
+ISSN 0029-8018,
+https://doi.org/10.1016/j.oceaneng.2023.115965.
+(https://www.sciencedirect.com/science/article/pii/S0029801823023491)
+Abstract: Coastal bridges usually suffer from wave, current, and storm surge hazards simultaneously under typhoons. Comprehensive mitigation measures can reduce the structural failure probability under these hazards but usually lead to a conservative structural design and a significant increase in the project budget. With the recent development of sustainable structural design, the multicriteria decision-making method can assist engineers in incorporating the life-cycle investment and probability of hazards in the design selection. In this paper, a life-cycle thinking-based decision support framework that considers multicriteria trade-offs and sustainable design was proposed for the design of coastal bridges under typhoon-induced wave, current and surge conditions. The simulation of the typhoon-induced wave, current and surge conditions was developed using SWAN + ADCIRC model, joint probability and environmental contours. The multispan simply supported (MSSS) bridge was then used to illustrate the framework. The main findings include that the void slab girder is better than the other girder types in the equal-weighted, risk-averse and pro-economic scenarios for the example bridge, but the change in girder types has a small impact on the economic cost index score. The increase in the girder height can increase the failure probability when deck shifting dominates the superstructure's failure.
+Keywords: Coastal bridges; Typhoon; Decision-support framework; Joint probability; Environmental contours; Life-cycle assessment
+
+Tova Michalsky,
+Metacognitive scaffolding for preservice teachers’ self-regulated design of higher order thinking tasks,
+Heliyon,
+Volume 10, Issue 2,
+2024,
+e24280,
+ISSN 2405-8440,
+https://doi.org/10.1016/j.heliyon.2024.e24280.
+(https://www.sciencedirect.com/science/article/pii/S2405844024003116)
+Abstract: This study compared two professional training courses targeting self-regulated learning (SRL) amongst preservice secondary science teachers in the context of didactic content knowledge for teaching higher-order thinking (HOT-PCK), either with metacognitive scaffolding (Meta group) or without (Control group). Measures included trainees' comprehension and design of HOT-PCK learning tasks, online SRL reflections about learning-teaching events, and self-reported SRL aptitude. Results indicated skill improvement in both groups, but the metacognitive support provided by the IMPROVE self-questioning technique better enhanced the preservice teachers’ (PSTs) development of HOT-PCK, both as students (comprehension skills) and as future teachers (design skills), additionally as their ability to reflect on and control their studying. Findings also revealed significant correlations between SRL assessments (self-reports, event-based reflections) and between SRL and HOT-PCK indices. Consequences for teacher education combining SRL and HOT-PCK contexts are discussed.
+Keywords: Preservice secondary teachers; High-order thinking; Pedagogical content knowledge; Self-regulated learning; Lesson design; Science teaching
+
+Francesco Benedetti, Mariagrazia Palladini, Greta D'Orsi, Roberto Furlan, Fabio Ciceri, Patrizia Rovere-Querini, Mario Gennaro Mazza,
+Mood-congruent negative thinking styles and cognitive vulnerability in depressed COVID-19 survivors: A comparison with major depressive disorder,
+Journal of Affective Disorders,
+Volume 308,
+2022,
+Pages 554-561,
+ISSN 0165-0327,
+https://doi.org/10.1016/j.jad.2022.04.077.
+(https://www.sciencedirect.com/science/article/pii/S0165032722004153)
+Abstract: Background
+COVID-19 is associated with depressive psychopathology in survivors. Negative thinking styles are a core feature of major depression, fostering the experience of negative emotions and affects and hampering recovery. This cognitive vulnerability has been observed in medical conditions associated with depression, but never explored in post-COVID depression.
+Methods
+We studied 729 participants: 362 COVID-19 survivors, 73 inpatients with Major Depressive Disorder (MDD), and 294 healthy participants (HC). Severity of depression was self-rated on the Zung Self-Rating Depression Scale (ZSDS). Neuropsychological bias toward negative emotional stimuli and the negative outlook on the self were tested in a self-description task, yielding latencies and frequencies of attribution of morally tuned elements. Dimensions of negative thinking and depressive cognitive style in evaluation of hypothetical events were measured on the Cognition Questionnaire (CQ).
+Results
+22.4% COVID survivors self-rated depression above the clinical threshold. Frequencies and latencies of attribution of morally negative elements, and CQ scores, correlated between themselves and predicted ZSDS scores, with post-COVID depressed patients showing intermediate scores between the more severe MDD patients, and non-depressed post-COVID participants and HC.
+Limitations
+Recruitment was in a single center, thus raising the possibility of population stratification.
+Conclusions
+The breadth of self-reproach and depressive cognitive style in evaluating events showed the same association with severity of depression in MDD and in post-COVID depressed patients, distributing along a gradient of severity, thus suggesting that individual features of negative thinking styles are shared in these conditions, and should be addressed as treatment targets in depressed COVID-19 survivors.
+Keywords: COVID; Depression; Cognition; Neuropsychology; Bias; Distortion
+
+Rivka Oxman,
+Thinking difference: Theories and models of parametric design thinking,
+Design Studies,
+Volume 52,
+2017,
+Pages 4-39,
+ISSN 0142-694X,
+https://doi.org/10.1016/j.destud.2017.06.001.
+(https://www.sciencedirect.com/science/article/pii/S0142694X17300431)
+Abstract: The paper examines the uniqueness of seminal parametric design concepts, and their impact on models of parametric design thinking (PDT). The continuity and change within the evolution of design thinking is explored through review of key texts and theoretical concepts from early cognitive models up to current models of parametric design thinking. It is proposed that the seminal role for parametric schema, as a strategic medium of parametric design thinking, is formulated at the intersection of three bodies of knowledge: cognitive models of typological and topological design in architecture; process models of digital design; and tectonic order of material fabrication design (MFD). Differentiation is introduced as a key design strategy of PDT and is demonstrated through classification of prominent case studies.
+Keywords: computational models; parametric design; design cognition; design knowledge; parametric design thinking
+
+Shiyu Liu, Chengfeng Li,
+Promoting design thinking and creativity by making: A quasi-experiment in the information technology course,
+Thinking Skills and Creativity,
+Volume 49,
+2023,
+101335,
+ISSN 1871-1871,
+https://doi.org/10.1016/j.tsc.2023.101335.
+(https://www.sciencedirect.com/science/article/pii/S1871187123001049)
+Abstract: Design thinking and creativity are instrumental elements of 21st century skills. In K-12 education, much is left to be known about how to develop curricula to more effectively foster students’ design and creative thinking. This study introduced maker education to the information technology course to investigate the effects of design-oriented making on students’ learning of programming, creativity, and design thinking. Seventy-two fifth-grade students from two classes at a rural primary school in China participated in this eight-week study. Both classes learned about programming a digital greeting card with Mind+, when the experimental group was taught with a design-oriented making pedagogy, whereas the control group learned through a conventional teaching approach. Questionnaires were used to assess students’ knowledge learning, creativity and design thinking competence. Findings showed that when embedded in an open-ended problem-solving context, integrating design thinking into making as a pedagogy can be conducive to the development of design thinking and creativity. Important implications are made to inform future endeavors in fostering student thinking in maker education.
+Keywords: Design thinking; Creativity; Making; Information technology
+
+Stephanie Lu, Joanne A. McVeigh, Rodrigo Becerra, Romola S. Bucks, Michael Hunter, Kristin Naragon-Gainey,
+Repetitive negative thinking and emotion regulation as mediators of the association between activity-related behaviours and depression,
+Journal of Affective Disorders Reports,
+Volume 16,
+2024,
+100748,
+ISSN 2666-9153,
+https://doi.org/10.1016/j.jadr.2024.100748.
+(https://www.sciencedirect.com/science/article/pii/S2666915324000337)
+Abstract: Background
+More physical activity and less sitting time are associated with less severe depression, but the psychological mechanisms underlying these associations remain unclear. Repetitive negative thinking (RNT) and difficulties regulating emotions are key transdiagnostic risk factors for depression and are key targets in current psychotherapies. The current study tested RNT and emotion regulation difficulties as mediators of the associations of depression with (1) physical activity and (2) sitting time.
+Method
+We analysed data from community-dwelling adults in middle to late adulthood (aged 46–68 at baseline; N = 1189) from The Busselton Healthy Ageing Study, assessed three times across 11 years. Serial mediation models were tested cross-sectionally, prospectively, and persistently (i.e., throughout the course of the study).
+Results
+Results indicated support for cross-sectional serial mediation for physical activity and sitting time models, but not for longitudinal models. However, RNT individually mediated the persistent sitting time-depression model.
+Limitations
+All data was self-reported. Mediators could only be assessed at the last time point within the larger study, constraining the temporal associations that could be tested. Further studies assessing mediators across time using different methods and time intervals are needed.
+Conclusions
+Our findings provide some initial evidence for psychological pathways by which the benefits of greater physical activity and lower sitting time may be conferred. If supported longitudinally and in experimental designs, increased physical activity and reduced sitting time may be beneficial therapeutic targets for older adults at risk for depression and/or who experience difficulties with rumination and emotion regulation.
+Keywords: Rumination; Emotion regulation; Sitting time; Older adults; Physical activity; Depression
+
+Adnan Tasgin, Cigdem Dilek,
+The mediating role of critical thinking dispositions between secondary school student's self-efficacy and problem-solving skills,
+Thinking Skills and Creativity,
+Volume 50,
+2023,
+101400,
+ISSN 1871-1871,
+https://doi.org/10.1016/j.tsc.2023.101400.
+(https://www.sciencedirect.com/science/article/pii/S1871187123001682)
+Abstract: This research examines whether critical thinking dispositions significantly mediate secondary school students’ self-efficacy and problem-solving skills. The sample of the study consisted of a total of 304 secondary school students. Study data were obtained by using the “Problem-Solving Skills Perception Scale for Secondary School Students”, “Critical Thinking Disposition Scale for Secondary School Students”, and “Middle School Self-Efficacy Scale.” It was examined whether the scores of the variables in the study were normally distributed. After it was understood that the data were normally distributed, the analyses were conducted. The relationships between the variables were analyzed with Pearson Product Moment Correlation Analysis and significant relationships were found between the variables. Then, a mediation model was established to analyze whether critical thinking has a mediating role in the relationship between middle school students' self-efficacy and problem-solving skills. The significance of the indirect effect in this mediation model was tested by the bootstrapping procedure. In the study, it was concluded that all variables were positively and significantly related to each other and critical thinking significantly mediated the relationship between self-efficacy and problem-solving skills in secondary school students.
+Keywords: Problem-solving skills; Critical thinking; Self-efficacy
+
+Rafael Parizi, Matheus Prestes, Sabrina Marczak, Tayana Conte,
+How has design thinking being used and integrated into software development activities? A systematic mapping,
+Journal of Systems and Software,
+Volume 187,
+2022,
+111217,
+ISSN 0164-1212,
+https://doi.org/10.1016/j.jss.2022.111217.
+(https://www.sciencedirect.com/science/article/pii/S0164121222000024)
+Abstract: Software companies have been using Design Thinking (DT) as a user-centered design approach, putting the user at the center of the software development process. In this article, we report a Systematic Mapping Study to investigate the use of DT in software development. We evaluated 127 papers from 2010 to 2021. We analyzed how DT is integrated in software development, what are the models and techniques, what are the criteria used for selecting DT techniques, and what are the key points that DT practitioners should be aware of when using DT. As a result, we identified 3 strategies to integrate DT in software development, 16 models, and 85 techniques. We also found that the selection of techniques is related to the models’ working spaces being performed, and identified 7 criteria used for selecting DT techniques. Furthermore, we summarized 16 key points that DT practitioners should pay attention when using DT, and we proposed 4 takeaways for applying DT in software development Thus, our study contributes to DT practitioners by providing information to be used either as a starting point, or to integrate it into activities already performed by teams, or as a strategy to foster changes in the entire organization’s mindset.
+Keywords: Software development; User-centered design; Design thinking; Literature review; Systematic mapping study
+
+Ying Cai, Jun Lin, Ruxin Zhang,
+When and how to implement design thinking in the innovation process: A longitudinal case study,
+Technovation,
+Volume 126,
+2023,
+102816,
+ISSN 0166-4972,
+https://doi.org/10.1016/j.technovation.2023.102816.
+(https://www.sciencedirect.com/science/article/pii/S016649722300127X)
+Abstract: Design thinking is viewed as an attractive approach to fostering innovation. Interest in this area has increased significantly in recent years, and an increasing number of firms employ this approach, especially in the early stages of the innovation process, in which context design thinking is used to gain insights into user needs and generate new ideas. However, empirical evidence regarding the timing and process associated with the deployment of design thinking during the three different phases of the innovation process (fuzzy front end, development and testing, and commercialization) remains very limited. This gap may hinder research and practical advancements regarding when and how to implement design thinking in the innovation process. We explore this problem through a case study of a leading Chinese technology firm in the refrigeration industry using a longitudinal lens. We show that when and how the firm uses the four design thinking practices—(1) user-centeredness, (2) embracing diversity, (3) visualization and (4) iteration—to enable a transition from the fuzzy front end to development and testing and ultimately to commercialize a new product. Moreover, our findings suggest that the firm needs to adapt to the changing innovation goals and dynamically adjusts the content and intensity of design thinking practices as the innovation phase progresses. These findings therefore offer practical guidance for managers adopting design thinking to promote innovation.
+Keywords: Design thinking; Design thinking implementation; Design thinking practice; Innovation; Innovation process; Commercialization
+
+Libby Azaryahu, Orit Broza, Shai Cohen, Sara Hershkovitz, Esther Adi-Japha,
+Development of creative thinking patterns via math and music,
+Thinking Skills and Creativity,
+Volume 47,
+2023,
+101196,
+ISSN 1871-1871,
+https://doi.org/10.1016/j.tsc.2022.101196.
+(https://www.sciencedirect.com/science/article/pii/S1871187122001973)
+Abstract: The present study examines the development of patterns of creative thinking among third graders (N = 84) following multidisciplinary learning that combines math and music with various teaching emphases. For the purpose of the study, an intervention program was used focusing on patterns of creative thinking. Three classes received identical MusiMath instruction that explicitly links math and music. These classes received additional instruction regarding patterns of creative thinking differing in focus: Creative Math class, Creative Music class, and Creative Math and Music class. The fourth class was used as a control class that learned math and music in a standard way without creative intervention. To collect the data, we developed software that enabled the students to perform musical and mathematical tasks that included questions with only one correct answer, and questions that invited original and varied answers that encouraged creative thinking. Pre‐ to post‐intervention analyses indicated that the experimental groups outperformed the control group on patterns of creative thinking in both math and music, regardless of the teaching focus. Combined instruction in creativity in the Math and Music class resulted in similar patterns of creativity in the two domains, suggesting that the creative thinking was transferable from one domain to another.
+
+Omer Kocak, Murat Coban, Abdulkerim Aydin, Nermin Cakmak,
+The mediating role of critical thinking and cooperativity in the 21st century skills of higher education students,
+Thinking Skills and Creativity,
+Volume 42,
+2021,
+100967,
+ISSN 1871-1871,
+https://doi.org/10.1016/j.tsc.2021.100967.
+(https://www.sciencedirect.com/science/article/pii/S1871187121001826)
+Abstract: This study investigates whether cooperativity and critical thinking mediate the relationship between other 21st century skills (algorithmic thinking, creativity, digital literacy, and effective communication) and problem-solving. Structural Equation Modelling (SEM) analysis was used to determine the mediating relationship between 21st century skills. The study participants were 714 undergraduate students from various regions of Turkey selected through purposive sampling and who participated on a voluntary basis. Computational thinking, effective communication, and digital literacy scales were used and a significant correlation was found between all the 21st century skills. A series of structural equation models were tested. The final model suggests that, in line with predictions, critical thinking mediates the relationship between the 21st century skills of cooperativity, digital literacy, creativity, algorithmic thinking, and problem solving. However, somewhat different from predictions is the finding that communication skills directly predict problem solving without further mediation. Thus, overall, the findings indicate that critical thinking has a crucial mediating role between other 21st century skills and problem solving.
+Keywords: 21st-century skills; Problem-solving; Critical thinking; Cooperativity; Mediating analysis
+
+Simone Luchini, Yoed N. Kenett, Daniel C. Zeitlen, Alexander P. Christensen, Derek M. Ellis, Gene A. Brewer, Roger E. Beaty,
+Convergent thinking and insight problem solving relate to semantic memory network structure,
+Thinking Skills and Creativity,
+Volume 48,
+2023,
+101277,
+ISSN 1871-1871,
+https://doi.org/10.1016/j.tsc.2023.101277.
+(https://www.sciencedirect.com/science/article/pii/S1871187123000470)
+Abstract: The associative theory of creativity has long held that creative thinking involves connecting remote concepts in semantic memory. Network science tools have recently been applied to map the organization of concepts in semantic memory, and to study the link between semantic memory and creativity. Yet such work has largely overlooked the domain of convergent thinking, despite the theoretical importance of semantic memory networks for facilitating associative processes relevant for convergent problem solving (e.g., spreading activation). Convergent thinking problems, such as the Compound Remote Associates (CRA) test, can be solved with insight (the sudden “aha” experience) or analysis (deliberately and incrementally working towards the solution). In a sample of 477 participants, we adopted network science methods to compare semantic memory structure across two grouping variables: 1) convergent thinking ability (i.e., CRA accuracy), and 2) the self-reported tendency to solve problems with insight or analysis. Semantic memory networks were constructed from a semantic fluency task, and problem solving style (insight or analysis) was determined from judgments provided during solving of CRAs. We found that, compared to the low-convergent thinking group, the high-convergent thinking group exhibited a more flexible and interconnected semantic network—with short paths and many connections between concepts. Moreover, participants who primarily solved problems with insight (compared to analysis) showed shorter average path distances between concepts, even after controlling for accuracy. Our results extend the literature on semantic memory and creativity, and suggest that the organization of semantic memory plays a key role in convergent thinking, including insight problem solving.
+Keywords: Convergent thinking; Insight; Problem solving; Remote associates test; Semantic networks
+
+Raymond M. Klein,
+Thinking about attention: Successive approximations to a productive taxonomy,
+Cognition,
+Volume 225,
+2022,
+105137,
+ISSN 0010-0277,
+https://doi.org/10.1016/j.cognition.2022.105137.
+(https://www.sciencedirect.com/science/article/pii/S0010027722001251)
+Abstract: Attention, the recruitment of processing resources, is viewed as pivotal for understanding normal behaviour and thought as well as the disorganizations associated with brain damage and disease. A brief history foreshadows aspects of a proposed taxonomy of attention that builds upon Posner's tripartite taxonomy. Posner's influential taxonomy views attention as a set of isolable neural systems (alerting, orienting and executive control), often working together to organize behaviour. For measuring the efficacy of these three networks, Posner and colleagues created the Attention Network Test (ANT). The impact of the taxonomy and this model task for exploring it is illustrated by the facts that they have spawned numerous variants designed for different purposes and that one or another variant has been used in almost a thousand publications. We have previously built upon this conceptual framework by considering: two modes of control over resource allocation which we labelled exogenous and endogenous and three domains over which these modes of control are presumed to operate (space, time and task or activity). The Combined Attention Systems Test (or CAST) was developed to measure the efficacy of the six kinds of attention implied by revised taxonomy. Lastly, this taxonomic effort is further developed by incorporating the distinction between overt, observable behaviour in the “real” world and covert “behaviour” in the realm of thought and imagination.
+Keywords: Attention; Thinking; Endogenous; Exogenous; Internal; External
+
+Lorenzo Mattioni, Francesca Ferri, Ana V. Nikčević, Marcantonio M. Spada, Carlo Sestieri,
+Twisted memories: Addiction-related engrams are strengthened by desire thinking,
+Addictive Behaviors,
+Volume 145,
+2023,
+107782,
+ISSN 0306-4603,
+https://doi.org/10.1016/j.addbeh.2023.107782.
+(https://www.sciencedirect.com/science/article/pii/S0306460323001776)
+Abstract: Associative learning plays a central role in addiction by reinforcing associations between environmental cues and addiction-related information. Unsupervised learning models posit that memories are adjusted based on how strongly these representations are coactivated during the retrieval process. From a different perspective, clinical models of addiction posit that the escalation and persistence of craving may depend on desire thinking, a thinking style orienting to prefigure information about positive addiction-related experiences. In the present work, we tested the main hypothesis that desire thinking is a key factor in the strengthening of addiction-related associations. A group of adult smoking volunteers (N = 26) engaged in a period of desire thinking before performing an associative learning task in which neutral words (cues) were shown along with images (smoking-related vs. neutral context) at different frequencies. Two retrieval tests were administered, one immediately after encoding and the other after 24 h, to test how the recall of associations changed as a function of retention interval. Two control groups, smokers (N = 21) and non-smokers (N = 22), performed a similar procedure, with a neutral imagination task replacing desire thinking. Participants who engaged in desire thinking increased their performance from the first to the second retrieval test only for the most frequent smoking-related associations. Crucially, this selective effect was not observed in the two control groups. These results provide behavioral evidence in support of the idea that desire thinking plays a role in strengthening addiction-related associations. Thus, this thinking process may be considered a target for reconsolidation-based conceptualizations of, and treatments for, addiction.
+Keywords: Addictive behaviors; Associative memory; Desire thinking; Reconsolidation; Unsupervised learning
+
+Magnus Høholt Kaspersen, Daniel Graungaard, Niels Olof Bouvin, Marianne Graves Petersen, Eva Eriksson,
+Towards a model of progression in computational empowerment in education,
+International Journal of Child-Computer Interaction,
+Volume 29,
+2021,
+100302,
+ISSN 2212-8689,
+https://doi.org/10.1016/j.ijcci.2021.100302.
+(https://www.sciencedirect.com/science/article/pii/S2212868921000325)
+Abstract: In this paper, we present a model for progression in computational empowerment in education. Computational empowerment (CE) expands computational thinking (CT) by adding a focus on empowering citizens to critically engage with technology, but currently lacks an articulation of what characterises progression towards CE. Through combining aims from computational thinking with computational empowerment, and structure progression using the SOLO taxonomy, we take the first steps towards a model for understanding and articulating progression in computational empowerment. The model has been applied in the analysis of four CE-focused research projects. Based on the analysis, we propose that computational empowerment is a matter of reaching a high competency level regarding computational concepts, computational practices and reflexivity regarding the effect of technology in one’s own life and in society. Finally, by formulating examples of learning goals, we illustrate how the model can be used by teachers and researchers to articulate, determine and compare CE learning goals, so that learning goals are aligned and complement each other from one stage to the next.
+Keywords: Computational thinking; Computational empowerment; Education
+
+Sophia Rapti, Theodosios Sapounidis,
+“Critical thinking, Communication, Collaboration, Creativity in kindergarten with Educational Robotics”: A scoping review (2012–2023),
+Computers & Education,
+Volume 210,
+2024,
+104968,
+ISSN 0360-1315,
+https://doi.org/10.1016/j.compedu.2023.104968.
+(https://www.sciencedirect.com/science/article/pii/S0360131523002452)
+Abstract: Critical thinking, Communication, Collaboration, and Creativity are regarded as key skills for today's learners. Interest in robotics usage to develop such competencies in educational settings arises but there hasn't been so far mapping of the research conducted in this field. Thus, we present a scoping review of 59 articles published from 2012 to 2023 in 4 Databases and 2 Registers examining kindergarteners' skills through Educational Robotics. Our goal was to map which skills are commonly examined in kindergarten and under which terminology as well as to investigate the studies' features, the types of robotics, and the assessment tools utilized. Our findings depict that several skills are evaluated using different terms. Critical thinking is examined most frequently, creativity the least, and communication is integrated into collaboration and the opposite. Most of the researchers used the mixed method focusing on qualitative tools, examining quite a small sample size, and conducting the intervention for a short time. Also: BeeBot, Lego robotics kits (WeDo, Mindstorms), and social, humanoid robots are often used. Additionally, the evaluation tools used in the reviewed papers are presented and categorized into groups. This scoping demonstrates that robotics might affect positively the children's cognitive skills and creativity but may not facilitate their interactions so much regarding emotional expressions. Moreover, a gap in quantitative research on kindergarteners' skills development via Educational Robotics is spotted. Finally, this scoping review suggests: creating clear terms for skills, developing robotics tailored to kindergarten age, forming full robotics activities, and designing modular evaluation tools for young learners' capacities.
+Keywords: Educational robotics; Creativity; Critical thinking; Communication; Collaboration; Scoping review
+
+Yong Liu, Attila Pásztor,
+Design and validate the Employer-Employee-Supported Critical Thinking Disposition Inventory (2ES-CTDI) for undergraduates,
+Thinking Skills and Creativity,
+Volume 46,
+2022,
+101169,
+ISSN 1871-1871,
+https://doi.org/10.1016/j.tsc.2022.101169.
+(https://www.sciencedirect.com/science/article/pii/S1871187122001729)
+Abstract: Even though the framework of critical thinking (CT) comprises both skills and disposition, many studies have placed more emphasis on evaluating CT skills than disposition, probably because of the paucity of disposition instruments. On the contrary, CT disposition (CTD) is more frequently mentioned in the workforce than CT skills. Furthermore, prevalent disposition instruments are mostly based on the literature and suggestions from educators, rather than employers' or employees’ perspectives. The purpose of this study is to design and validate the Employer-Employee-Supported Critical Thinking Disposition Inventory (2ES-CTDI) for college students to evaluate CTD. Intelligence accumulation (IA) was employed to synthesize the ideas from the literature, 25 employers, 43 employees, and a seven-person expert group. The interpretative structural model (ISM) was used to build the potential inventory. Validation data were collected from 661 Chinese undergraduate students (328 males, 49.6 %, Mean = 19.22, SD = 1.20 and 333 females, 50.4 %, Mean = 19.91, SD = 1.23) in 2021. Explorative factor analysis (EFA) was conducted for consistency between the conceptual framework and data. Confirmative factor analysis (CFA) and the common method variance (CMV) were adopted to check the model fit and structural validity. Partial least squares structural equation modeling (PLS-SEM) was used to identify the mediating effects among CTD components, and item response theory (IRT) was utilized to evaluate the test endorsement and item discrimination. Finally, a three-factor seven-point CT disposition inventory was confirmed. This newly-developed scale can be used to assess college students’ CTD as expected by the job market. While the inventory has been validated in this study, its contents are limited to intelligence obtained from the participants from some Chinese job markets. Further validations need to be carried out and implications for wider applications need to be considered.
+Keywords: Validation; Critical thinking disposition; Inventory; Undergraduates
+
+Jazmín Mota-Nieto, Paola Massyel García-Meneses,
+A stakeholder-centred narrative exploration on carbon capture, utilisation and storage: A systems thinking and participatory approach,
+Energy Research & Social Science,
+Volume 113,
+2024,
+103563,
+ISSN 2214-6296,
+https://doi.org/10.1016/j.erss.2024.103563.
+(https://www.sciencedirect.com/science/article/pii/S2214629624001543)
+Abstract: In an ever-changing world, there is a growing need for tools and methods to comprehend the intricate interactions between social, technological and natural systems. Carbon emissions control, a key driver of today's climate instability, is one of the foremost challenges. Carbon capture, utilisation and storage (CCUS) is a technology-based option whose outcomes may vary depending on the underlying stakeholders' values, worldviews and expectations. Their perception of CCUS can be rooted in technological and economic aspects but also in social and sustainability dynamics at play. This study aims to integrate stakeholders' knowledge to uncover and explore their perceptions about CCUS as a system and its potential outcomes. The investigation is based on systems thinking, network science using fuzzy cognitive mapping, and discursive landscape. The process involved participatory data collection, analysis, and elucidation. It revealed three distinct narratives based on the stakeholders' input. The findings highlight the importance of embracing a systemic approach and acknowledging diverse forms of knowledge when designing and planning technology-based and solutions-led strategies.
+Keywords: CCUS; Cognitive mapping; Narratives; Systems thinking; Stakeholders
+
+Melanie McCaig, Rozita Dara, Davar Rezania,
+Farmer-centric design thinking principles for smart farming technologies,
+Internet of Things,
+Volume 23,
+2023,
+100898,
+ISSN 2542-6605,
+https://doi.org/10.1016/j.iot.2023.100898.
+(https://www.sciencedirect.com/science/article/pii/S2542660523002214)
+Abstract: Agricultural participants are apprehensive as the farming landscape transforms with the Internet of Things technology. Farming involves significant risk, and the addition of technology can positively or negatively impact overall operations. This paper presents the concerns of farmers by reflecting on 32 farmer interviews and the existing literature. We have categorized these concerns as technical proficiency, need for simplicity, mistrust, reliability, psychological barriers, and value-driven issues. This paper provides a holistic examination of farmers' concerns, and recommendations that combines human perspective, policies and processes, and technology. Our recommendations address these concerns by discussing cyber security, privacy and confidentiality, interoperability, user-centricity, policies and the public sector, and new business models. This work contributes to the ideation of new requirements for IoT technologies and policy in smart farming.
+Keywords: Internet of Things; Concerns; Recommendations; Interoperability; User-centricity
+
+Alexey V. Melkikh,
+Thinking, holograms, and the quantum brain,
+Biosystems,
+Volume 229,
+2023,
+104926,
+ISSN 0303-2647,
+https://doi.org/10.1016/j.biosystems.2023.104926.
+(https://www.sciencedirect.com/science/article/pii/S0303264723001016)
+Abstract: This article continues the development of the idea that all human behavior and thinking are innate. A model of thinking and functioning of the brain has been constructed, which is capable of explaining both the accuracy of molecular processes and the innateness of behaviors. The focus of the model is the phase of the wave function of the particle, which is an additional (free) parameter. It should also be emphasized that the phase of the wave function of a particle is inextricably linked with the quantum action S in the Feynman’s formulation of quantum mechanics (path integrals). A hypothesis is proposed: the set of particles that make up neurons and the brain is controlled by changing the phases from the outside (by a higher order system). Such a control system must be outside our world because our measurement methods do not allow us to determine the phase of an elementary particle. In a sense, it can be viewed as an extension of Bohm's ideas about the holographic brain and the holographic universe. Experiments are proposed that could confirm or disprove this model.
+Keywords: Hologram; Quantum brain; Phase of the wave function
+
+Belinha Herrera Tapias, Diego Hernández Guzmán, Paola Carvajal Muñoz, Nathaly Reyes Duarte,
+Digital Citizenship and Sustainable Governance: A Design Thinking Approach,
+Procedia Computer Science,
+Volume 231,
+2024,
+Pages 78-85,
+ISSN 1877-0509,
+https://doi.org/10.1016/j.procs.2023.12.175.
+(https://www.sciencedirect.com/science/article/pii/S1877050923021877)
+Abstract: This research applies design thinking to craft a prototype for a digital participation strategy that boosts the ability of Colombian communities to protect natural ecosystems. It delves into modern digital involvement trends related to environmental sustainability and examines the roles of AI and blockchain in ensuring transparency and accountability. The paper also touches on community-driven methods for sustainable management, highlighting approaches like adaptive and landscape-based co-management that incorporate citizen science and collaborative engagement. The research is rooted in participatory methods, co-creating the empathy map and prototype with the community of Villavicencio, Colombia, and the research team.
+Keywords: Type your keywords here, separated by semicolons; Digital Citizenship; Environmental Protection; Sustainable Governance; Legal Design; Community-based Approaches
+
+Shajay Bhooshan,
+Parametric design thinking: A case-study of practice-embedded architectural research,
+Design Studies,
+Volume 52,
+2017,
+Pages 115-143,
+ISSN 0142-694X,
+https://doi.org/10.1016/j.destud.2017.05.003.
+(https://www.sciencedirect.com/science/article/pii/S0142694X17300340)
+Abstract: The paper highlights aspects of a particular parametric design thinking (PDT) distilled from practice. It describes the components of PDT – cognitive model, design method and information processing model – that are critical to an efficacious, collaborative search for solutions to architectural problems. The aspect related to the information processing model is afforded a detailed examination, synthesising the state-of-the-art in practice and research. Lastly, case studies spanning six years trace the transfer of methods and knowledge from collaborations and prototypes into projects of Zaha Hadid Architects Computation and Design group (ZHCODE). These exemplify the role of a shared language of geometry and several process related aspects of parametric design critical to its success.
+Keywords: parametric design; design research; research methods; digital design; computer aided design
+
+Ling Wang, Juan Yang, Bo Sun, Daifa Wang, Rui Liu, Jiajia He, Meiyun Xia,
+Influence of high-level mathematical thinking on L2 phonological processing of Chinese EFL learners: Evidence from an fNIRS study,
+Thinking Skills and Creativity,
+Volume 47,
+2023,
+101242,
+ISSN 1871-1871,
+https://doi.org/10.1016/j.tsc.2023.101242.
+(https://www.sciencedirect.com/science/article/pii/S1871187123000123)
+Abstract: The contribution of language to the development of mathematical skills has been studied for several decades. However, how mathematical thinking influences language learning, especially second language (L2) learning, remains unknown. To approach this question, this study employed a control/experimental design to reveal the impacts of high-level mathematical thinking used in geometrical problems on the phonological processing of adult Chinese learners of English as a foreign language using a functional near-infrared spectroscopy (fNIRS) device. The results showed that high-level mathematical thinking in processing geometrical problems would not produce instant behavioural impacts on learners’ L2 learning, although it inhibited learners’ brain function activation and network functional connectivity (FC) for language processing. Nevertheless, it is presumed that high-level mathematical thinking may generate ‘cognitive residue’ in phonological processing of L2 as only learners with good phonics ability could reluctantly activate the brain regions necessary for English phonological decoding.
+Keywords: High-level mathematical thinking; Phonological processing of L2; English as foreign language; Functional near-infrared spectroscopy; Cognitive residue
+
+Thorben Jansen, Jens Möller,
+Teacher judgments in school exams: Influences of students' lower-order-thinking skills on the assessment of students’ higher-order-thinking skills,
+Teaching and Teacher Education,
+Volume 111,
+2022,
+103616,
+ISSN 0742-051X,
+https://doi.org/10.1016/j.tate.2021.103616.
+(https://www.sciencedirect.com/science/article/pii/S0742051X21003413)
+Abstract: School exams often measure students' higher-order-thinking-skills (HOTS) subsequent to students' lower-order-thinking-skills (LOTS). Teachers should assess students' HOT separately from students’ LOT. Three experimental studies (N = 36/41/40) investigated whether assessing LOTS-related performances can distort subsequent judgments of HOTS-related performances within school exams in different grade levels and subjects. In each study, participants assessed four exams: Each began with good vs. poor LOTS-related performances and finished with good vs. poor HOTS-related performances. Results showed that participants judged the HOTS-related performances more negatively (positively) when LOTS-related performances were poor (vs. good). We discuss the results concerning the cognitive modeling of teacher judgments.
+Keywords: Teacher judgments; Judgment bias; Higher-order thinking; Teacher judgment accuracy
+
+Yan Zhang, Yueran Bian, Huifen Wu, Weichu Tang, Qi Li,
+Intuition or rationality: Impact of critical thinking dispositions on the cognitive processing of creative information,
+Thinking Skills and Creativity,
+Volume 48,
+2023,
+101278,
+ISSN 1871-1871,
+https://doi.org/10.1016/j.tsc.2023.101278.
+(https://www.sciencedirect.com/science/article/pii/S1871187123000482)
+Abstract: Creative thinking and critical thinking complement each other and are inseparable. The two fold model theory of creativity believes that the generation of creative thinking includes two processes: concept generation and concept evaluation. Among them, individuals will rely more on non-automatic top-down control processing for cognitive information processing in the process of concept evaluation. Critical thinking belongs to analytical thinking, which focuses on and doubts the information bias in the generation of ideas to restrain. Therefore, this study assumes that the impact of critical thinking on creative thinking will occur in the process of concept evaluation, which is rational judgment rather than intuitive thinking. This study uses event-related potential (ERP) techniques to explore the explicit and implicit mechanisms of cognitive processing of creative information (i.e. role of intuition and rationality) in people with different critical thinking dispositions. The current study includes two experiments. Experiment 1 is an explicit ERP experiment, which uses a priming paradigm to examine the neural mechanisms underlying the explicit processing of creative information by individuals with different critical thinking dispositions. Experiment 2 is an implicit ERP experiment, which uses an alternative Stroop paradigm to examine the neural mechanisms underlying the implicit processing of creative information. Results found that the brain mechanisms of explicit cognition of creative information differed significantly across critical thinking dispositions. For low-critical thinking dispositions, low-creative characters evoked larger N1 waves than high-creative characters initiation conditions. For high-critical thinking dispositions, high-creative words evoked larger P2 waves than low-creative words. However, implicit cognition did not differ significantly. This result suggests that the cognitive processing of creative information by different critical thinkers is a rational thought process. The N1 and P2 components, which are indicators of cognitive sensitivity to creative information, can be used as markers to distinguish among different critical thinking dispositions.
+Keywords: Critical thinking disposition; Creativity; N1; P2
+
+Paolo Ciancarini, Marcello Missiroli, Daniel Russo,
+Cooperative Thinking: Analyzing a new framework for software engineering education,
+Journal of Systems and Software,
+Volume 157,
+2019,
+110401,
+ISSN 0164-1212,
+https://doi.org/10.1016/j.jss.2019.110401.
+(https://www.sciencedirect.com/science/article/pii/S016412121930175X)
+Abstract: Computational Thinking (CT) and Agile Values (AV) focus respectively on the individual capability to think algorithmically, and on the principles of collaborative software development. Although these two dimensions of software engineering education complement each other, very few studies explored their interaction. In this paper we use an exploratory Structural Equation Modeling technique to introduce and analyze Cooperative Thinking (CooT), a model of team-based computational problem solving. We ground our model on the existing literature and validate it through Partial Least Square modeling. Cooperative Thinking is new competence which aim is to support cooperative problem solving of technical contents suitable to deal with complex software engineering problems. This article suggests to tackle the CooT construct as an education goal, to train students of software development to improve both their individual and teaming performances.
+Keywords: Partial Least Squares; Structural Equation Modelling; Multivariate Analysis; Latent Variable Analysis; Empirical Software Engineering; Computer Science Education; K-12; High School; Software Engineering Education; Computational Thinking; Agile; Cooperative Thinking
+
+Kaige Liu, Tong Liu, Dunwei Wen, Mujun Zang, Shusen Zhou, Chanjuan Liu,
+SRTNet: Scanning, Reading, and Thinking Network for myocardial infarction detection and localization,
+Expert Systems with Applications,
+Volume 240,
+2024,
+122402,
+ISSN 0957-4174,
+https://doi.org/10.1016/j.eswa.2023.122402.
+(https://www.sciencedirect.com/science/article/pii/S0957417423029044)
+Abstract: Objective:
+The incidence of myocardial infarction (MI) is increasing year by year and is characterized by a high mortality rate with rapid outbreaks. Electrocardiogram (ECG)-based detection and localization of myocardial infarction is susceptible to individual patient differences. We propose a new deep learning model to improve the detection and localization performance on different patient data.
+Methods:
+To address these issues, we propose SRTNet, a novel model with scanning, reading, and thinking modules, for MI detection and localization. The model learns ECG features from three different perspectives, namely, the scanning module for learning 12-lead ECG features, the reading module for learning the correlation features of different leads, and the thinking module for learning temporal dimension features. The model learned features contain both temporal and spatial ones that can alleviate overfitting individual differences.
+Results:
+In the experiments, we used 5-fold cross-validation in the PTB dataset to demonstrate the performance of SRTNet. The results show that SRTNet achieves the state-of-the-art performance. For detection performance, the accuracy is 99.25%, the sensitivity is 99.15%, the specificity is 98.58%, and the F1 score is 99.09%. For localization performance, the accuracy is 68.45%, the sensitivity is 61.82%, the specificity is 67.95% , and the F1 score is 60.50%.
+Conclusion:
+The experimental results show that SRTNet’s multi-level feature learning method can detect and locate MI more accurately.
+Significance:
+Furthermore, the design of SRTNet provided a new perspective on clinical MI detection and localization systems.
+Keywords: Myocardial infarction; Transformer; 12-lead electrocardiogram; Inter-patient; Convolutional neural network
+
+Mahdi Mirhoseini, Spencer Early, Nour El Shamy, Khaled Hassanein,
+Actively open-minded thinking is key to combating fake news: A multimethod study,
+Information & Management,
+Volume 60, Issue 3,
+2023,
+103761,
+ISSN 0378-7206,
+https://doi.org/10.1016/j.im.2023.103761.
+(https://www.sciencedirect.com/science/article/pii/S0378720623000095)
+Abstract: The fake news phenomenon has exposed the vulnerability of individuals and societies to information manipulation in social media. We conducted two studies to understand why people believe in fake news and propose a simple IT intervention method that can help in detecting disinformation. In Study 1, we designed a laboratory experiment using behavioral and neurophysiological tools to test two competing theories in the disinformation literature. Both behavioral and neurophysiological evidence support the classical reasoning account hypotheses and reject the motivated reasoning predictions, suggesting that the lack of actively open-minded thinking (AOT) is linked to the belief in fake news. An intervention method was designed (i.e., performance feedback) that reduces individuals’ overconfidence in their ability to detect fake news and encourages more analytical thinking. In Study 2, we conducted an online survey presenting participants with their performance feedback halfway through the survey. The results show that the intervention increased participants’ performance by 14%. Our study contributes to the research on fake news by providing behavioral and neurophysiological evidence in support of the classical reasoning account. It also offers a simple and practical method that increases users’ ability to detect fake news.
+Keywords: Fake news; Actively open-minded thinking; Classical reasoning; Motivated reasoning; Dual-process theory; Social media
+
+Weitao Zhang, Zsuzsika Sjoerds, Bernhard Hommel,
+Metacontrol of human creativity: The neurocognitive mechanisms of convergent and divergent thinking,
+NeuroImage,
+Volume 210,
+2020,
+116572,
+ISSN 1053-8119,
+https://doi.org/10.1016/j.neuroimage.2020.116572.
+(https://www.sciencedirect.com/science/article/pii/S1053811920300598)
+Abstract: Creativity is a complex construct that would benefit from a more comprehensive mechanistic approach. Two processes have been defined to be central to creative cognition: divergent and convergent thinking. These two processes are most often studied using the Alternate Uses Test (heavily relying on divergent thinking), and the Remote Associates Test (heavily relying on convergent thinking, at least with analytical solutions). Although creative acts should be regarded compound processes, most behavioral and neuroimaging studies ignore the composition of basic operations relevant for the task they investigate. In order to provide leverage for a more mechanistic, and eventually even comprehensive computational, approach to creative cognition, we compare findings from divergent and convergent thinking studies and review the similarities and differences between the two underlying types of processes, from a neurocognitive perspective with a strong focus on cortical structures. In this narrative review, we discuss a broad scope of neural correlates of divergent and convergent thinking. We provide a first step towards theoretical integration, by suggesting that creative cognition in divergent- and convergent-thinking heavy tasks is modulated by metacontrol states, where divergent thinking and insight solutions in convergent-thinking tasks seem to benefit from metacontrol biases towards flexibility, whereas convergent, analytical thinking seems to benefit from metacontrol biases towards persistence. These particular biases seem to be reflected by specific cortical brain-activation patterns, involving left frontal and right temporal/parietal networks. Our tentative framework could serve as a first proxy to guide neuroscientific creativity research into assessing more mechanistic details of human creative cognition.
+
+Peter Ellerton,
+On critical thinking and content knowledge: A critique of the assumptions of cognitive load theory☆,
+Thinking Skills and Creativity,
+Volume 43,
+2022,
+100975,
+ISSN 1871-1871,
+https://doi.org/10.1016/j.tsc.2021.100975.
+(https://www.sciencedirect.com/science/article/pii/S1871187121001905)
+Abstract: How critical thinking is understood has a logical impact on pedagogy and curriculum design in a critical thinking education. If critical thinking is seen as a complex mix of knowledge, skills and dispositions that can be articulated and made an object of study in themselves, then there is scope for intentional and explicit targeting of such things. If, however, critical thinking is seen as a general skill more or less impermeable to pedagogical influence and best realised through the development of content knowledge, then an explicit focus on developing thinking skills is misplaced and potentially distracting. The latter view is that of cognitive load theory (CLT), a theoretical framing of thinking and learning that has gained traction in education including with practitioners. This paper will explore some of the assumptions of CLT and show that they are either (1) in error, (2) vaguely or confusingly expressed and/or (3) the conclusions drawn within the theory are often errors of inference. Moreover, I point out that important educational research that weakens the claims of CLT is often not engaged with or addressed.
+Keywords: Critical thinking; Cognitive load theory; Inquiry; Pedagogy; Dispositions
+
+Pascual D. Diago, José A. González-Calero, Dionisio F. Yáñez,
+Exploring the development of mental rotation and computational skills in elementary students through educational robotics,
+International Journal of Child-Computer Interaction,
+Volume 32,
+2022,
+100388,
+ISSN 2212-8689,
+https://doi.org/10.1016/j.ijcci.2021.100388.
+(https://www.sciencedirect.com/science/article/pii/S2212868921000854)
+Abstract: Interest in educational robotics has increased over the last decade. Through various approaches, robots are being used in the teaching and learning of different subjects at distinct education levels. The present study investigates the effects of an educational robotic intervention on the mental rotation and computational thinking assessment in a 3rd grade classroom. To this end, we carried out a quasi-experimental study involving 24 third-grade students. From an embodied approach, we have designed a two-hour intervention providing students with a physical environment to perform tangible programming on Bee-bot. The results revealed that this educational robotic proposal aimed at map-reading tasks leads to statistically significant gains in computational thinking. Moreover, students who followed the Bee-bot-based intervention achieved greater CT level compared to students following a traditional instruction approach, after controlling student’s prior level. No conclusive results were found in relation to mental rotation.
+Keywords: Educational robotics; Computational thinking; Mental rotation; Bee-bot; Elementary education; Tangible user interface
+
+Yiyu Yao,
+The Dao of three-way decision and three-world thinking,
+International Journal of Approximate Reasoning,
+Volume 162,
+2023,
+109032,
+ISSN 0888-613X,
+https://doi.org/10.1016/j.ijar.2023.109032.
+(https://www.sciencedirect.com/science/article/pii/S0888613X23001639)
+Abstract: Three-way decision is about thinking, problem-solving, and computing in threes or through triads. Its philosophy and practice of triadic thinking appear everywhere. In particular, there are a number of three-world or triworld models in different fields and disciplines, where a complex system, a complicated issue, or an intricate concept is explained and understood in terms of three interrelated worlds, with each world enclosing a group of elements or representing a particular view. This paper examines various triadic metaphors and structures in general and three-world metaphors and conceptions in particular for building and explaining basic concepts of three-way decision. The three major objectives are (a) to formulate a TAO (Triading-Acting-Optimizing) framework of three-way decision, (b) to discuss the Dao, the Way of three-way decision, and (c) to articulate the Dao, the Way of three-world thinking. Three-world conceptions offer more insights into three-way decision with new viewpoints, methods, and modes. An emphasis of the paper is on the philosophy and the power of three-way decision for building high-level conceptual models. By using three-part structures, by focusing on only three things, or by considering three basic ingredients, we may build a theory, a model, or a method that is simple-to-understand, easy-to-remember, and practical-to-use.
+Keywords: Three-way decision; Three-world conception; Thinking in threes; Trilevel thinking; SMV space; Explainable artificial intelligence
+
+Breanne K. Litts, Kristin A. Searle, Yasmin B. Kafai, Whitney E. Lewis,
+Examining the materiality and spatiality of design scaffolds in computational making,
+International Journal of Child-Computer Interaction,
+Volume 30,
+2021,
+100295,
+ISSN 2212-8689,
+https://doi.org/10.1016/j.ijcci.2021.100295.
+(https://www.sciencedirect.com/science/article/pii/S2212868921000295)
+Abstract: As researchers focus more on engaging youth with advanced technologies to build computational skills, there is a need to develop tools that support youth to become creators of digital content rather than consumers of these technologies. Scholars refer to this shift in becoming creators of technology as computational making, which enables new forms of learning and thinking at the intersection of the physical and the digital. The interdisciplinary and multidimensional nature of computational making design processes means learners must negotiate their design idea across space, time, mode, and expertise. In this paper, we draw on multiple iterations of design and implementation work with wearable and locative technologies to investigate the affordances and challenges of design scaffolds in youths’ computational making design processes. We present examples from learning with electronic textiles and locative game design to illustrate the unique problem spaces of materiality and spatiality specific to computational making. Our insights highlight a significant need for sharing scholarship and design work on implementing design scaffolds in computational making contexts toward the collective goal of developing a system of design scaffolds to effectively support learners’ thinking across the interdisciplinary, multimodal problem spaces unique to computational making.
+Keywords: Making; Computational learning; Scaffolds; Design
+
+István W. Árpád, Judit T. Kiss, Dénes Kocsis,
+Role of the volume-specific surface area in heat transfer objects: A critical thinking-based investigation of Newton's law of cooling,
+International Journal of Heat and Mass Transfer,
+Volume 227,
+2024,
+125535,
+ISSN 0017-9310,
+https://doi.org/10.1016/j.ijheatmasstransfer.2024.125535.
+(https://www.sciencedirect.com/science/article/pii/S0017931024003661)
+Abstract: In this research, the process whereby objects are cooled (or heated) is reconsidered by studying Newton's law of cooling. The findings of the study highlight the important relationship between the volume-specific surface area of objects and the dynamics of heat content change; that is, the rate at which the temperature of an object decreases is shown to additionally depend on the size of the volume-specific surface area of the object. If the surface area in contact with the environment is small compared to the volume of the object, then the effect of the environment (e.g., heat exchange, heat loss) on the object will also be small. Consequently, when attempting to enhance the energy efficiency in heat storage design, apart from increasing the thickness of the thermal insulating layer, the specific heat loss of an object could be lowered by reducing the volume-specific surface area as an additional option. This hypothesis was based on observations, and the observed phenomenon has been confirmed by a computational example following the renewed interpretation of Newton's law of cooling, which has become more understandable by applying critical thinking. Newton's law of cooling has been newly expressed for use in engineering design, practice, and education. The interpretation of this law presented in this study can be used to reduce specific heat loss and intensify heat transfer. The article draws attention to the importance of the volume-specific surface area, which is an important variable in many engineering fields other than the case presented here. The method described here can be viewed as an additional alternative to the traditional education methods considered in heat transfer textbooks.
+Keywords: Thermal energy; Heat storage; Energy efficiency; Thermal insulation; Critical thinking; Volume-specific area
+
+Jean-François Bonnefon, Iyad Rahwan,
+Machine Thinking, Fast and Slow,
+Trends in Cognitive Sciences,
+Volume 24, Issue 12,
+2020,
+Pages 1019-1027,
+ISSN 1364-6613,
+https://doi.org/10.1016/j.tics.2020.09.007.
+(https://www.sciencedirect.com/science/article/pii/S1364661320302229)
+Abstract: Machines do not ‘think fast and slow’ in the sense that humans do in dual-process models of cognition. However, the people who create the machines may attempt to emulate or simulate these fast and slow modes of thinking, which will in turn affect the way end users relate to these machines. In this opinion article we consider the complex interplay in the way various stakeholders (engineers, user experience designers, regulators, ethicists, and end users) can be inspired, challenged, or misled by the analogy between the fast and slow thinking of humans and the Fast and Slow Thinking of machines.
+Keywords: artificial intelligence; machine behavior; dual-process; trust; algorithm aversion; machine ethics
+
+Luis Vega, Maarit Mäkelä, Pirita Seitamaa-Hakkarainen,
+Listening to the sociomaterial: When thinking through making extends beyond the individual,
+Design Studies,
+Volume 88,
+2023,
+101203,
+ISSN 0142-694X,
+https://doi.org/10.1016/j.destud.2023.101203.
+(https://www.sciencedirect.com/science/article/pii/S0142694X23000443)
+Abstract: Current discussions in practice-led design research concentrate on the thoughtful dimension of working with materials and the problem of analyzing acts of making at the scale of individual practice. Informed by the theoretical tenets of sociomateriality, this paper encloses a practice-led study addressing both issues. We followed the making of a collaboration-based, material-intensive workshop designed by the first author, where he also participated as a maker. This approach afforded us an insider's perspective to delineate how thinking through making transcends the individual and distributes across the entangled becoming of the social and the material. Our findings shed light on four features of sociomaterial assemblages that warrant critical attention in practice-led design research: temporality, contingency, epistemic capability, and analytical agency.
+Keywords: collaborative design; design practice; design processes; research methods; sociomateriality
+
+Piyusa Das, Brajaballav Kar, S.N. Misra,
+Career course, coach, and cohort framework: A design thinking approach to enhance career self-efficacy,
+The International Journal of Management Education,
+Volume 22, Issue 1,
+2024,
+100898,
+ISSN 1472-8117,
+https://doi.org/10.1016/j.ijme.2023.100898.
+(https://www.sciencedirect.com/science/article/pii/S1472811723001362)
+Abstract: Prior studies show students' career self-efficacy (CSE) significantly impacts their employability. This study utilized a design thinking approach to identify various stakeholders and perceived self-efficacy enablers and barriers among MBA students in India. Six student groups participated in the design thinking workshop and collected responses from 125 students. The most important stakeholders, barriers, and enablers of career self-efficacy in different MBA student segments were identified. The 3C (Career Course, Coach, and Cohort) framework of intervention strategies was proposed under the context of the Social Cognitive Career Theory (SCCT). It was conceptualized that these intervention strategies would mediate the association between the learning experience and self-efficacy expectations. This paper has practical implications for management instructors and administrators who can implement the intervention techniques suggested in the study to enhance the CSE of MBA students in their colleges.
+Keywords: Career self-efficacy; Design thinking; Social cognitive career theory
+
+Giorgia Adorni, Igor Artico, Alberto Piatti, Elia Lutz, Luca Maria Gambardella, Lucio Negrini, Francesco Mondada, Dorit Assaf,
+Development of algorithmic thinking skills in K-12 education: A comparative study of unplugged and digital assessment instruments,
+Computers in Human Behavior Reports,
+Volume 15,
+2024,
+100466,
+ISSN 2451-9588,
+https://doi.org/10.1016/j.chbr.2024.100466.
+(https://www.sciencedirect.com/science/article/pii/S245195882400099X)
+Abstract: In the rapidly evolving landscape of digital competencies, the need for a robust and universal method to assess students’ algorithmic thinking (AT) skills has become increasingly pronounced. Algorithmic thinking refers to the ability to analyse a problem and develop a step-by-step process to solve it. This research investigates the efficacy of the Cross Array Task (CAT) as an assessment tool for AT skills within Switzerland’s compulsory education system. Originally conceptualised as an unplugged activity, where students performed the task without digital technologies (e.g., by using gestures on paper) and an administrator manually assessed them, the CAT evolved into a digital activity that runs on an iPad. The CAT’s digital transformation has automated the scoring of student responses and data collection, streamlining the assessment processes and facilitating efficient large-scale assessments. It has also enhanced scalability, making the CAT suitable for widespread use in educational settings. Furthermore, it provides immediate feedback to students and educators, supporting timely interventions and personalised learning experiences. Our study aims to comprehensively investigate algorithmic competencies in compulsory education, examining their variations and influencing factors. This research examines key variables, such as age, sex, educational environment and school characteristics (e.g., the level and grade of education), and regional factors (e.g., the canton of the school) in Switzerland, and characteristics related to the specific assessment tool, including the type of artefact used, the complexity of the algorithms generated, and the level of autonomy. Additionally, it seeks to analyse the effectiveness of the unplugged and digital approaches in assessing AT skills, specifically comparing the unplugged and virtual CAT versions, aiming to provide insights into their advantages and potential synergies. This investigation delineates the developmental progression of AT skills across compulsory education, emphasising the influence of age on algorithm development and problem-solving strategies. Furthermore, we reveal the impact of artefacts and the potential of digital tools to facilitate advanced AT skill development across diverse age groups. Finally, our investigation delves into the influence of school environments and sex disparities on AT performance, alongside the significant individual variability influenced by personal abilities and external circumstances. These findings underscore the importance of tailored educational interventions and equitable practices to accommodate diverse learning profiles and optimise student outcomes in AT across educational settings.
+Keywords: Teaching/learning strategies; 21st century abilities; Evaluation methodologies; Elementary education; Secondary education
+
+Christ Devia, Camilo Jara Do Nascimento, Samuel Madariaga, Pedro.E. Maldonado, Catalina Murúa, Rodrigo C. Vergara,
+Exploring biological challenges in building a thinking machine,
+Cognitive Systems Research,
+Volume 87,
+2024,
+101260,
+ISSN 1389-0417,
+https://doi.org/10.1016/j.cogsys.2024.101260.
+(https://www.sciencedirect.com/science/article/pii/S1389041724000548)
+Abstract: This article presents a transdisciplinary analysis of the challenges in fusing neuroscience concepts with artificial intelligence (AI) to create AI systems inspired by biological cognition. We explore the structural and functional disparities between the neocortex’s canonical microcircuits and existing AI models, focusing on architectural differences, learning mechanisms, and energy efficiency. The discussion extends to adapting non-goal-oriented learning and dynamic neuronal connections from biological brains to enhance AI’s flexibility and efficiency. This work underscores the potential of neuroscientific insights to revolutionize AI development, advocating for a paradigm shift towards more adaptable and brain-like AI systems. We conclude that there is major room for bioinspiration by focusing on developing architecture, objective functions, and learning rules using a local instead of a global approach.
+
+Claudia V. Campos Rubio, Mohamed Kchaou, Paulo Eustáquio de Faria, Juan C. Campos Rubio, Faris Alqurashi,
+Development of wind turbines for urban environment using innovative design thinking methodology,
+Journal of Engineering Research,
+2024,
+,
+ISSN 2307-1877,
+https://doi.org/10.1016/j.jer.2024.06.008.
+(https://www.sciencedirect.com/science/article/pii/S2307187724001780)
+Abstract: This work focuses mainly on wind energy usage as a renewable source for energy generation in urban environments, where the variability of air current flow is a challenge. One of the main objectives to be achieved in this study is to develop small vertical wind turbines. Design thinking methodology was used to innovative ideas development using the application of concepts from rapid prototyping (additive manufacturing). As a target object to idealize an innovative product, was the providing of a mobile equipment recharging system, using the air current generated by the urban public transport vehicles. As a result, a modular system of small power generation was produced, tested, and validated. The mini-turbine with the best performance in power generation in wind flows lower than 4 m/s was the VAWT, which achieved the smallest difference, 18 % greater. Therefore, it was demonstrated that the installation of small wind turbines in an urbanized area requires a minimum of wind measurements at the exact location to validate the innovative design.
+Keywords: Wind generator; Clean technology; Innovation; Urban environment; Green energy
+
+Valeria De Laurentiis, Carla Caldeira, Serenella Sala, Davide Tonini,
+Life cycle thinking for the assessment of waste and circular economy policy: status and perspectives from the EU example,
+Waste Management,
+Volume 179,
+2024,
+Pages 205-215,
+ISSN 0956-053X,
+https://doi.org/10.1016/j.wasman.2024.02.037.
+(https://www.sciencedirect.com/science/article/pii/S0956053X24001223)
+Abstract: Life cycle thinking methods such as life cycle assessment (LCA) and costing (LCC) were originally developed to assess the performance of products and services (business-making decisions). However, they are increasingly deployed to support policy-making along the entire policy cycle, including via impact assessment (IA) of different policy options. These applications are associated with a number of challenges, mainly related to the dynamic and prospective nature of policy IA, typically forward-looking into 10–20 years ahead. This requires the application of prospective scenario analyses to develop the baseline scenario, reflecting the ‘do nothing’ into the future (business-as-usual), and the alternative scenarios, reflecting the consequences incurred by the implementation of the policy options under study. Such prospective and broadened boundary nature of policy IA challenges traditional LCA/LCC practices mostly based on retrospective, static scenarios and datasets. The present study provides an overview of recent IA studies supporting waste policy to show the state-of-the-art and the main challenges associated with the application of life cycle methods in IA, focusing on the most recent EU waste and circular economy policies. Moreover, since specific and transparent guidance on how to implement consistently these methods in policy IA is lacking, the study provides an initial guidance for application of life cycle thinking in IA drawing upon the knowledge obtained conducting waste policy IA studies. Key challenges in the field are still to be addressed, and might inspire further research to improve the application of life cycle thinking to policy assessment.
+Keywords: Circular economy; Recycling; Future scenario; Sustainability; prospective LCA
+
+Akylbek Meirbekov, Inga Maslova, Zemfira Gallyamova,
+Digital education tools for critical thinking development,
+Thinking Skills and Creativity,
+Volume 44,
+2022,
+101023,
+ISSN 1871-1871,
+https://doi.org/10.1016/j.tsc.2022.101023.
+(https://www.sciencedirect.com/science/article/pii/S1871187122000268)
+Abstract: The proliferation of digital technologies sometimes referred to as the 'industrial or technological (digital) revolution’ primarily affects the education sphere. The introduction of online learning technologies and the focus on independent and critical thinking actualizes the problem of developing these skills in future teachers and lawyers with the help of digital tools. The study looked at the critical thinking development in education while focusing on the use of digital tools in rational thinking formation in education. The research involved a random sample of undergraduate pedagogy students from [BLINDED] Institute of [BLINDED] University and graduate law students from [BLINDED] Institute. The digital tools were used to develop test tasks and logic problems, present information in graphical form, brainstorm, and collaborate in real-time to solve the created problems. The level of critical thinking development was assessed in dynamics using the method designed by Mishina based on the research Diane Halpern, Igor Zageshev, and Sergei Zair-Beck. The outcomes confirm the original hypothesis about the positive impact of digital tools on the formation of critical thinking in students.
+Keywords: Critical thinking; Digital tools; E-learning; Education; Key competencies
+
+Fernanda Márcia da Silveira Esteves, Miguel Ângelo Lellis Moreira, Igor Pinheiro de Araújo Costa, Guilherme Portilho Joaquim, Carlos Francisco Simões Gomes, Marcos dos Santos,
+Demand Prioritization on Supply Chain by the Integration of Value-Focused Thinking Approach and THOR 2 Method,
+Procedia Computer Science,
+Volume 214,
+2022,
+Pages 248-256,
+ISSN 1877-0509,
+https://doi.org/10.1016/j.procs.2022.11.172.
+(https://www.sciencedirect.com/science/article/pii/S1877050922018828)
+Abstract: One of the significant challenges in the Procurement area of large companies is the prioritization of demands, given the high volume of daily requests and the reduced amount of labor. Therefore, it is necessary to seek a service strategy to meet all demands promptly and with the required quality. Therefore, this study aims to sort requisitions into service priorities according to the urgency in the generation of purchase orders. Through the Value-Focused Thinking (VFT) approach, it is possible to extract the understanding of values by experts by developing a hierarchy of fundamental objectives and a network of objectives. Then, to evaluate the alternatives because of the established criteria, the Multi-criteria Decision Support Method THOR 2 is used for its ability to perform the ordering of alternatives. With this work, we exposes an approach to support decision-making processes regarding the prioritization of demands in various sectors and companies.
+Keywords: VFT; MCDA; THOR 2; Prioritization of demands
+
+Georgi V. Georgiev, Danko D. Georgiev,
+Quantitative dynamics of design thinking and creativity perspectives in company context,
+Technology in Society,
+Volume 74,
+2023,
+102292,
+ISSN 0160-791X,
+https://doi.org/10.1016/j.techsoc.2023.102292.
+(https://www.sciencedirect.com/science/article/pii/S0160791X23000970)
+Abstract: This study is intended to provide in-depth insights into how design thinking and creativity issues are understood and possibly evolve in the course of design discussions in a company context. For that purpose, we use the seminar transcripts of the Design Thinking Research Symposium 12 (DTRS12) dataset “Tech-centred Design Thinking: Perspectives from a Rising Asia,” which are primarily concerned with how Korean companies implement design thinking and what role designers currently play. We employed a novel method of information processing based on constructed dynamic semantic networks to investigate the seminar discussions according to company representatives and company size. We compared the quantitative dynamics in two seminars: the first involved managerial representatives of four companies, and the second involved specialized designers and management of a design center of single company. On the basis of dynamic semantic networks, we quantified the changes in four semantic measures—abstraction, polysemy, information content, and pairwise word similarity—in chronologically reconstructed individual design-thinking processes. Statistical analyses show that design thinking in the seminar with four companies, exhibits significant differences in the dynamics of abstraction, polysemy, and information content, compared to the seminar with the design center of single company. Both the decrease in polysemy and abstraction and the increase in information content in the individual design-thinking processes in the seminar with four companies indicate that design managers are focused on more concrete design issues, with more information and less ambiguous content to the final design product. By contrast, specialized designers manifest more abstract thinking and appear to exhibit a slightly higher level of divergence in their design processes. The results suggest that design thinking and creativity issues are articulated differently depending on designer roles and the company size.
+Keywords: Creativity; Design process; Design thinking; Information content; Semantic measures; Semantic networks
+
+Nuo Wang, Zhi-Huan Zang, Bing-Bing Sun, Bin Li, Jin-Long Tian,
+Recent advances in computational prediction of molecular properties in food chemistry,
+Food Research International,
+Volume 192,
+2024,
+114776,
+ISSN 0963-9969,
+https://doi.org/10.1016/j.foodres.2024.114776.
+(https://www.sciencedirect.com/science/article/pii/S0963996924008469)
+Abstract: The combination of food chemistry and computational simulation has brought many impacts to food research, moving from experimental chemistry to computer chemistry. This paper will systematically review in detail the important role played by computational simulations in the development of the molecular structure of food, mainly from the atomic, molecular, and multicomponent dimension. It will also discuss how different computational chemistry models can be constructed and analyzed to obtain reliable conclusions. From the calculation principle to case analysis, this paper focuses on the selection and application of quantum mechanics, molecular mechanics and coarse-grained molecular dynamics in food chemistry research. Finally, experiments and computations of food chemistry are compared and summarized to obtain the best balance between them. The above review and outlook will provide an important reference for the intersection of food chemistry and computational chemistry, and is expected to provide innovative thinking for structural research in food chemistry.
+Keywords: Food chemistry; Food active ingredient; Molecular simulation
+
+Viacheslav Wolfengagen, Larisa Ismailova, Sergey Kosikov,
+Computationally inspired cognitive modeling,
+Cognitive Systems Research,
+Volume 83,
+2024,
+101175,
+ISSN 1389-0417,
+https://doi.org/10.1016/j.cogsys.2023.101175.
+(https://www.sciencedirect.com/science/article/pii/S1389041723001092)
+Abstract: A computational approach to cognitive modeling is proposed. The computational model is a parametric construction that takes into account cognitive stages and transitions between them. The cognitive model enables the idea of information processes, from their birth and appearance in a scope, evolution and canceling out their existence and disappearing from the scope. Process habitats are Lawvere’s variable domains; inter-transition is based on the notion of channeled spreading of processes.
+Keywords: AGI; Cognitive modeling; Information process; Channeling; Computational thinking; Semantic information processing; Computational model; Variable domains
+
+Anton Malko, Andreas Duenser, Maria Kangas, Diego Mollá-Aliod, Cecile Paris,
+Message similarity as a proxy to repetitive thinking: Associations with non-suicidal self-injury and suicidal ideation on social media,
+Computers in Human Behavior Reports,
+Volume 11,
+2023,
+100320,
+ISSN 2451-9588,
+https://doi.org/10.1016/j.chbr.2023.100320.
+(https://www.sciencedirect.com/science/article/pii/S2451958823000532)
+Abstract: Detecting signs of rumination (specifically negative repetitive thinking) in social media data could be beneficial to predicting mental health, as rumination is associated with mental health problems. The objective of this study is to evaluate message similarity as a proxy measure of repetitive thinking (a core component of rumination), using data from Vent — a social media platform dedicated to emotion sharing. Our analyses suggest that automatic assessment of message similarity aligns with human judgements. Furthermore, message similarity is positively associated with signs of suicidal ideation/non-suicidal self-injury, and this association is stronger in users who post predominantly negative content, in line with observations from the literature. This effect has a relatively small magnitude and may be less visible in machine learning models with a large number of predictors. Our data suggests that message similarity may be a useful way of capturing repetitive content, which can potentially be used as a stepping stone to automatic rumination detection in social media data.
+Keywords: Rumination; Non-suicidal self-injury; Suicidal ideation; Social media
