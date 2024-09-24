@@ -13,9 +13,8 @@ def cargarDatos():
 
     global contenido_sciencedirect
     global contenido_scopus
-    # Obtener la ruta absoluta del directorio donde se encuentra este script (_init_.py)
-    ruta_base = os.path.dirname(os.path.abspath(__file__))
-
+    # Obtener la ruta absoluta del directorio padre de 'application'
+    ruta_base = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
     # Definir las rutas relativas de los archivos en función de la ubicación de este script
     ruta_sciencedirect = os.path.join(ruta_base, 'data', 'ScienceDirect.txt')
@@ -24,6 +23,7 @@ def cargarDatos():
     # Leer y mostrar el contenido de cada archivo
     contenido_sciencedirect = leer_archivo(ruta_sciencedirect)
     contenido_scopus = leer_archivo(ruta_scopus)
+
 
 
 
@@ -98,4 +98,4 @@ def construirArregloScienceDirect():
 cargarDatos()
 construirArreglos()
 
-print(bibliografias_scopus)
+print(bibliografias_sciencedirect)
