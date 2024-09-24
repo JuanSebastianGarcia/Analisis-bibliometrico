@@ -8,6 +8,7 @@ contenido_scopus=""
 bibliografias_scopus=[]
 bibliografias_sciencedirect=[]
 
+#Metodo que carga los datos de las rutas 
 def cargarDatos():
 
     global contenido_sciencedirect
@@ -22,6 +23,7 @@ def cargarDatos():
     # Leer y mostrar el contenido de cada archivo
     contenido_sciencedirect = leer_archivo(ruta_sciencedirect)
     contenido_scopus = leer_archivo(ruta_scopus)
+
 
 
 # Función para leer y mostrar el contenido de los archivos con manejo de errores
