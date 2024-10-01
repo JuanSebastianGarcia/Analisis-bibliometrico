@@ -1,4 +1,5 @@
 import pandas as pd
+import os
 
 
 ##variables globales
@@ -12,13 +13,23 @@ bibliografia_universal=[]
 
 
 #Metodo que carga los datos de las rutas 
-def cargarDatos():
+def cargarDatosScopus():
+
     global data_scopus
-    data_scopus = pd.read_csv('../data/scopus.csv', nrows=10150, encoding='utf-8',
+
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    file_path = os.path.join(base_dir, 'data', 'scopus.csv')
+
+    data_scopus = pd.read_csv(file_path, nrows=10150, encoding='utf-8',
                        on_bad_lines='skip',
                        encoding_errors='replace')
+    
+    print(data_scopus.iloc[0])
+    
+
+    
 
 
 
-cargarDatos()
+cargarDatosScopus()
 
