@@ -23,7 +23,7 @@ def cargarDatosScopus():
                        encoding_errors='replace')
 
     #columnas especificas a extraer de la data de scopus
-    columnas_deseadas=['Authors', 'Title', 'Year', 'Issue', 'Page start', 'Page end', 'Abstract', 'Affiliations', 'ISBN', 'DOI', 'Link', 'EID', 'Publisher']    
+    columnas_deseadas=['Authors', 'Title', 'Year', 'Issue', 'Page start', 'Page end', 'Abstract', 'Affiliations', 'ISBN', 'DOI', 'Link', 'EID', 'Publisher','Cited by','Source']    
 
     data_scopus=data[columnas_deseadas]
 
@@ -46,9 +46,11 @@ def cargarDatosIEEE():
                        encoding_errors='replace')
     
     #columnas especificas a extraer de la data de IEEE
-    columnas_deseadas = ['Authors', 'Publication Title', 'Publication Year', 'Issue', 'Start Page', 'End Page', 'Abstract', 'Author Affiliations', 'ISBNs', 'DOI', 'PDF Link', 'Document Identifier', 'Publisher']  
+    columnas_deseadas = ['Authors', 'Publication Title', 'Publication Year', 'Issue', 'Start Page', 'End Page', 'Abstract', 'Author Affiliations', 'ISBNs', 'DOI', 'PDF Link', 'Document Identifier', 'Publisher','Article Citation Count']  
 
     data_IEEE=data[columnas_deseadas]
+    
+    data_IEEE['Database'] = 'IEEE Xplore'
 
     
 
