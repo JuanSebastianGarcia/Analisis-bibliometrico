@@ -76,25 +76,27 @@ def unificarDatos():
     })
 
     data = pd.concat([data_IEEE,data_scopus],ignore_index=True)
-
+    
     print(data.iloc[0])
     
 
-
-#Metodo encargado de generar el nuevo archivo con todos los datos unificados pero sin repetir
+# Método encargado de generar el nuevo archivo con todos los datos unificados pero sin repetir
 def crearNuevoCsvSinDuplicados():
     
-    global data,data_IEEE
+    global data, data_IEEE
 
-    #se eliminan los duplicados de la data
-    data=data.drop_duplicates(subset=['DOI'])
+    # Eliminar los duplicados basados en la columna 'DOI'
+    data = data.drop_duplicates(subset=['DOI'])
 
-    #extraer la direccion donde sera guardado el archivo
+    # Rellenar los espacios vacíos (valores NaN) con 'Null'
+    data = data.fillna('Null')
+
+    # Extraer la dirección donde será guardado el archivo
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     direccion = os.path.join(base_dir, 'data', 'data.csv')
 
-    data.to_csv(direccion,index=False)
-
+    # Guardar el archivo limpio en formato CSV
+    data.to_csv(direccion, index=False)
 
 
 
