@@ -49,8 +49,8 @@ def cargarDatosIEEE():
     columnas_deseadas = ['Authors', 'Publication Title', 'Publication Year', 'Issue', 'Start Page', 'End Page', 'Abstract', 'Author Affiliations', 'ISBNs', 'DOI', 'PDF Link', 'Document Identifier', 'Publisher','Article Citation Count']  
 
     data_IEEE=data[columnas_deseadas]
-    
-    data_IEEE['Database'] = 'IEEE Xplore'
+
+    data_IEEE['Source'] = 'IEEE Xplore'
 
     
 
@@ -71,8 +71,8 @@ def unificarDatos():
         'Author Affiliations':'Affiliations',
         'ISBNs':'ISBN',
         'PDF Link':'Link',
-        'Document Identifier':'EID'
-
+        'Document Identifier':'EID',
+        'Article Citation Count':'Cited by'
     })
 
     data = pd.concat([data_IEEE,data_scopus],ignore_index=True)
