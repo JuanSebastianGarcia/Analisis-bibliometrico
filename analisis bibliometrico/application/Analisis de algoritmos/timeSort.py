@@ -1,0 +1,105 @@
+# Umbral mínimo para utilizar Insertion Sort
+MIN_RUN = 32
+
+def insertion_sort(arr, left, right):
+    """
+    Realiza Insertion Sort en una sublista del array desde 'left' hasta 'right' (inclusive).
+    
+    Parámetros:
+    arr: lista a ordenar.
+    left: índice inicial de la sublista.
+    right: índice final de la sublista.
+    """
+    for i in range(left + 1, right + 1):
+        key_item = arr[i]
+        j = i - 1
+        
+        # Desplaza los elementos mayores que key_item hacia la derecha
+        while j >= left and arr[j] > key_item:
+            arr[j + 1] = arr[j]
+            j -= 1
+        
+        # Coloca el key_item en su posición correcta
+        arr[j + 1] = key_item
+
+def merge(arr, left, mid, right):
+    """
+    Fusiona dos sublistas ordenadas en un solo array ordenado.
+    
+    Parámetros:
+    arr: lista a fusionar.
+    left: índice inicial de la primera sublista.
+    mid: índice final de la primera sublista.
+    right: índice final de la segunda sublista.
+    """
+    # Crea las sublistas
+    left_part = arr[left:mid + 1]
+    right_part = arr[mid + 1:right + 1]
+
+    # Inicializa los índices para las sublistas y el índice k para la lista original
+    i = j = 0
+    k = left
+    
+    # Fusiona las sublistas comparando elementos
+    while i < len(left_part) and j < len(right_part):
+        if left_part[i] <= right_part[j]:
+            arr[k] = left_part[i]
+            i += 1
+        else:
+            arr[k] = right_part[j]
+            j += 1
+        k += 1
+
+    # Añade los elementos restantes de la sublista izquierda
+    while i < len(left_part):
+        arr[k] = left_part[i]
+        i += 1
+        k += 1
+
+    # Añade los elementos restantes de la sublista derecha
+    while j < len(right_part):
+        arr[k] = right_part[j]
+        j += 1
+        k += 1
+
+def tim_sort(arr):
+    """
+    Implementa el algoritmo Timsort. Divide el array en sublistas (runs) y utiliza 
+    Insertion Sort para ordenar sublistas pequeñas, luego utiliza Merge Sort para fusionar.
+    
+    Parámetros:
+    arr: lista a ordenar.
+    """
+    n = len(arr)
+    
+    # Ordena pequeños subarrays (runs) usando Insertion Sort
+    for i in range(0, n, MIN_RUN):
+        insertion_sort(arr, i, min(i + MIN_RUN - 1, n - 1))
+    
+    # Fusiona los runs ordenados mediante Merge Sort
+    size = MIN_RUN
+    while size < n:
+        for start in range(0, n, size * 2):
+            mid = start + size - 1
+            end = min((start + size * 2 - 1), (n - 1))
+            
+            # Fusiona si hay elementos para combinar
+            if mid < end:
+                merge(arr, start, mid, end)
+        
+        # Duplica el tamaño del run a fusionar
+        size *= 2
+
+
+
+# Ejemplo de uso
+if __name__ == "__main__":
+    # Lista de prueba
+    array = [12, 11, 13, 5, 6, 7, 4, 3, 2, 1]
+    print("Array original:", array)
+    
+    # Ordena la lista usando Timsort
+    tim_sort(array)
+    
+    # Muestra el array ordenado
+    print("Array ordenado:", array)
