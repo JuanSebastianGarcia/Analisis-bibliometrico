@@ -158,6 +158,39 @@ def comparar_datos(dato1, dato2):
 
 
 
+def convertir_columnas(df):
+    """
+    Convierte las columnas específicas del DataFrame al tipo de dato adecuado.
+    
+    - 'Authors', 'Affiliations', 'Source title', 'Source': Se convierten a cadenas (string).
+    - 'Year', 'Cited by': Se convierten a enteros (int), manejando valores nulos como 0.
+    
+    Parámetros:
+    - df: DataFrame a transformar.
+    
+    Retorna:
+    - df: DataFrame con las columnas convertidas al tipo de dato adecuado.
+    """
+
+    # Convertir la columna 'Authors' a tipo string
+    df['Authors'] = df['Authors'].astype(str).fillna('')
+
+    # Convertir la columna 'Affiliations' a tipo string
+    df['Affiliations'] = df['Affiliations'].astype(str).fillna('')
+
+    # Convertir la columna 'Source title' a tipo string
+    df['Source title'] = df['Source title'].astype(str).fillna('')
+
+    # Convertir la columna 'Source' a tipo string
+    df['Source'] = df['Source'].astype(str).fillna('')
+
+    # Convertir la columna 'Year' a tipo entero, manejar NaN
+    df['Year'] = pd.to_numeric(df['Year'], errors='coerce').fillna(0).astype(int)
+
+    # Convertir la columna 'Cited by' a tipo entero, manejar NaN
+    df['Cited by'] = pd.to_numeric(df['Cited by'], errors='coerce').fillna(0).astype(int)
+
+    return df
 
 
 
@@ -170,9 +203,9 @@ if __name__ == "__main__":
 
 
     # Cargar el DataFrame desde el CSV
-    df = pd.read_csv(file_path,nrows=20, encoding='utf-8',)
+    df = pd.read_csv(file_path,nrows=1000, encoding='utf-8',)
     
-
+    df=convertir_columnas(df)
     # Ordena el DataFrame usando Timsort en la columna clave
     tim_sort(df)
     

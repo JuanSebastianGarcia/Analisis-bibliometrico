@@ -23,7 +23,7 @@ def cargarDatosScopus():
                        encoding_errors='replace')
 
     #columnas especificas a extraer de la data de scopus
-    columnas_deseadas=['Authors', 'Title', 'Year', 'Issue', 'Page start', 'Page end', 'Abstract', 'Affiliations', 'ISBN', 'DOI', 'Link', 'EID', 'Publisher','Cited by','Source']    
+    columnas_deseadas=['Authors', 'Title', 'Year', 'Issue', 'Page start', 'Page end', 'Abstract', 'Affiliations', 'ISBN', 'DOI', 'Link', 'EID', 'Publisher','Cited by','Source','Source title']    
 
     data_scopus=data[columnas_deseadas]
 
@@ -46,7 +46,7 @@ def cargarDatosIEEE():
                        encoding_errors='replace')
     
     #columnas especificas a extraer de la data de IEEE
-    columnas_deseadas = ['Authors', 'Publication Title', 'Publication Year', 'Issue', 'Start Page', 'End Page', 'Abstract', 'Author Affiliations', 'ISBNs', 'DOI', 'PDF Link', 'Document Identifier', 'Publisher','Article Citation Count']  
+    columnas_deseadas = ['Authors', 'Document Title', 'Publication Year', 'Issue', 'Start Page', 'End Page', 'Abstract', 'Author Affiliations', 'ISBNs', 'DOI', 'PDF Link', 'Document Identifier', 'Publisher','Article Citation Count','Publication Title']  
 
     data_IEEE=data[columnas_deseadas]
 
@@ -64,7 +64,7 @@ def unificarDatos():
     global data_IEEE,data,data_scopus
 
     data_IEEE=data_IEEE.rename(columns={
-        'Publication Title':'Title',
+        'Document Title':'Title',
         'Publication Year':'Year',
         'Start Page':'Page start',
         'End Page':'Page end',
@@ -72,7 +72,8 @@ def unificarDatos():
         'ISBNs':'ISBN',
         'PDF Link':'Link',
         'Document Identifier':'EID',
-        'Article Citation Count':'Cited by'
+        'Article Citation Count':'Cited by',
+        'Publication Title':'Source title'
     })
 
     data = pd.concat([data_IEEE,data_scopus],ignore_index=True)
