@@ -3,7 +3,7 @@ import pandas as pd
 
 MIN_RUN = 32
 
-def insertion_sort(arr, left, right, key):
+def insertion_sort(arr, left, right):
     """
     Realiza Insertion Sort en una sublista del DataFrame desde 'left' hasta 'right' (inclusive),
     utilizando una columna del DataFrame como clave para ordenar (nombre del autor en este caso).
@@ -27,7 +27,7 @@ def insertion_sort(arr, left, right, key):
         arr.iloc[j + 1] = key_item
 
 
-def merge(arr, left, mid, right, key):
+def merge(arr, left, mid, right):
     """
     Fusiona dos sublistas ordenadas en un solo DataFrame ordenado.
     
@@ -48,7 +48,7 @@ def merge(arr, left, mid, right, key):
     # Fusiona las sublistas comparando elementos
     while i < len(left_part) and j < len(right_part):
         
-        if comparar_datos(right_part.iloc[j][key],left_part.iloc[i][key]):
+        if comparar_datos(right_part.iloc[j],left_part.iloc[i]):
             arr.iloc[k] = left_part.iloc[i]
             i += 1
         else:
@@ -69,7 +69,7 @@ def merge(arr, left, mid, right, key):
         k += 1
 
 
-def tim_sort(df, key):
+def tim_sort(df):
     """
     Implementa el algoritmo Timsort para ordenar un DataFrame basado en una columna clave.
     
@@ -81,7 +81,7 @@ def tim_sort(df, key):
     
     # Ordena pequeños subarrays (runs) usando Insertion Sort
     for i in range(0, n, MIN_RUN):
-        insertion_sort(df, i, min(i + MIN_RUN - 1, n - 1), key)
+        insertion_sort(df, i, min(i + MIN_RUN - 1, n - 1))
     
 
     # Fusiona los runs ordenados mediante Merge Sort
@@ -93,7 +93,7 @@ def tim_sort(df, key):
             
             # Fusiona si hay elementos para combinar
             if mid < end:
-                merge(df, start, mid, end, key)
+                merge(df, start, mid, end)
         
         # Duplica el tamaño del run a fusionar
         size *= 2
@@ -154,7 +154,7 @@ def comparar_datos(dato1, dato2):
     cited_by1 = dato1.get('Cited by', 0)
     cited_by2 = dato2.get('Cited by', 0)
 
-    return cited_by1 > cited_by2
+    return cited_by1 >= cited_by2
 
 
 
@@ -172,14 +172,9 @@ if __name__ == "__main__":
     # Cargar el DataFrame desde el CSV
     df = pd.read_csv(file_path,nrows=20, encoding='utf-8',)
     
-    # Columna clave (nombre del autor) para el ordenamiento
-    columna_clave = 'Authors'
-
-    # Convertir la columna clave 'Authors' a tipo string
-    df['Authors'] = df['Authors'].astype(str)
 
     # Ordena el DataFrame usando Timsort en la columna clave
-    tim_sort(df, columna_clave)
+    tim_sort(df)
     
     # Muestra el DataFrame ordenado
     for i in range(len(df)):
