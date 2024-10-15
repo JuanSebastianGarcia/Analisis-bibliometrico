@@ -203,7 +203,7 @@ if __name__ == "__main__":
 
 
     # Cargar el DataFrame desde el CSV
-    df = pd.read_csv(file_path,nrows=1000, encoding='utf-8',)
+    df = pd.read_csv(file_path,nrows=8509, encoding='utf-8',)
     
     df=convertir_columnas(df)
     # Ordena el DataFrame usando Timsort en la columna clave
