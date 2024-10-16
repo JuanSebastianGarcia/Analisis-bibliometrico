@@ -1,2 +1,4 @@
 # Ignorar la carpeta 'data' y su contenido
 data/data.csv
+data/dataOrd.csv
+data/dataOrdv2.csv

@@ -98,6 +98,8 @@ def tim_sort(df):
         # Duplica el tamaño del run a fusionar
         size *= 2
 
+    return df
+
 
 
 def comparar_datos(dato1, dato2):
@@ -198,18 +200,21 @@ def convertir_columnas(df):
 if __name__ == "__main__":
 
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    file_path = os.path.join(base_dir, '..', 'data', 'data.csv')
+    file_path = os.path.join(base_dir, 'data', 'data.csv')
 
 
 
     # Cargar el DataFrame desde el CSV
-    df = pd.read_csv(file_path,nrows=8509, encoding='utf-8',)
+    df = pd.read_csv(file_path,nrows=500, encoding='utf-8',)
     
     df=convertir_columnas(df)
     # Ordena el DataFrame usando Timsort en la columna clave
-    tim_sort(df)
+    df_sorted=tim_sort(df)
+
     
-    # Muestra el DataFrame ordenado
-    for i in range(len(df)):
-        print('_________________________________________________')
-        print(df.iloc[i])
+    # Extraer la dirección donde será guardado el archivo
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    direccion = os.path.join(base_dir, 'data', 'dataOrd.csv')
+
+    # Guardar el archivo limpio en formato CSV
+    df_sorted.to_csv(direccion, index=False)

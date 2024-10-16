@@ -22,6 +22,7 @@ def bucket_sort(arr):
     
     # Recoger los elementos de las cubetas en orden
     sorted_arr = []
+
     for bucket in buckets:
         sorted_arr.extend(bucket)
     
@@ -33,17 +34,19 @@ def bucket_sort(arr):
 if __name__ == "__main__":
 
     # Generar un arreglo de 10,000 números aleatorios
-    array = [random.randint(0, 1000) for _ in range(8509)]
+    array = [random.randint(0, 1000) for _ in range(100)]
       
 
     # Marca el tiempo inicial
     start_time = time.time()
 
     # Ordena la lista usando Timsort
-    bucket_sort(array)
+    array=bucket_sort(array)
     
     # Marca el tiempo final
     end_time = time.time()
+
+    print(array)
 
     execution_time = end_time - start_time
     print(f"Tiempo de ejecución: {execution_time} segundos")

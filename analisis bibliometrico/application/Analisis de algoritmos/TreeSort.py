@@ -38,9 +38,7 @@ def recorrido_inorden(raiz, resultado):
 
 # Algoritmo Tree Sort
 def tree_sort(arr):
-    if not arr:
-        return []
-    
+      
     raiz = None
 
     # Insertar los elementos en el árbol
@@ -60,7 +58,7 @@ def tree_sort(arr):
 if __name__ == "__main__":
 
     # Generar un arreglo de 10,000 números aleatorios
-    array = [random.randint(0, 100) for _ in range(8509)]
+    array = [random.randint(0, 100) for _ in range(100)]
       
 
     # Marca el tiempo inicial
@@ -68,7 +66,8 @@ if __name__ == "__main__":
 
     # Ordena la lista usando Timsort
     tree_sort(array)
-    
+
+
     # Marca el tiempo final
     end_time = time.time()
 

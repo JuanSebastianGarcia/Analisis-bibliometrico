@@ -1,6 +1,7 @@
 import random,time
 
 def pigeonhole_sort(arr):
+
     # Encontrar el valor mínimo y máximo
     min_val = min(arr)
     max_val = max(arr)
@@ -20,7 +21,8 @@ def pigeonhole_sort(arr):
     for casilla in casillas:
         for num in casilla:
             arr[i] = num
-            i += 1
+            i += 1 
+
 
 
 
@@ -28,7 +30,7 @@ def pigeonhole_sort(arr):
 if __name__ == "__main__":
 
     # Generar un arreglo de 10,000 números aleatorios
-    array = [random.randint(0, 1000) for _ in range(8509)]
+    array = [random.randint(0, 1000) for _ in range(100000)]
       
 
     # Marca el tiempo inicial

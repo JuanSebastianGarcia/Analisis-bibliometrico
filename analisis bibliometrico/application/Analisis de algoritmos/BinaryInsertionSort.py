@@ -38,7 +38,7 @@ arreglo_ordenado = binary_insertion_sort(arreglo)
 if __name__ == "__main__":
 
     # Generar un arreglo de 10,000 números aleatorios
-    array = [random.randint(0, 100) for _ in range(100)]
+    array = [random.randint(0, 100) for _ in range(8509)]
 
     # Marca el tiempo inicial
     start_time = time.time()
@@ -46,6 +46,7 @@ if __name__ == "__main__":
     # Ordena la lista usando Gnome Sort
     binary_insertion_sort(array)
 
+    
     # Marca el tiempo final
     end_time = time.time()
 
