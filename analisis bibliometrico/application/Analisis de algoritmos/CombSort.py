@@ -26,7 +26,7 @@ def comb_sort(arr):
 if __name__ == "__main__":
 
     # Generar un arreglo de 10,000 números aleatorios
-    array = [random.randint(0, 100) for _ in range(100000)]
+    array = [random.randint(0, 100) for _ in range(100)]
       
 
     # Marca el tiempo inicial
@@ -35,6 +35,7 @@ if __name__ == "__main__":
     # Ordena la lista usando Timsort
     comb_sort(array)
     
+
     # Marca el tiempo final
     end_time = time.time()
 

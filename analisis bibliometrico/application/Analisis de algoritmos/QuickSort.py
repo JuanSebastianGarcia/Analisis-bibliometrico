@@ -1,8 +1,7 @@
 import random
 import time
 
-# Generar un arreglo de tamaño 100 con números aleatorios
-arreglo = [random.randint(0, 100) for _ in range(100)]
+
 
 # Implementación del algoritmo QuickSort
 def quicksort(arr):
@@ -15,14 +14,17 @@ def quicksort(arr):
         right = [x for x in arr if x > pivot]
         return quicksort(left) + middle + quicksort(right)
 
-# Ordenar el arreglo
-arreglo_ordenado = quicksort(arreglo)
+
+
+
+
+
 
 
 if __name__ == "__main__":
 
     # Generar un arreglo de 10,000 números aleatorios
-    array = [random.randint(0, 100) for _ in range(100000)]
+    array = [random.randint(0, 100) for _ in range(8509)]
 
     # Marca el tiempo inicial
     start_time = time.time()

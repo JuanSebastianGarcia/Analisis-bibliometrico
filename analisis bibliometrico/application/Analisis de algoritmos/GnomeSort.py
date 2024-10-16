@@ -16,7 +16,7 @@ def gnome_sort(arr):
 if __name__ == "__main__":
 
     # Generar un arreglo de 10,000 números aleatorios
-    array = [random.randint(0, 100) for _ in range(100000)]
+    array = [random.randint(0, 100) for _ in range(8509)]
 
     # Marca el tiempo inicial
     start_time = time.time()
