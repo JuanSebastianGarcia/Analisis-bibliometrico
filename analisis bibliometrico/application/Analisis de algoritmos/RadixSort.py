@@ -51,7 +51,7 @@ radix_sort(arreglo)
 if __name__ == "__main__":
 
     # Generar un arreglo de 10,000 números aleatorios
-    array = [random.randint(0, 100) for _ in range(100)]
+    array = [random.randint(0, 100) for _ in range(100000)]
 
     # Marca el tiempo inicial
     start_time = time.time()
