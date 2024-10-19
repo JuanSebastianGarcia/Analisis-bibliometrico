@@ -38,7 +38,11 @@ arreglo_ordenado = binary_insertion_sort(arreglo)
 if __name__ == "__main__":
 
     # Generar un arreglo de 10,000 números aleatorios
+<<<<<<< HEAD
+    array = [random.randint(0, 100) for _ in range(100000)]
+=======
     array = [random.randint(0, 100) for _ in range(8509)]
+>>>>>>> 2b4450f526b3b206171ca6a819081b125c7cee8a
 
     # Marca el tiempo inicial
     start_time = time.time()
