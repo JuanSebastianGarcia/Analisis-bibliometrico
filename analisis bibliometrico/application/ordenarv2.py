@@ -95,7 +95,7 @@ def convertir_columnas(df):
 if __name__ == "__main__":
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     file_path = os.path.join(base_dir, 'data', 'data.csv')
-    df = pd.read_csv(file_path, nrows=400, encoding='utf-8')
+    df = pd.read_csv(file_path, nrows=8905, encoding='utf-8')
     
     df = convertir_columnas(df)
     
