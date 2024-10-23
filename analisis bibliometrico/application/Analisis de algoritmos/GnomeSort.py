@@ -1,6 +1,7 @@
 import random
 import time
 
+
 # Implementación del algoritmo Gnome Sort
 def gnome_sort(arr):
     index = 0
@@ -11,6 +12,7 @@ def gnome_sort(arr):
             arr[index], arr[index - 1] = arr[index - 1], arr[index]
             index -= 1
     return arr
+
 
 # Ejemplo de uso
 if __name__ == "__main__":

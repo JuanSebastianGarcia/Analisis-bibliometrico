@@ -3,6 +3,7 @@ import random
 
 # Umbral mínimo para utilizar Insertion Sort
 MIN_RUN = 32
+
 def insertion_sort(arr, left, right):
     """
     Realiza Insertion Sort en una sublista del array desde 'left' hasta 'right' (inclusive).
@@ -83,6 +84,7 @@ def tim_sort(arr):
     # Ordena pequeños subarrays (runs) usando Insertion Sort
     for i in range(0, n, MIN_RUN):
         insertion_sort(arr, i, min(i + MIN_RUN - 1, n - 1))
+    
     
     # Fusiona los runs ordenados mediante Merge Sort
     size = MIN_RUN

@@ -8,6 +8,7 @@ def comb_sort(arr):
     sorted = False
 
     while not sorted:
+
         # Actualizar el gap
         gap = int(gap / shrink)
         if gap <= 1:
@@ -26,16 +27,16 @@ def comb_sort(arr):
 if __name__ == "__main__":
 
     # Generar un arreglo de 10,000 números aleatorios
-    array = [random.randint(0, 100) for _ in range(100)]
+    array = [random.randint(0, 100) for _ in range(5000)]
       
 
     # Marca el tiempo inicial
     start_time = time.time()
 
     # Ordena la lista usando Timsort
-    comb_sort(array)
+    arrray=comb_sort(array)
     
-
+    print(array)
     # Marca el tiempo final
     end_time = time.time()
 

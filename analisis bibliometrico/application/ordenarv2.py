@@ -92,16 +92,6 @@ def convertir_columnas(df):
     return df
 
 
-def convertir_columnas(df):
-    df['Authors'] = df['Authors'].astype(str).fillna('')
-    df['Affiliations'] = df['Affiliations'].astype(str).fillna('')
-    df['Source title'] = df['Source title'].astype(str).fillna('')
-    df['Source'] = df['Source'].astype(str).fillna('')
-    df['Year'] = pd.to_numeric(df['Year'], errors='coerce').fillna(0).astype(int)
-    df['Cited by'] = pd.to_numeric(df['Cited by'], errors='coerce').fillna(0).astype(int)
-    return df
-
-
 def plot_scatter(df, title):
     plt.figure(figsize=(10, 6))
     plt.scatter(df.index, df['Year'], alpha=0.5, c='blue', label='Year')
@@ -118,6 +108,9 @@ def plot_execution_time(time_taken):
     plt.ylabel('Segundos')
     plt.title('Tiempo de Ejecución del Algoritmo QuickSort')
     plt.show()
+
+
+
 
 if __name__ == "__main__":
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

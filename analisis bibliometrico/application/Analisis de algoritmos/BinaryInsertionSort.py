@@ -23,6 +23,9 @@ def binary_search(arr, val, start, end):
     else:
         return mid
 
+
+
+
 # Implementación de Binary Insertion Sort
 def binary_insertion_sort(arr):
     for i in range(1, len(arr)):
@@ -31,18 +34,18 @@ def binary_insertion_sort(arr):
         arr = arr[:j] + [val] + arr[j:i] + arr[i+1:]
     return arr
 
+
 # Ordenar el arreglo
 arreglo_ordenado = binary_insertion_sort(arreglo)
+
+
+
 
 
 if __name__ == "__main__":
 
     # Generar un arreglo de 10,000 números aleatorios
-<<<<<<< HEAD
     array = [random.randint(0, 100) for _ in range(100000)]
-=======
-    array = [random.randint(0, 100) for _ in range(8509)]
->>>>>>> 2b4450f526b3b206171ca6a819081b125c7cee8a
 
     # Marca el tiempo inicial
     start_time = time.time()
