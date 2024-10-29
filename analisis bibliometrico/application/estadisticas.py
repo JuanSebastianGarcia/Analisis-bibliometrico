@@ -224,6 +224,25 @@ def analizarJournal():
     mostrarGraficaDatosParciales(journal_couting,'3 mejores journal',3)
 
 
+#contar todos los publisher presentes
+def analizarPublisher():
+    """
+        Contar todos los publisher de cada producto, y mostrar los publisher top que aparecen por cada articulo
+    """
+    global data #dataframe de datos
+
+    publisher_couting = {}
+
+    for item in data['Publisher']:
+        if item and item in publisher_couting:
+            publisher_couting[item]+=1
+        else:
+            publisher_couting[item]=1
+
+    mostrarGraficaDatosParciales(publisher_couting,'grafica de publisher',3)
+
+
+#https://go.microsoft.com/fwlink/?LinkID=533483#vscode
 
 if __name__ =='__main__':
 
@@ -246,4 +265,7 @@ if __name__ =='__main__':
     #analizarInstituciones()
 
     #hacer un analisis del journal de cada producto
-    analizarJournal()
+    #analizarJournal()
+
+    #hacer un analisis del publisher
+    analizarPublisher()
