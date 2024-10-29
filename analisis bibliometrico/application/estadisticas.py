@@ -33,9 +33,10 @@ def mostrarGraficaDatosParciales(counting_autores:dict,mensaje:str,cantidad_dato
             mensaje - mensaje titulo que aparece en la grafica
             cantidad_datos - es la cantidad de datos que seran impresos
     """
-
     # Filtrar autores con más de 5 ocurrencias
     top_autores = sorted(counting_autores.items(), key=lambda x:x[1] , reverse=True)[:cantidad_datos]
+
+    print(top_autores)
 
     #se extraen los datos para la grafica
     keys = [autor for autor,_ in top_autores ]
@@ -261,6 +262,22 @@ def analizarBaseDatos():
     mostrarGraficaDatosCompletos(data_bases_couting,'Cantidad de bases de datos')
 
 
+#impritmir los articulos mas citados
+def analizarArticuloMasCitado():
+    """
+    Se extraen los artículos y sus citaciones y se imprimen los 15 artículos más citados
+    """
+    global data
+
+    citaciones_por_articulo = {}
+
+    for _, row in data.iterrows():  # `_` omite el índice, y `row` es la Serie de la fila
+        if row['Title'] and row['Cited by']:  # Verifica que ambos valores existan
+            citaciones_por_articulo[row['Title']] = int(row['Cited by'])
+
+    mostrarGraficaDatosParciales(citaciones_por_articulo, 'artículos más citados', 5)
+    
+
 
 
 #https://go.microsoft.com/fwlink/?LinkID=533483#vscode
@@ -293,3 +310,5 @@ if __name__ =='__main__':
 
     #hacer un analisis de la base de datos
     #analizarBaseDatos()
+
+    analizarArticuloMasCitado()
