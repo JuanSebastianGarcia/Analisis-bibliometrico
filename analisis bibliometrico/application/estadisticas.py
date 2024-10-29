@@ -21,17 +21,18 @@ import matplotlib.pyplot as plt
 #VARIABLES GLOBALES
 data = None 
 
+#hacer conteno de autores
 def analizarAutores():
 
     """
-        Se extrae el primer autor de cada producto y se hace un contedo de ellos
-        para poder mostrar un resultado
+        Se extrae el primer autor de cada producto y se hace un contedo de las veces 
+        que aparece cada autor
 
     """
     global data
 
     #extraer el primer autor    
-    autores = data['Authors'].apply(lambda x: x.split(',')[0].split(';')[0].strip())
+    autores = data['Authors'].apply(lambda x: x.split(';')[0].strip().split(',')[0])
 
     counting_autores={}
 
@@ -45,17 +46,19 @@ def analizarAutores():
     imprimirGraficaautores(counting_autores)
 
 
+
 def imprimirGraficaautores(counting_autores):
     """
-        Deacuerdo al conteo de los autores hecho previamente, se imprimira una grafica de barras con los autores que tengan 
-        mas de 5 apariciones
+        Deacuerdo al conteo de los autores hecho previamente, se imprimira una grafica de barras con los 
+        15 autores mas nombrados
     """
 
     # Filtrar autores con más de 5 ocurrencias
-    autores_filtrados = {autor: conteo for autor, conteo in counting_autores.items() if conteo >= 5}
+    top_autores = sorted(counting_autores.items(), key=lambda x:x[1] , reverse=True)[:15]
 
-    keys = autores_filtrados.keys()
-    values = autores_filtrados.values()
+
+    keys = [autor for autor,_ in top_autores ]
+    values = [conteo for _,conteo in top_autores]
 
     plt.bar(keys,values)
 
@@ -70,9 +73,6 @@ def imprimirGraficaautores(counting_autores):
 
 
 
-    
-
-
 def cargarDatos():
 
     """
@@ -82,13 +82,14 @@ def cargarDatos():
 
     #extraer direccion del archivo
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    file_path = os.path.join(base_dir, 'data', 'dataIEEE.csv')
+    file_path = os.path.join(base_dir, 'data', 'dataOrd.csv')
 
     #leer el archivo
     data = pd.read_csv(file_path, nrows=10150, encoding='utf-8',
                        on_bad_lines='skip',
                        encoding_errors='replace')
-    
+
+
 
 def estandarizarTiposDatos():
     """
@@ -100,6 +101,13 @@ def estandarizarTiposDatos():
     data['Authors'] = data['Authors'].astype(str).fillna('')
 
 
+
 cargarDatos()
 estandarizarTiposDatos()
 analizarAutores()
+
+
+if __name__ =='__main__':
+
+
+    print()
