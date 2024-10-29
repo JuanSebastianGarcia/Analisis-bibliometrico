@@ -109,8 +109,6 @@ def estandarizarTiposDatos():
     data['Authors'] = data['Authors'].astype(str).fillna('')
 
 
-
-
 #hacer conteno de autores
 def analizarAutores():
 
@@ -207,8 +205,23 @@ def analizarInstituciones():
     mostrarGraficaDatosParciales(instituciones,'Grafica de instituciones',10)
 
 
+#contar todos los journal que han publicado 
+def analizarJournal():
+    """
+        Realizar un conteo de todos los journal mas representativos e imprimir los 
+        mejores journal
+    """
+    global data #dataframe de datos
 
+    journal_couting={}
 
+    for item in data['Source title']:
+        if item and item in journal_couting:
+            journal_couting[item]+=1
+        else:
+            journal_couting[item]=1
+
+    mostrarGraficaDatosParciales(journal_couting,'3 mejores journal',3)
 
 
 
@@ -218,16 +231,19 @@ if __name__ =='__main__':
     cargarDatos()
     estandarizarTiposDatos()
 
-    #estadistica a autores
+    #hacer una analisis de las instituciones
     #analizarAutores()
 
-    #estadistica a los años
+    #hacer un analisis de los años de publicacion
     #analizarFecha()
 
 
-    #hacer un conteo de cuantas conferencias hay, cuantos capitulos de libro y cuantos articulos
+    #hacer un analisis de los tipos de producto
     #contarTiposProducto()
 
 
-    #(institucion)
-    analizarInstituciones()
+    #hacer un analizis de las instituciones
+    #analizarInstituciones()
+
+    #hacer un analisis del journal de cada producto
+    analizarJournal()
