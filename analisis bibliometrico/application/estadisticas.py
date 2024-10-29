@@ -21,40 +21,21 @@ import matplotlib.pyplot as plt
 #VARIABLES GLOBALES
 data = None #contiene los datos ordenados
 
-#hacer conteno de autores
-def analizarAutores():
-
-    """
-        Se extrae el primer autor de cada producto y se hace un contedo de las veces 
-        que aparece cada autor
-
-    """
-    global data
-
-    #extraer el primer autor    
-    autores = data['Authors'].apply(lambda x: x.split(';')[0].strip().split(',')[0])
-
-    counting_autores={}
-
-    #hacer un conteo de los autores
-    for autor in autores:
-        if autor in counting_autores:
-            counting_autores[autor]+=1
-        else:
-            counting_autores[autor]=1
-
-    imprimirGraficaAutores(counting_autores)
-
 
 #Genera una grafica que muestra los autores
-def imprimirGraficaAutores(counting_autores):
+def mostrarGraficaDatosParciales(counting_autores:dict,mensaje:str,cantidad_datos:int):
     """
-        Deacuerdo al conteo de los autores hecho previamente, se imprimira una grafica de barras con los 
-        15 autores mas nombrados
+        Mostrar una grafica de barras con el numero de datos elejido, este numero de datos seran extraidos de mayor 
+        a menor
+
+        parametros
+            couting_autores - diccionario de datos a imprimir
+            mensaje - mensaje titulo que aparece en la grafica
+            cantidad_datos - es la cantidad de datos que seran impresos
     """
 
     # Filtrar autores con más de 5 ocurrencias
-    top_autores = sorted(counting_autores.items(), key=lambda x:x[1] , reverse=True)[:15]
+    top_autores = sorted(counting_autores.items(), key=lambda x:x[1] , reverse=True)[:cantidad_datos]
 
     #se extraen los datos para la grafica
     keys = [autor for autor,_ in top_autores ]
@@ -63,9 +44,36 @@ def imprimirGraficaAutores(counting_autores):
     plt.bar(keys,values)
 
     # Añadir etiquetas
-    plt.xlabel('Autores')
-    plt.ylabel('Número de publicaciones')
-    plt.title('Conteo de autores (más de 5 publicaciones)')
+    plt.xlabel('Datos')
+    plt.ylabel('Cantidad')
+    plt.title(mensaje)
+
+    # Mostrar el gráfico
+    plt.xticks(rotation=90)  # Rotar etiquetas si son largas
+    plt.show()
+
+
+
+#metodo que genera una grafica para todos los datos recibidos
+def mostrarGraficaDatosCompletos(product_type_couting:dict,mensaje:str):
+    """
+        Generar una grafica a partir de un diccionario de datos 
+
+        paramentros:
+            product_type_couting - diciconario que contiene los datos a imprimir
+            mensaje - mensaje para el titulo de la grafica
+    """
+
+    #extraccion de datos
+    values = list(product_type_couting.values())
+    keys = list(product_type_couting.keys())
+
+    plt.bar(keys,values)
+
+    # Añadir etiquetas
+    plt.xlabel('Datos')
+    plt.ylabel('Cantidad')
+    plt.title(mensaje)
 
     # Mostrar el gráfico
     plt.xticks(rotation=90)  # Rotar etiquetas si son largas
@@ -101,8 +109,35 @@ def estandarizarTiposDatos():
     data['Authors'] = data['Authors'].astype(str).fillna('')
 
 
+
+
+#hacer conteno de autores
+def analizarAutores():
+
+    """
+        Se extrae el primer autor de cada producto y se hace un contedo de las veces 
+        que aparece cada autor
+
+    """
+    global data
+
+    #extraer el primer autor    
+    autores = data['Authors'].apply(lambda x: x.split(';')[0].strip().split(',')[0])
+
+    counting_autores={}
+
+    #hacer un conteo de los autores
+    for autor in autores:
+        if autor in counting_autores:
+            counting_autores[autor]+=1
+        else:
+            counting_autores[autor]=1
+
+    mostrarGraficaDatosParciales(counting_autores,'Grafica de los 15 mejores autores',15)
+
+
 #hacer un conteo de los años de la publicacion de cada articulo
-def contarAniosPublicacion():
+def analizarFecha():
     """
         realizar un conteo de los años de publicacion de cada articulo
     """
@@ -118,44 +153,36 @@ def contarAniosPublicacion():
         else:
             years_couting[year]=1
 
-    showYears(years_couting)
+    mostrarGraficaDatosCompletos(years_couting,'Grafica de años')
 
 
-
-
-def showYears(years_couting:dict):
-    """
-        Mostrar el conteo de datos de cada año
-    """
-
-    #se extraen los datos para la grafica
-    keys =list( years_couting.keys())
-    values = list(years_couting.values())
-
-    plt.bar(keys,values)
-
-    # Añadir etiquetas
-    plt.xlabel('años')
-    plt.ylabel('numero de publicaciones por año')
-    plt.title('publicacion de articulos en los años')
-
-    # Mostrar el gráfico
-    plt.xticks(rotation=90)  # Rotar etiquetas si son largas
-    plt.show()
-
-
-
-def contarTiposProducto():
+#metodo que cuenta la cantidad de cada tipo de producto
+def analizarTipoProducto():
 
     """
         Contar la cantidad de veces que aparece cada tipo de producto
-    """
+        los tipos de producto que hay son
+        *articulo
+        *libro
+        *conferencia
 
-    global data #variable que contiene el dataframe de datos
-    
+        despues de realizar el conteo, se imprime una grafica con el resultado de los datos
+    """
+    global data #dataframe de datos
+    product_type_couting={} #diccionario de tipos de productos
+
+    for item in data['ProductType']:
+        if item and item in product_type_couting:
+            product_type_couting[item]+=1
+        else:
+            product_type_couting[item]=1
+
+    mostrarDatosCompletos(product_type_couting,'Grafica de tipos de producto')
+
 
 #contar las instituciones de todos los datos
-def contarInstituciones():
+def analizarInstituciones():
+
 
     """
         Se cuentan las instituciones que aparecen en la columna afiliattions
@@ -177,29 +204,9 @@ def contarInstituciones():
                 instituciones[institucion]=1
 
 
-    mostrarInstituciones(instituciones)
+    mostrarGraficaDatosParciales(instituciones,'Grafica de instituciones',10)
 
 
-#imprimir las instituciones encontradas
-def mostrarInstituciones(instituciones_couting:dict):
-    
-
-    instituciones_top = sorted(instituciones_couting.items(),key=lambda x:x[1],reverse=True)[:10]
-
-    #se extraen los datos para la grafica
-    keys =[institucion for institucion,_ in instituciones_top]
-    values = [count for _,count in instituciones_top]
-
-    plt.bar(keys,values)
-
-    # Añadir etiquetas
-    plt.xlabel('instituciones')
-    plt.ylabel('posicion')
-    plt.title('instituciones top en publicaciones')
-
-    # Mostrar el gráfico
-    plt.xticks(rotation=90)  # Rotar etiquetas si son largas
-    plt.show()
 
 
 
@@ -215,7 +222,7 @@ if __name__ =='__main__':
     #analizarAutores()
 
     #estadistica a los años
-    #contarAniosPublicacion()
+    #analizarFecha()
 
 
     #hacer un conteo de cuantas conferencias hay, cuantos capitulos de libro y cuantos articulos
@@ -223,4 +230,4 @@ if __name__ =='__main__':
 
 
     #(institucion)
-    contarInstituciones()
+    analizarInstituciones()
