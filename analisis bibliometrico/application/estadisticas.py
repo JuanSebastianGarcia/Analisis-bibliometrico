@@ -239,7 +239,28 @@ def analizarPublisher():
         else:
             publisher_couting[item]=1
 
-    mostrarGraficaDatosParciales(publisher_couting,'grafica de publisher',3)
+    mostrarGraficaDatosCompletos(publisher_couting,'grafica de publisher')
+
+
+#contar la cantidad de productos por cada base de daatos
+def analizarBaseDatos():
+    """
+        Hacer un conteo de las bases de datos y mostrar en una grafica de barras todas las bases
+        y la cantidad de articulos de cada uno
+    """
+    global data # dataframe de datos
+
+    data_bases_couting={}
+
+    for item in data['Source']:
+        if item and item in data_bases_couting:
+            data_bases_couting[item]+=1
+        else:
+            data_bases_couting[item]=1
+
+    mostrarGraficaDatosCompletos(data_bases_couting,'Cantidad de bases de datos')
+
+
 
 
 #https://go.microsoft.com/fwlink/?LinkID=533483#vscode
@@ -268,4 +289,7 @@ if __name__ =='__main__':
     #analizarJournal()
 
     #hacer un analisis del publisher
-    analizarPublisher()
+    #analizarPublisher()
+
+    #hacer un analisis de la base de datos
+    #analizarBaseDatos()
