@@ -19,7 +19,7 @@ import matplotlib.pyplot as plt
 
 
 #VARIABLES GLOBALES
-data = None 
+data = None #contiene los datos ordenados
 
 #hacer conteno de autores
 def analizarAutores():
@@ -43,11 +43,11 @@ def analizarAutores():
         else:
             counting_autores[autor]=1
 
-    imprimirGraficaautores(counting_autores)
+    imprimirGraficaAutores(counting_autores)
 
 
-
-def imprimirGraficaautores(counting_autores):
+#Genera una grafica que muestra los autores
+def imprimirGraficaAutores(counting_autores):
     """
         Deacuerdo al conteo de los autores hecho previamente, se imprimira una grafica de barras con los 
         15 autores mas nombrados
@@ -56,7 +56,7 @@ def imprimirGraficaautores(counting_autores):
     # Filtrar autores con más de 5 ocurrencias
     top_autores = sorted(counting_autores.items(), key=lambda x:x[1] , reverse=True)[:15]
 
-
+    #se extraen los datos para la grafica
     keys = [autor for autor,_ in top_autores ]
     values = [conteo for _,conteo in top_autores]
 
@@ -72,7 +72,7 @@ def imprimirGraficaautores(counting_autores):
     plt.show()
 
 
-
+#carga lso datos del csv a la variable data
 def cargarDatos():
 
     """
@@ -90,7 +90,7 @@ def cargarDatos():
                        encoding_errors='replace')
 
 
-
+#estandariza el tipo de dato de cada columna 
 def estandarizarTiposDatos():
     """
         Para evitar errores en la lectura de los datos y confundir tipos, se estandarizan los 
@@ -101,13 +101,59 @@ def estandarizarTiposDatos():
     data['Authors'] = data['Authors'].astype(str).fillna('')
 
 
+#hacer un conteo de los años de la publicacion de cada articulo
+def contarAniosPublicacion():
+    """
+        realizar un conteo de los años de publicacion de cada articulo
+    """
 
-cargarDatos()
-estandarizarTiposDatos()
-analizarAutores()
+    global data #variable de datos
+
+    years_couting={} #diccionario de años
+
+    #conteo de años
+    for year in data['Year']:
+        if year in years_couting:
+            years_couting[year]+=1
+        else:
+            years_couting[year]=1
+
+    showYears(years_couting)
+
+
+
+
+def showYears(years_couting:dict):
+    """
+        Mostrar el conteo de datos de cada año
+    """
+
+    #se extraen los datos para la grafica
+    keys =list( years_couting.keys())
+    values = list(years_couting.values())
+
+    plt.bar(keys,values)
+
+    # Añadir etiquetas
+    plt.xlabel('años')
+    plt.ylabel('numero de publicaciones por año')
+    plt.title('publicacion de articulos en los años')
+
+    # Mostrar el gráfico
+    plt.xticks(rotation=90)  # Rotar etiquetas si son largas
+    plt.show()
+
+
 
 
 if __name__ =='__main__':
 
+    #preparacion
+    cargarDatos()
+    estandarizarTiposDatos()
 
-    print()
+    #estadistica a autores
+    #analizarAutores()
+
+    #estadistica a los años
+    contarAniosPublicacion()
