@@ -145,6 +145,65 @@ def showYears(years_couting:dict):
 
 
 
+def contarTiposProducto():
+
+    """
+        Contar la cantidad de veces que aparece cada tipo de producto
+    """
+
+    global data #variable que contiene el dataframe de datos
+    
+
+#contar las instituciones de todos los datos
+def contarInstituciones():
+
+    """
+        Se cuentan las instituciones que aparecen en la columna afiliattions
+        y se imprimen las 5 primeras instituciones
+    """
+
+    global data #dataframe de datos
+
+    instituciones={}
+
+    #se recorren las afiliaciones
+    for afiliacion in data['Affiliations']:
+
+        if afiliacion:
+            institucion = str(afiliacion).split(',')[0]#se extrae la instituciones
+            if  institucion in instituciones:
+                instituciones[institucion]+=1
+            else:
+                instituciones[institucion]=1
+
+
+    mostrarInstituciones(instituciones)
+
+
+#imprimir las instituciones encontradas
+def mostrarInstituciones(instituciones_couting:dict):
+    
+
+    instituciones_top = sorted(instituciones_couting.items(),key=lambda x:x[1],reverse=True)[:10]
+
+    #se extraen los datos para la grafica
+    keys =[institucion for institucion,_ in instituciones_top]
+    values = [count for _,count in instituciones_top]
+
+    plt.bar(keys,values)
+
+    # Añadir etiquetas
+    plt.xlabel('instituciones')
+    plt.ylabel('posicion')
+    plt.title('instituciones top en publicaciones')
+
+    # Mostrar el gráfico
+    plt.xticks(rotation=90)  # Rotar etiquetas si son largas
+    plt.show()
+
+
+
+
 
 if __name__ =='__main__':
 
@@ -156,4 +215,12 @@ if __name__ =='__main__':
     #analizarAutores()
 
     #estadistica a los años
-    contarAniosPublicacion()
+    #contarAniosPublicacion()
+
+
+    #hacer un conteo de cuantas conferencias hay, cuantos capitulos de libro y cuantos articulos
+    #contarTiposProducto()
+
+
+    #(institucion)
+    contarInstituciones()
