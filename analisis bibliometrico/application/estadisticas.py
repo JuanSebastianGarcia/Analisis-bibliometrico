@@ -16,6 +16,9 @@ Lista de las variables que hay que procesar
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
+from prettytable import PrettyTable
+import tkinter as tk
+
 
 
 #VARIABLES GLOBALES
@@ -109,6 +112,8 @@ def estandarizarTiposDatos():
     """
     global data
 
+    data['FirstAuthor']=data['Authors'].apply(lambda x: x.split(';')[0].strip().split(',')[0])
+
     data['Authors'] = data['Authors'].astype(str)
     data['Year'] = data['Year'].astype(int).fillna(0)
     data['Affiliations']=data['Affiliations'].astype(str)
@@ -151,7 +156,7 @@ def analizarAutores(year):
     filter_data = filtrar_year_data(year)
 
     #extraer el primer autor    
-    autores = filter_data['Authors'].apply(lambda x: x.split(';')[0].strip().split(',')[0])
+    autores = filter_data['FirstAuthor']
 
     counting_autores={}
 
@@ -326,6 +331,51 @@ def analizarArticuloMasCitado(year:int):
     
 
 
+def analizar_database_autor():
+    """
+    Realizar un analisis de los mejores autores generales y cuantas veces aparecen en cada base de datos,
+    se mostrara una tabla con los resultados
+    """
+    global data  # Asegúrate de que 'data' es un DataFrame que contiene la información necesaria
+
+    # Agrupa los datos por 'Autor' y 'Base de datos', y cuenta las ocurrencias
+    resultados = data.groupby(['FirstAuthor', 'Source']).size().unstack(fill_value=0)
+
+    # Agrega una columna de total de apariciones para ordenar
+    resultados['Total'] = resultados.sum(axis=1)
+
+    # Ordena por el total de apariciones y selecciona los 15 mejores
+    mejores_15 = resultados.sort_values(by='Total', ascending=False).head(15)
+
+    # Elimina la columna 'Total' de la visualización final si solo quieres ver el desglose por base de datos
+    mejores_15 = mejores_15.drop(columns='Total')
+
+    # Muestra la tabla
+    print("Conteo de apariciones de los 15 mejores autores en cada Base de Datos:")
+    print(mejores_15)
+
+
+    tabla = PrettyTable()
+    tabla.field_names = ["Authors"] + list(mejores_15.columns)
+    for index, row in mejores_15.iterrows():
+        tabla.add_row([index] + list(row))
+    
+
+        # Crear la ventana de Tkinter
+    root = tk.Tk()
+    root.title("Tabla de Datos de los 15 Mejores Autores")
+
+    # Crear y mostrar el texto con el contenido de la tabla en la interfaz
+    text = tk.Text(root, wrap="none")
+    text.insert(tk.END, tabla.get_string())
+    text.config(state="disabled")  # Hacer que el texto sea de solo lectura
+    text.pack()
+
+    # Ejecutar la interfaz
+    root.mainloop()
+
+    
+
 
 #https://go.microsoft.com/fwlink/?LinkID=533483#vscode
 
@@ -336,7 +386,7 @@ if __name__ =='__main__':
     estandarizarTiposDatos()
 
     #hacer una analisis de las instituciones
-    #analizarAutores(2017)
+    #analizarAutores(0)
 
     #hacer un analisis de los años de publicacion
     #analizarFecha()
@@ -358,4 +408,7 @@ if __name__ =='__main__':
     #hacer un analisis de la base de datos
     #analizarBaseDatos(2019)
 
-    analizarArticuloMasCitado(2023)
+    #hacer un analisis de la base de datos 
+    #analizarArticuloMasCitado(2023)
+
+    analizar_database_autor()
