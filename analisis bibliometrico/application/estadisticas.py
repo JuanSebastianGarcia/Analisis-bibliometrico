@@ -23,7 +23,7 @@ data = None #contiene los datos ordenados
 
 
 #Genera una grafica que muestra los autores
-def mostrarGraficaDatosParciales(counting_autores:dict,mensaje:str,cantidad_datos:int):
+def mostrarGraficaDatosParciales(counting_data:dict,mensaje_titulo:str,cantidad_datos_mostrar:int):
     """
         Mostrar una grafica de barras con el numero de datos elejido, este numero de datos seran extraidos de mayor 
         a menor
@@ -33,20 +33,21 @@ def mostrarGraficaDatosParciales(counting_autores:dict,mensaje:str,cantidad_dato
             mensaje - mensaje titulo que aparece en la grafica
             cantidad_datos - es la cantidad de datos que seran impresos
     """
+
     # Filtrar autores con más de 5 ocurrencias
-    top_autores = sorted(counting_autores.items(), key=lambda x:x[1] , reverse=True)[:cantidad_datos]
+    top_data = sorted(counting_data.items(), key=lambda x:x[1] , reverse=True)[:cantidad_datos_mostrar]
 
 
     #se extraen los datos para la grafica
-    keys = [autor for autor,_ in top_autores ]
-    values = [conteo for _,conteo in top_autores]
+    keys = [keys for keys,_ in top_data ]
+    values = [values for _,values in top_data]
 
     plt.bar(keys,values)
 
     # Añadir etiquetas
     plt.xlabel('Datos')
     plt.ylabel('Cantidad')
-    plt.title(mensaje)
+    plt.title(mensaje_titulo)
 
     # Mostrar el gráfico
     plt.xticks(rotation=90)  # Rotar etiquetas si son largas
@@ -109,37 +110,61 @@ def estandarizarTiposDatos():
     global data
 
     data['Authors'] = data['Authors'].astype(str)
-    data['Year'] = data['year'].astype(int).fillna(0)
+    data['Year'] = data['Year'].astype(int).fillna(0)
     data['Affiliations']=data['Affiliations'].astype(str)
     data['Source title']=data['Source title'].astype(str)
     data['Publisher']=data['Publisher'].astype(str)
+    data['Title']=data['Title'].astype(str)
+    data['Source']=data['Source'].astype(str)
+
+
+
+#filta la base de datos con respecto a un año especifico
+def filtrar_year_data(year:int):
+    """
+    Filtra la base de datos para un año específico, permitiendo analizar y procesar datos de ese año.
+
+    Parámetros:
+        year (int): Año para filtrar los datos. Si se ingresa 0, se devuelve toda la data sin filtrar.
+
+    Retorna:
+        DataFrame: Datos filtrados por el año especificado o toda la data si `year` es 0.
+    """
+    global data
+
+    #si entra un 0 el usuario no especifico año
+    if year == 0:
+        return data
+    
+    return data[data['Year'] == year]
 
 
 
 #hacer conteno de autores
-def analizarAutores():
+def analizarAutores(year):
 
     """
         Se extrae el primer autor de cada producto y se hace un contedo de las veces 
         que aparece cada autor
 
     """
-    global data
+    filter_data = filtrar_year_data(year)
 
     #extraer el primer autor    
-    autores = data['Authors'].apply(lambda x: x.split(';')[0].strip().split(',')[0])
+    autores = filter_data['Authors'].apply(lambda x: x.split(';')[0].strip().split(',')[0])
 
     counting_autores={}
 
     #hacer un conteo de los autores
     for autor in autores:
-        if autor != 'null':
+        if autor != 'Null':
             if autor in counting_autores:
                 counting_autores[autor]+=1
             else:
                 counting_autores[autor]=1
 
-    mostrarGraficaDatosParciales(counting_autores,'Grafica de los 15 mejores autores',15)
+    mostrarGraficaDatosParciales(counting_autores,f'Grafica de los 15 mejores autores en el año {year}',15)
+
 
 
 
@@ -155,7 +180,7 @@ def analizarFecha():
 
     #conteo de años
     for year in data['Year']:
-        if year is not 0:
+        if year != 0:
             if year in years_couting:
                 years_couting[year]+=1
             else:
@@ -165,8 +190,9 @@ def analizarFecha():
 
 
 
+
 #metodo que cuenta la cantidad de cada tipo de producto
-def analizarTipoProducto():
+def analizarTipoProducto(year:int):
 
     """
         Contar la cantidad de veces que aparece cada tipo de producto
@@ -177,37 +203,38 @@ def analizarTipoProducto():
 
         despues de realizar el conteo, se imprime una grafica con el resultado de los datos
     """
-    global data #dataframe de datos
+
+    filter_data = filtrar_year_data(year)
+
     product_type_couting={} #diccionario de tipos de productos
 
-    for item in data['ProductType']:
+    for item in filter_data['ProductType']:
         if item and item in product_type_couting:
             product_type_couting[item]+=1
         else:
             product_type_couting[item]=1
 
-    mostrarDatosCompletos(product_type_couting,'Grafica de tipos de producto')
+    mostrarGraficaDatosCompletos(product_type_couting,'Grafica de tipos de producto')
 
 
 
 
 #contar las instituciones de todos los datos
-def analizarInstituciones():
+def analizarInstituciones(year:int):
 
 
     """
         Se cuentan las instituciones que aparecen en la columna afiliattions
         y se imprimen las 5 primeras instituciones
     """
-
-    global data #dataframe de datos
+    filter_data =filtrar_year_data(year)
 
     instituciones={}
 
     #se recorren las afiliaciones
-    for afiliacion in data['Affiliations']:
+    for afiliacion in filter_data['Affiliations']:
 
-        if afiliacion is not 'null':
+        if afiliacion != 'Null':
             institucion = str(afiliacion).split(',')[0]#se extrae la instituciones
             if  institucion in instituciones:
                 instituciones[institucion]+=1
@@ -219,17 +246,18 @@ def analizarInstituciones():
 
 
 
+
 #contar todos los journal que han publicado 
-def analizarJournal():
+def analizarJournal(year:int):
     """
         Realizar un conteo de todos los journal mas representativos e imprimir los 
         mejores journal
     """
-    global data #dataframe de datos
+    filter_data=filtrar_year_data(year)
 
     journal_couting={}
 
-    for item in data['Source title']:
+    for item in filter_data['Source title']:
         if item and item in journal_couting:
             journal_couting[item]+=1
         else:
@@ -239,56 +267,59 @@ def analizarJournal():
 
 
 
+
 #contar todos los publisher presentes
-def analizarPublisher():
+def analizarPublisher(year:int):
     """
         Contar todos los publisher de cada producto, y mostrar los publisher top que aparecen por cada articulo
     """
-    global data #dataframe de datos
+    filter_data = filtrar_year_data(year)
 
     publisher_couting = {}
 
-    for item in data['Publisher']:
-        if item and item in publisher_couting:
-            publisher_couting[item]+=1
-        else:
-            publisher_couting[item]=1
+    for item in filter_data['Publisher']:
+        if item != 'Null':
+            if item and item in publisher_couting:
+                publisher_couting[item]+=1
+            else:
+                publisher_couting[item]=1
 
     mostrarGraficaDatosCompletos(publisher_couting,'grafica de publisher')
 
 
 
 #contar la cantidad de productos por cada base de daatos
-def analizarBaseDatos():
+def analizarBaseDatos(year:int):
     """
         Hacer un conteo de las bases de datos y mostrar en una grafica de barras todas las bases
         y la cantidad de articulos de cada uno
     """
-    global data # dataframe de datos
+    filter_data=filtrar_year_data(year)
 
     data_bases_couting={}
 
-    for item in data['Source']:
-        if item and item in data_bases_couting:
-            data_bases_couting[item]+=1
-        else:
-            data_bases_couting[item]=1
+    for item in filter_data['Source']:
+        if item != 'Null':
+            if item and item in data_bases_couting:
+                data_bases_couting[item]+=1
+            else:
+                data_bases_couting[item]=1
 
     mostrarGraficaDatosCompletos(data_bases_couting,'Cantidad de bases de datos')
 
 
 
 #impritmir los articulos mas citados
-def analizarArticuloMasCitado():
+def analizarArticuloMasCitado(year:int):
     """
     Se extraen los artículos y sus citaciones y se imprimen los 15 artículos más citados
     """
-    global data
+    filter_data = filtrar_year_data(year)
 
     citaciones_por_articulo = {}
 
-    for _, row in data.iterrows():  # `_` omite el índice, y `row` es la Serie de la fila
-        if row['Title'] and row['Cited by']:  # Verifica que ambos valores existan
+    for _, row in filter_data.iterrows():  # `_` omite el índice, y `row` es la Serie de la fila
+        if row['Title'] != 'Null' and row['Cited by'] != 0:  # Verifica que ambos valores existan
             citaciones_por_articulo[row['Title']] = int(row['Cited by'])
 
     mostrarGraficaDatosParciales(citaciones_por_articulo, 'artículos más citados', 5)
@@ -305,7 +336,7 @@ if __name__ =='__main__':
     estandarizarTiposDatos()
 
     #hacer una analisis de las instituciones
-    #analizarAutores()
+    #analizarAutores(2017)
 
     #hacer un analisis de los años de publicacion
     #analizarFecha()
@@ -316,15 +347,15 @@ if __name__ =='__main__':
 
 
     #hacer un analizis de las instituciones
-    #analizarInstituciones()
+    #analizarInstituciones(2015)
 
     #hacer un analisis del journal de cada producto
-    #analizarJournal()
+    #analizarJournal(0)
 
     #hacer un analisis del publisher
-    #analizarPublisher()
+    #analizarPublisher(9)
 
     #hacer un analisis de la base de datos
-    #analizarBaseDatos()
+    #analizarBaseDatos(2019)
 
-    analizarArticuloMasCitado()
+    analizarArticuloMasCitado(2023)
