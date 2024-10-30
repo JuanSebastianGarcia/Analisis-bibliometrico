@@ -36,7 +36,6 @@ def mostrarGraficaDatosParciales(counting_autores:dict,mensaje:str,cantidad_dato
     # Filtrar autores con más de 5 ocurrencias
     top_autores = sorted(counting_autores.items(), key=lambda x:x[1] , reverse=True)[:cantidad_datos]
 
-    print(top_autores)
 
     #se extraen los datos para la grafica
     keys = [autor for autor,_ in top_autores ]
@@ -81,6 +80,7 @@ def mostrarGraficaDatosCompletos(product_type_couting:dict,mensaje:str):
     plt.show()
 
 
+
 #carga lso datos del csv a la variable data
 def cargarDatos():
 
@@ -99,6 +99,7 @@ def cargarDatos():
                        encoding_errors='replace')
 
 
+
 #estandariza el tipo de dato de cada columna 
 def estandarizarTiposDatos():
     """
@@ -107,7 +108,12 @@ def estandarizarTiposDatos():
     """
     global data
 
-    data['Authors'] = data['Authors'].astype(str).fillna('')
+    data['Authors'] = data['Authors'].astype(str)
+    data['Year'] = data['year'].astype(int).fillna(0)
+    data['Affiliations']=data['Affiliations'].astype(str)
+    data['Source title']=data['Source title'].astype(str)
+    data['Publisher']=data['Publisher'].astype(str)
+
 
 
 #hacer conteno de autores
@@ -127,12 +133,14 @@ def analizarAutores():
 
     #hacer un conteo de los autores
     for autor in autores:
-        if autor in counting_autores:
-            counting_autores[autor]+=1
-        else:
-            counting_autores[autor]=1
+        if autor != 'null':
+            if autor in counting_autores:
+                counting_autores[autor]+=1
+            else:
+                counting_autores[autor]=1
 
     mostrarGraficaDatosParciales(counting_autores,'Grafica de los 15 mejores autores',15)
+
 
 
 #hacer un conteo de los años de la publicacion de cada articulo
@@ -147,12 +155,14 @@ def analizarFecha():
 
     #conteo de años
     for year in data['Year']:
-        if year in years_couting:
-            years_couting[year]+=1
-        else:
-            years_couting[year]=1
+        if year is not 0:
+            if year in years_couting:
+                years_couting[year]+=1
+            else:
+                years_couting[year]=1
 
     mostrarGraficaDatosCompletos(years_couting,'Grafica de años')
+
 
 
 #metodo que cuenta la cantidad de cada tipo de producto
@@ -179,6 +189,8 @@ def analizarTipoProducto():
     mostrarDatosCompletos(product_type_couting,'Grafica de tipos de producto')
 
 
+
+
 #contar las instituciones de todos los datos
 def analizarInstituciones():
 
@@ -195,7 +207,7 @@ def analizarInstituciones():
     #se recorren las afiliaciones
     for afiliacion in data['Affiliations']:
 
-        if afiliacion:
+        if afiliacion is not 'null':
             institucion = str(afiliacion).split(',')[0]#se extrae la instituciones
             if  institucion in instituciones:
                 instituciones[institucion]+=1
@@ -204,6 +216,7 @@ def analizarInstituciones():
 
 
     mostrarGraficaDatosParciales(instituciones,'Grafica de instituciones',10)
+
 
 
 #contar todos los journal que han publicado 
@@ -225,6 +238,7 @@ def analizarJournal():
     mostrarGraficaDatosParciales(journal_couting,'3 mejores journal',3)
 
 
+
 #contar todos los publisher presentes
 def analizarPublisher():
     """
@@ -241,6 +255,7 @@ def analizarPublisher():
             publisher_couting[item]=1
 
     mostrarGraficaDatosCompletos(publisher_couting,'grafica de publisher')
+
 
 
 #contar la cantidad de productos por cada base de daatos
@@ -260,6 +275,7 @@ def analizarBaseDatos():
             data_bases_couting[item]=1
 
     mostrarGraficaDatosCompletos(data_bases_couting,'Cantidad de bases de datos')
+
 
 
 #impritmir los articulos mas citados
