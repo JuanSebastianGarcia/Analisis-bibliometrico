@@ -47,6 +47,7 @@ def mostrarGraficaDatosParciales(counting_data:dict,mensaje_titulo:str,cantidad_
 
     plt.bar(keys,values)
 
+
     # Añadir etiquetas
     plt.xlabel('Datos')
     plt.ylabel('Cantidad')
@@ -331,6 +332,7 @@ def analizarArticuloMasCitado(year:int):
     
 
 
+#analizar los mejores autores y su aparicion en cada base de datos
 def analizar_database_autor():
     """
     Realizar un analisis de los mejores autores generales y cuantas veces aparecen en cada base de datos,
@@ -374,10 +376,75 @@ def analizar_database_autor():
     # Ejecutar la interfaz
     root.mainloop()
 
+
+
+def analizar_journal_articulo():
+    """
+    Realizar un conteo de los articulos que contiene cada journal
+    y se imprimen los 3 mas relevantes
+
+    """
+    global data
+
+    journal_couting={}
+
+    for _,item in data.iterrows():
+        if item['Source title'] != 'Null': #and item['Product type']=='article':
+            if item['Source title'] in journal_couting:
+                journal_couting[item['Source title']]+=1
+            else:
+                journal_couting[item['Source title']]=1
+
+    mostrarGraficaDatosParciales(journal_couting,'3 mejores journal',3)
+
+
+#hacer un analisis de los mejores autores por cada journal
+def analizar_autores_journal():
+    """
+    identificcar los 3 autores con mas publicaciones de cada jorunal y se 
+    imprimen los resultados
+
+    """
+
+    global data #dataframe de datos
+
+    obtener_mejores_journal(3)
+
+    for _,item in data.iterrows:
+        print()
+        
+
+def obtener_mejores_journal(cantidad:int):
+    """
+    Realizar el conteo de la cantidad de productos de cada journal y seleccionar lo 
+    n mejores de la lista
+
+    parametros
+        cantidad - contiene la cantidad de journal que se desean obtener
+    """
+    global data
+
+    journal_couting={}
+
+    for _,item in data.iterrows():
+        if item['Source title'] != 'Null': #and item['Product type']=='article':
+            if item['Source title'] in journal_couting:
+                journal_couting[item['Source title']]+=1
+            else:
+                journal_couting[item['Source title']]=1
+
+    # Filtrar autores con más de 5 ocurrencias
+    top_data = sorted(journal_couting.items(), key=lambda x:x[1] , reverse=True)[:cantidad]
+
+
+    #se extraen los datos para la grafica
+    keys = [keys for keys,_ in top_data ]
+
+    return keys
+
     
 
 
-#https://go.microsoft.com/fwlink/?LinkID=533483#vscode
 
 if __name__ =='__main__':
 
@@ -400,7 +467,7 @@ if __name__ =='__main__':
     #analizarInstituciones(2015)
 
     #hacer un analisis del journal de cada producto
-    #analizarJournal(0)
+    analizarJournal(0)
 
     #hacer un analisis del publisher
     #analizarPublisher(9)
@@ -411,4 +478,11 @@ if __name__ =='__main__':
     #hacer un analisis de la base de datos 
     #analizarArticuloMasCitado(2023)
 
-    analizar_database_autor()
+    #analisis de autores en cada base de datos
+    #analizar_database_autor()
+
+    #hacer analisis de los articulos de cada journal
+    analizar_journal_articulo()
+
+    #
+    analizar_autores_journal()
