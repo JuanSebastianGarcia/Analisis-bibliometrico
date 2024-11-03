@@ -398,9 +398,8 @@ def analizar_journal_articulo():
 #hacer un analisis de los mejores autores por cada journal
 def analizar_autores_journal():
     """
-    identificcar los 3 autores con mas publicaciones de cada jorunal y se 
+    identificar el  autor con mas publicaciones de los n mejores jorunal y se 
     imprimen los resultados
-
     """
 
     global data #dataframe de datos
@@ -417,9 +416,30 @@ def analizar_autores_journal():
 
     imprimir_autores_journal(listaJournal)
 
+
+
+
 #imprimir el mejor autor de cada jorunal
-def imprimir_autores_journal():
+def imprimir_autores_journal(listaJournal:dict):
     
+    for journal,authors in listaJournal.items():
+        mejor_autor=extraer_mejor_autor(authors)
+
+        print(f'El mejor autor del journal {journal} 
+                es el autor {mejor_autor}')
+
+
+
+#extraer el item con mas ocurrencias de un diccionario
+def extraer_mejor_autor(autores:dict):
+
+    #se ordenan los datos mayor a menor y se extrae el mejor
+    top_autor = sorted(autores.items(), key=lambda x:x[1],reverse=False)[1]
+
+    print(top_autor)
+    return top_autor
+
+
 
 
 #se agrega el conteo de un autor a cada journal
@@ -485,7 +505,7 @@ if __name__ =='__main__':
     estandarizarTiposDatos()
 
     #hacer una analisis de las instituciones
-    analizarAutores(0)
+    #analizarAutores(0)
 
     #hacer un analisis de los años de publicacion
     #analizarFecha()
@@ -517,4 +537,4 @@ if __name__ =='__main__':
     #analizar_journal_articulo()
 
     #
-    #analizar_autores_journal()
+    analizar_autores_journal()
