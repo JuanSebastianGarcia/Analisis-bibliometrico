@@ -396,7 +396,7 @@ def analizar_journal_articulo():
 
 
 #hacer un analisis de los mejores autores por cada journal
-def analizar_autores_journal():
+def analizar_autores_journal(cantidadJournal:int):  
     """
     identificar el  autor con mas publicaciones de los n mejores jorunal y se 
     imprimen los resultados
@@ -404,7 +404,7 @@ def analizar_autores_journal():
 
     global data #dataframe de datos
 
-    listaJournal:dict = obtener_mejores_journal(3)#obtener los 3 mejores journal
+    listaJournal:dict = obtener_mejores_journal(cantidadJournal)#obtener los 3 mejores journal
 
     for _,item in data.iterrows(): #se recorre el dataframe
 
@@ -528,5 +528,5 @@ if __name__ =='__main__':
     #hacer analisis de los articulos de cada journal
     #analizar_journal_articulo()
 
-    #
-    analizar_autores_journal()
+    #extrear el mejor autor de cada journal
+    analizar_autores_journal(3)
