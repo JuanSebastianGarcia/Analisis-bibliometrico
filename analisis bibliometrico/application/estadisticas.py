@@ -113,8 +113,10 @@ def estandarizarTiposDatos():
     """
     global data
 
+    #se genera una columna que contiene el primer autor
     data['FirstAuthor']=data['Authors'].apply(lambda x: x.split(';')[0].strip().split(',')[0])
 
+    #se estandariza el tipo de dato de cada columna
     data['Authors'] = data['Authors'].astype(str)
     data['Year'] = data['Year'].astype(int).fillna(0)
     data['Affiliations']=data['Affiliations'].astype(str)
@@ -173,7 +175,6 @@ def analizarAutores(year):
 
 
 
-
 #hacer un conteo de los años de la publicacion de cada articulo
 def analizarFecha():
     """
@@ -193,7 +194,6 @@ def analizarFecha():
                 years_couting[year]=1
 
     mostrarGraficaDatosCompletos(years_couting,'Grafica de años')
-
 
 
 
@@ -224,7 +224,6 @@ def analizarTipoProducto(year:int):
 
 
 
-
 #contar las instituciones de todos los datos
 def analizarInstituciones(year:int):
 
@@ -252,7 +251,6 @@ def analizarInstituciones(year:int):
 
 
 
-
 #contar todos los journal que han publicado 
 def analizarJournal(year:int):
     """
@@ -270,7 +268,6 @@ def analizarJournal(year:int):
             journal_couting[item]=1
 
     mostrarGraficaDatosParciales(journal_couting,'3 mejores journal',3)
-
 
 
 
@@ -408,39 +405,74 @@ def analizar_autores_journal():
 
     global data #dataframe de datos
 
-    obtener_mejores_journal(3)
+    listaJournal:dict = obtener_mejores_journal(3)#obtener los 3 mejores journal
 
-    for _,item in data.iterrows:
-        print()
-        
+    for _,item in data.iterrows(): #se recorre el dataframe
 
-def obtener_mejores_journal(cantidad:int):
+        journal = item['Source title']#se extrae el journal
+        autor = item['FirstAuthor']
+
+        if journal in listaJournal:
+            listaJournal=agregar_autor_journal(journal,autor,listaJournal)
+
+    imprimir_autores_journal(listaJournal)
+
+#imprimir el mejor autor de cada jorunal
+def imprimir_autores_journal():
+    
+
+
+#se agrega el conteo de un autor a cada journal
+def agregar_autor_journal(journal:str,autor:str,listaJournal:dict):
     """
-    Realizar el conteo de la cantidad de productos de cada journal y seleccionar lo 
-    n mejores de la lista
+    identificar cual es el journal del producto, y cuando se identifica el journal, se agrega 
+    un autor para llevar un conteo sobre el, cada autor en cada journal tendra un conteo especifico
 
-    parametros
-        cantidad - contiene la cantidad de journal que se desean obtener
+    Parametros
+        Journal - nombre del journal
+        autor - nombre del autor
+        listaJournal - diccionario donde se lleva el conteo de cada autor en cada journal
+    """
+    if autor in listaJournal[journal]:
+        listaJournal[journal][autor]+=1
+    else:
+        listaJournal[journal][autor]=1
+    
+    return listaJournal
+
+
+
+
+
+
+#obtener los n journal que han publicado mas productos
+def obtener_mejores_journal(cantidad: int):
+    """
+    Realizar el conteo de la cantidad de productos de cada journal y seleccionar los 
+    n mejores journal de la lista.
+
+    parametros:
+        cantidad - contiene la cantidad de journal que se desean obtener.
     """
     global data
 
-    journal_couting={}
+    journal_couting = {}
 
-    for _,item in data.iterrows():
-        if item['Source title'] != 'Null': #and item['Product type']=='article':
+    for _, item in data.iterrows():
+        if item['Source title'] != 'Null':  # and item['Product type'] == 'article':
             if item['Source title'] in journal_couting:
-                journal_couting[item['Source title']]+=1
+                journal_couting[item['Source title']] += 1
             else:
-                journal_couting[item['Source title']]=1
+                journal_couting[item['Source title']] = 1
 
-    # Filtrar autores con más de 5 ocurrencias
-    top_data = sorted(journal_couting.items(), key=lambda x:x[1] , reverse=True)[:cantidad]
+    # Filtrar journals con más ocurrencias y seleccionar los top "cantidad"
+    top_data = sorted(journal_couting.items(), key=lambda x: x[1], reverse=True)[:cantidad]
 
+    # Inicializar diccionario con las llaves generadas y valores en 0
+    result = {key: 0 for key, _ in top_data}
 
-    #se extraen los datos para la grafica
-    keys = [keys for keys,_ in top_data ]
+    return result
 
-    return keys
 
     
 
@@ -453,7 +485,7 @@ if __name__ =='__main__':
     estandarizarTiposDatos()
 
     #hacer una analisis de las instituciones
-    #analizarAutores(0)
+    analizarAutores(0)
 
     #hacer un analisis de los años de publicacion
     #analizarFecha()
@@ -467,7 +499,7 @@ if __name__ =='__main__':
     #analizarInstituciones(2015)
 
     #hacer un analisis del journal de cada producto
-    analizarJournal(0)
+    #analizarJournal(0)
 
     #hacer un analisis del publisher
     #analizarPublisher(9)
@@ -482,7 +514,7 @@ if __name__ =='__main__':
     #analizar_database_autor()
 
     #hacer analisis de los articulos de cada journal
-    analizar_journal_articulo()
+    #analizar_journal_articulo()
 
     #
-    analizar_autores_journal()
+    #analizar_autores_journal()
