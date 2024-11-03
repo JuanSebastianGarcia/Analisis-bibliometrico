@@ -425,44 +425,17 @@ def imprimir_autores_journal(listaJournal:dict):
     for journal,authors in listaJournal.items():
         mejor_autor=extraer_mejor_autor(authors)
 
-        print(f'El mejor autor del journal {journal} 
-                es el autor {mejor_autor}')
+        print(f'El mejor autor del journal {journal} es el autor {mejor_autor}')
 
 
 
 #extraer el item con mas ocurrencias de un diccionario
 def extraer_mejor_autor(autores:dict):
 
-    #se ordenan los datos mayor a menor y se extrae el mejor
-    top_autor = sorted(autores.items(), key=lambda x:x[1],reverse=False)[1]
+    # Ordenar los datos de mayor a menor y extraer el mejor
+    top_autor = sorted(autores.items(), key=lambda x: x[1], reverse=True)[0]
 
-    print(top_autor)
     return top_autor
-
-
-
-
-#se agrega el conteo de un autor a cada journal
-def agregar_autor_journal(journal:str,autor:str,listaJournal:dict):
-    """
-    identificar cual es el journal del producto, y cuando se identifica el journal, se agrega 
-    un autor para llevar un conteo sobre el, cada autor en cada journal tendra un conteo especifico
-
-    Parametros
-        Journal - nombre del journal
-        autor - nombre del autor
-        listaJournal - diccionario donde se lleva el conteo de cada autor en cada journal
-    """
-    if autor in listaJournal[journal]:
-        listaJournal[journal][autor]+=1
-    else:
-        listaJournal[journal][autor]=1
-    
-    return listaJournal
-
-
-
-
 
 
 #obtener los n journal que han publicado mas productos
@@ -489,10 +462,29 @@ def obtener_mejores_journal(cantidad: int):
     top_data = sorted(journal_couting.items(), key=lambda x: x[1], reverse=True)[:cantidad]
 
     # Inicializar diccionario con las llaves generadas y valores en 0
-    result = {key: 0 for key, _ in top_data}
+    result = {key: {} for key,_ in top_data}
 
     return result
 
+
+
+#se agrega el conteo de un autor a cada journal
+def agregar_autor_journal(journal:str,autor:str,listaJournal:dict):
+    """
+    identificar cual es el journal del producto, y cuando se identifica el journal, se agrega 
+    un autor para llevar un conteo sobre el, cada autor en cada journal tendra un conteo especifico
+
+    Parametros
+        Journal - nombre del journal
+        autor - nombre del autor
+        listaJournal - diccionario donde se lleva el conteo de cada autor en cada journal
+    """
+    if autor in listaJournal[journal]:
+        listaJournal[journal][autor]+=1
+    else:
+        listaJournal[journal][autor]=1
+    
+    return listaJournal
 
     
 
