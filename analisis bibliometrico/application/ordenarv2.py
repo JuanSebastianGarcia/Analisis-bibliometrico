@@ -139,8 +139,7 @@ if __name__ == "__main__":
 # Gráfica de dispersión después del ordenamiento
     plot_scatter(df_sorted, "Distribución de Publicaciones por Año (Después del Ordenamiento)")
 
-# Gráfica del tiempo de ejecución después del ordenamiento
-    plot_execution_time(execution_time)
+
 
 
     # Extraer la dirección donde será guardado el archivo

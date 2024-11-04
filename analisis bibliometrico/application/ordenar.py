@@ -1,5 +1,6 @@
 import os
 import pandas as pd
+import time
 
 MIN_RUN = 32
 
@@ -215,6 +216,22 @@ if __name__ == "__main__":
     # Extraer la dirección donde será guardado el archivo
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     direccion = os.path.join(base_dir, 'data', 'dataOrd.csv')
+
+    
+    # Marca el tiempo inicial
+    start_time = time.time()
+
+    # Ordena la lista usando Timsort
+    tim_sort(df)
+    
+    # Marca el tiempo final
+    end_time = time.time()
+
+    execution_time = end_time - start_time
+    print(f"Tiempo de ejecución: {execution_time} segundos")
+
+
+
 
     # Guardar el archivo limpio en formato CSV
     df_sorted.to_csv(direccion, index=False)
