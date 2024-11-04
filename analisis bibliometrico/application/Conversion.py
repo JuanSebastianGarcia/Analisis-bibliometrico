@@ -37,3 +37,15 @@ df = pd.DataFrame.from_dict(entries_dict, orient='index')
 df.to_csv(output_csv_path, index=False)
 
 print(f"Archivo CSV generado en: {output_csv_path}")
+
+
+# Carga el archivo CSV
+df = pd.read_csv(r'C:\Users\brahi\Documents\Proyecto analisis\analisis bibliometrico\data\ScientDirect_converted.csv')
+
+# Quita 'https://doi.org/' de cada valor en la columna 'doi'
+df['doi'] = df['doi'].str.replace('https://doi.org/', '', regex=False)
+
+# Guarda el archivo modificado
+df.to_csv(r'C:\Users\brahi\Documents\Proyecto analisis\analisis bibliometrico\data\ScientDirect.csv', index=False)
+
+
