@@ -54,52 +54,7 @@ def cargarDatosIEEE():
 
     data_IEEE['Source'] = 'IEEE Xplore'
 
-    
 
-
-
-
-    
-#metodo encargado de renombrar las columnas de la base de IEEE y unificarla a la de scopus
-def unificarDatos():
-
-    global data_IEEE,data,data_scopus
-
-    data_IEEE=data_IEEE.rename(columns={
-        'Document Title':'Title',
-        'Publication Year':'Year',
-        'Start Page':'Page start',
-        'End Page':'Page end',
-        'Author Affiliations':'Affiliations',
-        'ISBNs':'ISBN',
-        'PDF Link':'Link',
-        'Document Identifier':'EID',
-        'Article Citation Count':'Cited by',
-        'Publication Title':'Source title'
-    })
-
-    data = pd.concat([data_IEEE,data_scopus],ignore_index=True)
-    
-    print(data.iloc[0])
-    
-
-# Método encargado de generar el nuevo archivo con todos los datos unificados pero sin repetir
-def crearNuevoCsvSinDuplicados():
-    
-    global data, data_IEEE
-
-    # Eliminar los duplicados basados en la columna 'DOI'
-    data = data.drop_duplicates(subset=['DOI'])
-
-    # Rellenar los espacios vacíos (valores NaN) con 'Null'
-    data = data.fillna('Null')
-
-    # Extraer la dirección donde será guardado el archivo
-    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    direccion = os.path.join(base_dir, 'data', 'data.csv')
-
-    # Guardar el archivo limpio en formato CSV
-    data.to_csv(direccion, index=False)
 
 
 def cargarDatosdata():
@@ -136,10 +91,28 @@ def cargarDatosScientDirect():
     data_scientdirect=data[columnas_deseadas]
 
 
+    
 #metodo encargado de renombrar las columnas de la base de IEEE y unificarla a la de scopus
-def unificarDatos2():
+def unificarDatos():
 
-    global data_scientdirect,data2,data_unificado1
+    global data_IEEE,data,data_scopus,data_scientdirect,data2,data_unificado1
+
+    data_IEEE=data_IEEE.rename(columns={
+        'Document Title':'Title',
+        'Publication Year':'Year',
+        'Start Page':'Page start',
+        'End Page':'Page end',
+        'Author Affiliations':'Affiliations',
+        'ISBNs':'ISBN',
+        'PDF Link':'Link',
+        'Document Identifier':'EID',
+        'Article Citation Count':'Cited by',
+        'Publication Title':'Source title'
+    })
+
+    data = pd.concat([data_IEEE,data_scopus],ignore_index=True)
+    
+    print(data.iloc[0])
 
     data_scientdirect=data_scientdirect.rename(columns={
         'author': 'Authors',
@@ -154,12 +127,26 @@ def unificarDatos2():
     data2 = pd.concat([data_scientdirect,data_unificado1],ignore_index=True)
     
     print(data2.iloc[0])
-
+    
 
 # Método encargado de generar el nuevo archivo con todos los datos unificados pero sin repetir
-def crearNuevoCsvSinDuplicados2():
+def crearNuevoCsvSinDuplicados():
     
-    global data2, data_scientdirect
+    global data, data_IEEE,data2, data_scientdirect
+
+    # Eliminar los duplicados basados en la columna 'DOI'
+    data = data.drop_duplicates(subset=['DOI'])
+
+    # Rellenar los espacios vacíos (valores NaN) con 'Null'
+    data = data.fillna('Null')
+
+    # Extraer la dirección donde será guardado el archivo
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    direccion = os.path.join(base_dir, 'data', 'data.csv')
+
+    # Guardar el archivo limpio en formato CSV
+    data.to_csv(direccion, index=False)
+
 
     # Eliminar los duplicados basados en la columna 'DOI'
     data2 = data2.drop_duplicates(subset=['DOI'])
@@ -172,23 +159,16 @@ def crearNuevoCsvSinDuplicados2():
 
     # Extraer la dirección donde será guardado el archivo
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    direccion = os.path.join(base_dir, 'data', 'data2.csv')
+    direccion = os.path.join(base_dir, 'data', 'data.csv')
 
     # Guardar el archivo limpio en formato CSV
     data2.to_csv(direccion, index=False)
 
 
-
-
-
-
 cargarDatosIEEE()
 cargarDatosScopus()
-unificarDatos()
-crearNuevoCsvSinDuplicados()
 cargarDatosdata()
 cargarDatosScientDirect()
-unificarDatos2()
-crearNuevoCsvSinDuplicados2()
-
+unificarDatos()
+crearNuevoCsvSinDuplicados()
 
