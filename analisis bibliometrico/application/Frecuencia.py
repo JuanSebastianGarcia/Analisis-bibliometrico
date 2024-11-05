@@ -3,7 +3,8 @@ import pandas as pd
 import ast
 import re
 from sklearn.feature_extraction.text import CountVectorizer
-
+from wordcloud import WordCloud
+import matplotlib.pyplot as plt
 
 class Frecuencia:
 
@@ -127,6 +128,32 @@ class Frecuencia:
         # Mostrar resultados
         print(matriz_frecuencia_df)
 
+        self.generar_nube_palabras(vectorizer, matriz_frecuencia)
+
+
+    #generar una nube de palabras
+    def generar_nube_palabras(self,vectorizer,matriz_frecuencia):
+        """
+            Consturir una nube de palabras con base en la matriz de frecuencia generada
+
+            parametros:
+                vectorizer: contiene datos especificos del vectorizador con el que se genero la matriz
+                matriz_frecuencia: contiene los datos resultandtes de cada una de las palabras
+        """
+        # Obtener las palabras y sus frecuencias
+        frecuencia_palabras = dict(zip(vectorizer.get_feature_names_out(), matriz_frecuencia.sum(axis=0).A1))
+
+        # Generar la nube de palabras
+        wordcloud = WordCloud(width=800,max_words=100, height=400, background_color='white').generate_from_frequencies(frecuencia_palabras)
+
+        # Mostrar la nube de palabras
+        plt.figure(figsize=(10, 5))
+        plt.imshow(wordcloud, interpolation='bilinear')
+        plt.axis('off')
+        plt.show()
+
+
+
 
     # Iniciar ejecución del procesamiento
     def iniciar_ejecucion(self):
@@ -142,6 +169,7 @@ class Frecuencia:
 
         # generar una matriz de frecuencia 
         self.realizar_matriz_frecuencia()
+
 
 
 

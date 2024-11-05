@@ -160,6 +160,7 @@ def crearNuevoCsvSinDuplicados():
     # Extraer la dirección donde será guardado el archivo
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     direccion = os.path.join(base_dir, 'data', 'data.csv')
+    direccion = os.path.join(base_dir, 'data', 'data.csv')
 
     # Guardar el archivo limpio en formato CSV
     data2.to_csv(direccion, index=False)
