@@ -103,7 +103,11 @@ class Frecuencia:
         self.palabras_especiales
         
         # Obtener lista de palabras o frases que queremos buscar en los abstracts
-        vocabulario_interes = vocabulario_interes = [palabra.lower() for palabra in vocabulario_interes]
+        vocabulario_interes = self.palabras_especiales['Palabra'].tolist()
+
+        # Convierte todo el vocabulario a minúsculas
+        vocabulario_interes = [palabra.lower() for palabra in vocabulario_interes]
+
 
         # Configuración del vectorizador
         # Usamos CountVectorizer para contar ocurrencias de palabras/frases
@@ -121,16 +125,6 @@ class Frecuencia:
         # Transformar el texto de los abstracts en una matriz de frecuencias
         matriz_frecuencia = vectorizer.fit_transform(self.data['AbtractClean'])
         
-
-        index = list(vectorizer.get_feature_names_out()).index('Abstraction')
-
-    
-        # Extrae todas las ocurrencias de la palabra 'Abstraction' en la matriz
-        ocurrencias_abstraction = matriz_frecuencia[:, index].toarray().flatten()
-
-        # Muestra todas las frecuencias en cada documento
-        print("Frecuencias de 'Abstraction' en cada documento:", sum(ocurrencias_abstraction))
-
         # Crear DataFrame para mejor visualización
         # Convertimos la matriz a DataFrame usando los nombres de las palabras como columnas
         matriz_frecuencia_df = pd.DataFrame(
