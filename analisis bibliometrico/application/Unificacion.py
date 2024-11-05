@@ -92,10 +92,12 @@ def cargarDatosScientDirect():
 
 
     
-#metodo encargado de renombrar las columnas de la base de IEEE y unificarla a la de scopus
+#metodo encargado de renombrar las columnas de las bases de datos involucradas
 def unificarDatos():
 
     global data_IEEE,data,data_scopus,data_scientdirect,data2,data_unificado1
+
+    #metodo que renombre IEEE con scopus
 
     data_IEEE=data_IEEE.rename(columns={
         'Document Title':'Title',
@@ -113,6 +115,8 @@ def unificarDatos():
     data = pd.concat([data_IEEE,data_scopus],ignore_index=True)
     
     print(data.iloc[0])
+
+    #metodo que renombre la data de IEEE y scopus con Scientdirect
 
     data_scientdirect=data_scientdirect.rename(columns={
         'author': 'Authors',
@@ -135,20 +139,6 @@ def crearNuevoCsvSinDuplicados():
     global data, data_IEEE,data2, data_scientdirect
 
     # Eliminar los duplicados basados en la columna 'DOI'
-    data = data.drop_duplicates(subset=['DOI'])
-
-    # Rellenar los espacios vacíos (valores NaN) con 'Null'
-    data = data.fillna('Null')
-
-    # Extraer la dirección donde será guardado el archivo
-    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    direccion = os.path.join(base_dir, 'data', 'data.csv')
-
-    # Guardar el archivo limpio en formato CSV
-    data.to_csv(direccion, index=False)
-
-
-    # Eliminar los duplicados basados en la columna 'DOI'
     data2 = data2.drop_duplicates(subset=['DOI'])
 
     # Rellenar los espacios vacíos (valores NaN) con 'Null'
@@ -159,7 +149,6 @@ def crearNuevoCsvSinDuplicados():
 
     # Extraer la dirección donde será guardado el archivo
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    direccion = os.path.join(base_dir, 'data', 'data.csv')
     direccion = os.path.join(base_dir, 'data', 'data.csv')
 
     # Guardar el archivo limpio en formato CSV
