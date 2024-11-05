@@ -172,7 +172,7 @@ def crearNuevoCsvSinDuplicados2():
 
     # Extraer la dirección donde será guardado el archivo
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    direccion = os.path.join(base_dir, 'data', 'data2.csv')
+    direccion = os.path.join(base_dir, 'data', 'data.csv')
 
     # Guardar el archivo limpio en formato CSV
     data2.to_csv(direccion, index=False)
@@ -184,10 +184,11 @@ def crearNuevoCsvSinDuplicados2():
 
 cargarDatosIEEE()
 cargarDatosScopus()
+cargarDatosScientDirect()
 unificarDatos()
 crearNuevoCsvSinDuplicados()
+
 cargarDatosdata()
-cargarDatosScientDirect()
 unificarDatos2()
 crearNuevoCsvSinDuplicados2()
 
