@@ -44,12 +44,12 @@ class Frecuencia:
         para facilitar el reemplazo en los textos.
         """
         for _, row in self.palabras_especiales.iterrows():
-            palabra_principal = row['Palabra']
+            palabra_principal = str(row['Palabra']).lower()
             # Convertir la columna de sinónimos a lista si no está vacía
             if row['Sinonimos'] != '[]':
                 sin_list = ast.literal_eval(row['Sinonimos'])
                 for sinonimo in sin_list:
-                    self.sinonimos_dict[sinonimo] = palabra_principal
+                    self.sinonimos_dict[str(sinonimo).lower()] = palabra_principal
         
         # Ordenar el diccionario para que reemplace primero las frases más largas
         self.sinonimos_dict = dict(sorted(self.sinonimos_dict.items(), key=lambda x: len(x[0]), reverse=True))
@@ -79,6 +79,8 @@ class Frecuencia:
         # Paso 1: Estandarizar palabras reemplazando sinónimos
         self.data['AbtractClean'] = self.data['Abstract'].apply(self.reemplazar_sinonimos)
         
+        self.data['AbtractClean']=self.data['AbtractClean'].apply( lambda x : str(x).lower() )
+
         #direccion del nuevo archivo
         base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         file_path_data = os.path.join(base_dir, 'data', 'dataNew.csv')
@@ -97,12 +99,15 @@ class Frecuencia:
         se realiza la configuracion para tener en cuenta no solo palabras si no frases
         """
 
-        data = self.data
-
-        palabras = self.palabras_especiales
+        self.data
+        self.palabras_especiales
         
         # Obtener lista de palabras o frases que queremos buscar en los abstracts
-        vocabulario_interes = palabras['Palabra'].tolist()
+        vocabulario_interes = self.palabras_especiales['Palabra'].tolist()
+
+        # Convierte todo el vocabulario a minúsculas
+        vocabulario_interes = [palabra.lower() for palabra in vocabulario_interes]
+
 
         # Configuración del vectorizador
         # Usamos CountVectorizer para contar ocurrencias de palabras/frases
@@ -114,10 +119,12 @@ class Frecuencia:
             ngram_range=(1, 3)
         )
 
+
+
         # Análisis de frecuencia
         # Transformar el texto de los abstracts en una matriz de frecuencias
-        matriz_frecuencia = vectorizer.fit_transform(data['AbtractClean'])
-
+        matriz_frecuencia = vectorizer.fit_transform(self.data['AbtractClean'])
+        
         # Crear DataFrame para mejor visualización
         # Convertimos la matriz a DataFrame usando los nombres de las palabras como columnas
         matriz_frecuencia_df = pd.DataFrame(
@@ -129,6 +136,10 @@ class Frecuencia:
         print(matriz_frecuencia_df)
 
         self.generar_nube_palabras(vectorizer, matriz_frecuencia)
+
+
+
+
 
 
     #generar una nube de palabras

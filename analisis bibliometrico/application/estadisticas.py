@@ -262,10 +262,11 @@ def analizarJournal(year:int):
     journal_couting={}
 
     for item in filter_data['Source title']:
-        if item and item in journal_couting:
-            journal_couting[item]+=1
-        else:
-            journal_couting[item]=1
+        if item != 'Null':
+            if item in journal_couting:
+                journal_couting[item]+=1
+            else:
+                journal_couting[item]=1
 
     mostrarGraficaDatosParciales(journal_couting,'3 mejores journal',3)
 
@@ -282,12 +283,12 @@ def analizarPublisher(year:int):
 
     for item in filter_data['Publisher']:
         if item != 'Null':
-            if item and item in publisher_couting:
+            if  item in publisher_couting:
                 publisher_couting[item]+=1
             else:
                 publisher_couting[item]=1
 
-    mostrarGraficaDatosCompletos(publisher_couting,'grafica de publisher')
+    mostrarGraficaDatosParciales(publisher_couting,'grafica de los 5 mejores publisher',5)
 
 
 
@@ -337,8 +338,11 @@ def analizar_database_autor():
     """
     global data  # Asegúrate de que 'data' es un DataFrame que contiene la información necesaria
 
+    # Filtrar autores donde 'FirstAuthor' no sea 'Null'
+    data_filtrada = data[data['FirstAuthor'] != 'Null']
+
     # Agrupa los datos por 'Autor' y 'Base de datos', y cuenta las ocurrencias
-    resultados = data.groupby(['FirstAuthor', 'Source']).size().unstack(fill_value=0)
+    resultados = data_filtrada.groupby(['FirstAuthor', 'Source']).size().unstack(fill_value=0)
 
     # Agrega una columna de total de apariciones para ordenar
     resultados['Total'] = resultados.sum(axis=1)
@@ -357,6 +361,7 @@ def analizar_database_autor():
     tabla = PrettyTable()
     tabla.field_names = ["Authors"] + list(mejores_15.columns)
     for index, row in mejores_15.iterrows():
+        
         tabla.add_row([index] + list(row))
     
 
@@ -489,6 +494,14 @@ def agregar_autor_journal(journal:str,autor:str,listaJournal:dict):
     
 
 
+cargarDatos()
+estandarizarTiposDatos()
+
+for _,item in data.iterrows():
+    if(item['Authors']=='null' ):
+        print(item)
+
+
 
 if __name__ =='__main__':
 
@@ -497,10 +510,10 @@ if __name__ =='__main__':
     estandarizarTiposDatos()
 
     #hacer una analisis de las instituciones
-    #analizarAutores(0)
+    analizarAutores(0)
 
     #hacer un analisis de los años de publicacion
-    #analizarFecha()
+    analizarFecha()
 
 
     #hacer un analisis de los tipos de producto
@@ -508,25 +521,25 @@ if __name__ =='__main__':
 
 
     #hacer un analizis de las instituciones
-    #analizarInstituciones(2015)
+    analizarInstituciones(2015)
 
     #hacer un analisis del journal de cada producto
-    #analizarJournal(0)
+    analizarJournal(0)
 
     #hacer un analisis del publisher
-    #analizarPublisher(9)
+    analizarPublisher(0)
 
     #hacer un analisis de la base de datos
-    #analizarBaseDatos(2019)
+    analizarBaseDatos(0)
 
     #hacer un analisis de la base de datos 
-    #analizarArticuloMasCitado(2023)
+    analizarArticuloMasCitado(2023)
 
     #analisis de autores en cada base de datos
-    #analizar_database_autor()
+    analizar_database_autor()
 
     #hacer analisis de los articulos de cada journal
-    #analizar_journal_articulo()
+    analizar_journal_articulo()
 
     #extrear el mejor autor de cada journal
     analizar_autores_journal(3)
