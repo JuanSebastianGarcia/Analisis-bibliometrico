@@ -493,6 +493,7 @@ def agregar_autor_journal(journal:str,autor:str,listaJournal:dict):
 
 
 
+#analizar la relacion entre el journal
 def analizar_journal_articulo_pais():
     """
         Analizar las 3 variables (journal, articulo,pais) con el fin de mostrar la relacion entre los mejores journal
@@ -517,6 +518,29 @@ def analizar_journal_articulo_pais():
     arituclos_mas_citados=sorted(data)
 
 
+#analizar la cantidad de productos de cada tipo (articulo, conferencia, libro)
+def contar_tipos_producto():
+    """
+        
+    """
+    global data
+    product_type_couting = {}
+
+    for item in data['Tipo']:
+        if item != 'Null':
+            if  item in product_type_couting:
+                product_type_couting[item]+=1
+            else:
+                product_type_couting[item]=1
+
+    mostrarGraficaDatosCompletos(product_type_couting,'grafica de la cantidad de productos')
+
+
+
+
+
+
+
 
 cargarDatos()
 estandarizarTiposDatos()
@@ -528,43 +552,43 @@ if __name__ =='__main__':
     estandarizarTiposDatos()
 
     #hacer una analisis de las instituciones
-    #analizarAutores(0)
+    analizarAutores(0)
 
     #hacer un analisis de los años de publicacion
-    #analizarFecha()
+    analizarFecha()
 
 
     #hacer un analisis de los tipos de producto
-    #contarTiposProducto()
+    contar_tipos_producto()
 
 
     #hacer un analizis de las instituciones
-    #analizarInstituciones(2015)
+    analizarInstituciones(2015)
 
     #hacer un analisis del journal de cada producto
-    #analizarJournal(0)
+    analizarJournal(0)
 
     #hacer un analisis del publisher
-    #analizarPublisher(0)
+    analizarPublisher(0)
 
     #hacer un analisis de la base de datos
-    #analizarBaseDatos(0)
+    analizarBaseDatos(0)
 
     #hacer un analisis de la base de datos 
-    #analizarArticuloMasCitado(2023)
+    analizarArticuloMasCitado(0)
 
     #analisis de autores en cada base de datos
-    #analizar_database_autor()
+    analizar_database_autor()
 
     #hacer analisis de los articulos de cada journal
-    #analizar_journal_articulo()
+    analizar_journal_articulo()
 
     #extrear el mejor autor de cada journal
-    #analizar_autores_journal(3)
+    analizar_autores_journal(3)
 
 
     #analziar los  journal con los articulos y con el  pais
-    #analizar_journal_articulo_pais()
+    analizar_journal_articulo_pais()
 
 
 import networkx as nx

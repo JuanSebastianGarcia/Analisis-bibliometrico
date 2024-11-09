@@ -1,5 +1,6 @@
 import pandas as pd
 import random
+import os
 
 # Lista de 50 países
 paises = [
@@ -16,22 +17,23 @@ tipos = ["Article", "Conference", "Book"]
 pesos = [0.7, 0.2, 0.1]  # Article tiene más peso que Conference y Book
 
 # Ruta del archivo CSV
-ruta_csv = r"C:\Users\brahi\Documents\Proyecto analisis\analisis bibliometrico\data\data.csv"
+base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+file_path = os.path.join(base_dir, 'data', 'data.csv')
 
 # Cargar el archivo CSV en un DataFrame
-df = pd.read_csv(ruta_csv)
+df = pd.read_csv(file_path)
 
 # Crear una columna 'país' con valores aleatorios de la lista de países
 #df["País"] = [random.choice(paises) for _ in range(len(df))]
 
 # Reemplazar los valores 'Null' en la columna 'Cited by' con números aleatorios entre 0 y 250
-#df["Cited by"] = df["Cited by"].apply(lambda x: random.randint(0, 250) if x == "Null" else x)
+df["Cited by"] = df["Cited by"].apply(lambda x: random.randint(0, 250) if x == None else x)
 
 # Crear una nueva columna 'Tipo' con valores aleatorios de la lista de tipos, con pesos
-df["Tipo"] = [random.choices(tipos, weights=pesos, k=1)[0] for _ in range(len(df))]
+#df["Tipo"] = [random.choices(tipos, weights=pesos, k=1)[0] for _ in range(len(df))]
 
 # Guardar el DataFrame de nuevo en el archivo CSV
-df.to_csv(ruta_csv, index=False)
+df.to_csv(file_path, index=False)
 
 
 
