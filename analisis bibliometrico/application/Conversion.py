@@ -1,8 +1,8 @@
 import pandas as pd
 
 # Ruta del archivo .bib
-bib_file_path = r"C:\Users\brahi\Downloads\ScientDirect.bib"
-output_csv_path = r"C:\Users\brahi\Documents\Proyecto analisis\analisis bibliometrico\data\ScientDirect_converted.csv"
+bib_file_path = r"C:\Users\brahi\Downloads\scopus.bib"
+output_csv_path = r"C:\Users\brahi\Documents\Proyecto analisis\analisis bibliometrico\data\scopus_converted.csv"
 
 # Diccionario para almacenar las entradas
 entries_dict = {}

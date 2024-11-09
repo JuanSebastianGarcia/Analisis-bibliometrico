@@ -25,12 +25,9 @@ def cargarDatosScopus():
                        encoding_errors='replace')
 
     #columnas especificas a extraer de la data de scopus
-    columnas_deseadas=['Authors', 'Title', 'Year', 'Issue', 'Page start', 'Page end', 'Abstract', 'Affiliations', 'ISBN', 'DOI', 'Link', 'EID', 'Publisher','Cited by','Source','Source title']    
+    columnas_deseadas=['Authors', 'Title', 'Year', 'Issue', 'Page start', 'Page end', 'Abstract', 'Affiliations', 'ISBN', 'DOI', 'Link', 'EID', 'Publisher','Cited by','Source','Source title','ISSN']    
 
     data_scopus=data[columnas_deseadas]
-
-
-
 
 
 #Metodo que carga los datos de la base IEEE y unifica las columnas 
@@ -48,13 +45,11 @@ def cargarDatosIEEE():
                        encoding_errors='replace')
     
     #columnas especificas a extraer de la data de IEEE
-    columnas_deseadas = ['Authors', 'Document Title', 'Publication Year', 'Issue', 'Start Page', 'End Page', 'Abstract', 'Author Affiliations', 'ISBNs', 'DOI', 'PDF Link', 'Document Identifier', 'Publisher','Article Citation Count','Publication Title']  
+    columnas_deseadas = ['Authors', 'Document Title', 'Publication Year', 'Issue', 'Start Page', 'End Page', 'Abstract', 'Author Affiliations', 'ISBNs', 'DOI', 'PDF Link', 'Document Identifier', 'Publisher','Article Citation Count','Publication Title','ISSN']  
 
     data_IEEE=data[columnas_deseadas]
 
     data_IEEE['Source'] = 'IEEE Xplore'
-
-
 
 
 def cargarDatosdata():
@@ -62,14 +57,14 @@ def cargarDatosdata():
 
     # Ruta del archivo
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    file_path = os.path.join(base_dir, 'data', 'data.csv')
+    file_path = os.path.join(base_dir, 'data', 'data1.csv')
 
     # Leer el archivo con las primeras 10150 filas
     data = pd.read_csv(file_path, nrows=10000, encoding='utf-8', 
                        on_bad_lines='skip', 
                        encoding_errors='replace')   
     #columnas especificas a extraer de la data de scopus
-    columnas_deseadas=['Authors', 'Title', 'Year', 'Issue', 'Page start', 'Page end', 'Abstract', 'Affiliations', 'ISBN', 'DOI', 'Link', 'EID', 'Publisher','Cited by','Source','Source title']    
+    columnas_deseadas=['Authors', 'Title', 'Year', 'Issue', 'Page start', 'Page end', 'Abstract', 'Affiliations', 'ISBN', 'DOI', 'Link', 'EID', 'Publisher','Cited by','Source','Source title','ISSN']    
 
     data_unificado1=data[columnas_deseadas]
 
@@ -86,10 +81,9 @@ def cargarDatosScientDirect():
                        on_bad_lines='skip', 
                        encoding_errors='replace')   
     #columnas especificas a extraer de la data de scopus
-    columnas_deseadas=['author', 'title', 'year', 'abstract', 'isbn', 'doi', 'url' ]    
+    columnas_deseadas=['author', 'title', 'year', 'abstract', 'isbn', 'doi', 'url','issn','journal' ]    
 
     data_scientdirect=data[columnas_deseadas]
-
 
     
 #metodo encargado de renombrar las columnas de las bases de datos involucradas
@@ -109,14 +103,17 @@ def unificarDatos():
         'PDF Link':'Link',
         'Document Identifier':'EID',
         'Article Citation Count':'Cited by',
-        'Publication Title':'Source title'
+        'Publication Title':'Source title',
+        'ISSN':'ISSN'
     })
 
     data = pd.concat([data_IEEE,data_scopus],ignore_index=True)
     
     print(data.iloc[0])
 
-    #metodo que renombre la data de IEEE y scopus con Scientdirect
+    
+
+   #metodo que renombre la data de IEEE y scopus con Scientdirect
 
     data_scientdirect=data_scientdirect.rename(columns={
         'author': 'Authors',
@@ -125,24 +122,31 @@ def unificarDatos():
         'abstract': 'Abstract',
         'isbn': 'ISBN',
         'doi': 'DOI',
-        'url': 'Link'
+        'url': 'Link',
+        'issn': 'ISSN',
+        'journal': 'Source title'
+
     })
 
     data2 = pd.concat([data_scientdirect,data_unificado1],ignore_index=True)
     
     print(data2.iloc[0])
-    
+
+
 
 # Método encargado de generar el nuevo archivo con todos los datos unificados pero sin repetir
 def crearNuevoCsvSinDuplicados():
     
-    global data, data_IEEE,data2, data_scientdirect
+    global data, data_IEEE,data2, data_scientdirect, data_scopus
 
     # Eliminar los duplicados basados en la columna 'DOI'
     data2 = data2.drop_duplicates(subset=['DOI'])
 
     # Rellenar los espacios vacíos (valores NaN) con 'Null'
     data2 = data2.fillna('Null')
+
+    # Eliminar el guion en la columna 'Número'
+    data2['ISSN'] = data2['ISSN'].str.replace('-', '')
 
     # Reemplazar los valores 'Null' en la columna 'Source' con la palabra especificada
     data2['Source'] = data2['Source'].replace('Null', "ScientDirect")
@@ -153,7 +157,6 @@ def crearNuevoCsvSinDuplicados():
 
     # Guardar el archivo limpio en formato CSV
     data2.to_csv(direccion, index=False)
-
 
 cargarDatosIEEE()
 cargarDatosScopus()
