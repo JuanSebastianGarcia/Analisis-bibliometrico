@@ -184,6 +184,6 @@ class Frecuencia:
 
 
 
-objeto = Frecuencia()
+#objeto = Frecuencia()
 
-objeto.iniciar_ejecucion()
+#objeto.iniciar_ejecucion()

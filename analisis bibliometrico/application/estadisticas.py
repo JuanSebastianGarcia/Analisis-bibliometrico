@@ -552,7 +552,7 @@ if __name__ =='__main__':
     estandarizarTiposDatos()
 
     #hacer una analisis de las instituciones
-    analizarAutores(0)
+    analizarAutores()
 
     #hacer un analisis de los años de publicacion
     analizarFecha()
@@ -563,7 +563,7 @@ if __name__ =='__main__':
 
 
     #hacer un analizis de las instituciones
-    analizarInstituciones(2015)
+    analizarInstituciones()
 
     #hacer un analisis del journal de cada producto
     analizarJournal(0)
@@ -589,26 +589,3 @@ if __name__ =='__main__':
 
     #analziar los  journal con los articulos y con el  pais
     analizar_journal_articulo_pais()
-
-
-import networkx as nx
-import matplotlib.pyplot as plt
-
-# 1. Crear el grafo
-grafo = nx.Graph()
-
-# 2. Añadir nodos
-grafo.add_node("A")
-grafo.add_node("B")
-grafo.add_node("C")
-grafo.add_node("D")
-
-# 3. Añadir aristas (conexiones entre nodos)
-grafo.add_edge("A", "B")
-grafo.add_edge("A", "C")
-grafo.add_edge("B", "D")
-grafo.add_edge("C", "D")
-
-# 4. Dibujar y visualizar el grafo
-nx.draw(grafo, with_labels=True, node_color="skyblue", node_size=500, font_size=15, font_weight="bold")
-plt.show()
