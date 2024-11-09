@@ -6,6 +6,7 @@
     orden de ejecucion
 
 """
+from Estadisticas import Estadisticas
 
 def ejecutar():
 
@@ -15,6 +16,12 @@ def ejecutar():
 if __name__ =='__main__':
 
     ejecutar()
+
+    estadisticas=Estadisticas()
+
+    estadisticas.analizarFecha()
+
+    
 
 
 

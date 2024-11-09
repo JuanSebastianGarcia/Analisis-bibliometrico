@@ -121,10 +121,8 @@ class Estadisticas():
             Para evitar errores en la lectura de los datos y confundir tipos, se estandarizan los 
             tipos de datos desde el inicio
         """
-        global data
-
         #se genera una columna que contiene el primer autor
-        data['FirstAuthor']=data['Authors'].apply(lambda x: x.split(';')[0].strip().split(',')[0])
+        self.data['FirstAuthor']=self.data['Authors'].apply(lambda x: x.split(';')[0].strip().split(',')[0])
 
         #se estandariza el tipo de dato de cada columna
         self.data['Authors'] = self.data['Authors'].astype(str)
