@@ -18,6 +18,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from prettytable import PrettyTable
 import tkinter as tk
+import networkx as nx
+import matplotlib.pyplot as plt
 
 
 
@@ -493,8 +495,8 @@ def agregar_autor_journal(journal:str,autor:str,listaJournal:dict):
 
 
 
-#analizar la relacion entre el journal
-def analizar_journal_articulo_pais():
+#analizar la relacion entre el journal, articulo y pais
+def analizar_journal_articulo_pais(cantidad_journal,cantidad_articulos):
     """
         Analizar las 3 variables (journal, articulo,pais) con el fin de mostrar la relacion entre los mejores journal
         con los articulos mas citados, y a su vez, la relacion del articulo con sus paises de procedencia.
@@ -512,16 +514,62 @@ def analizar_journal_articulo_pais():
     global data
 
     #obtener los mejores journal
-    journals=obtener_mejores_journal(10).keys()
+    journals=list(obtener_mejores_journal(cantidad_journal).keys())   
 
-    #
-    arituclos_mas_citados=sorted(data)
+    #extraer los articulos mas citados en orden desendente
+    articulos_mas_citados = data.sort_values(by='Cited by', ascending=False)[:cantidad_articulos]
+
+    generar_grafo(journals,articulos_mas_citados)
+
+
+def generar_grafo(journals: list, articulos_mas_citados: pd.DataFrame):
+    """
+    Generate a graph that relates journals, articles, and publication years based on the collected data.
+    """
+
+    # Create the graph
+    grafo = nx.Graph()
+
+    # Add nodes for journals, articles, and years, along with their types
+    for journal in journals:
+        grafo.add_node(journal, tipo='journal')
+
+    for _, articulo in articulos_mas_citados.iterrows():
+        # Add article node
+        grafo.add_node(articulo['Title'], tipo='article')
+
+        # Add year node
+        grafo.add_node(articulo['Year'], tipo='year')
+
+        # Add edges between source journal and article
+        if articulo['Source title'] in journals:
+            grafo.add_edge(articulo['Source title'], articulo['Title'])
+
+        # Add edges between article and its publication year
+        grafo.add_edge(articulo['Title'], articulo['Year'])
+
+    # Set colors based on node type
+    node_colors = []
+    for node in grafo.nodes(data=True):
+        tipo = node[1]['tipo']
+        if tipo == 'journal':
+            node_colors.append('orange')
+        elif tipo == 'article':
+            node_colors.append('lightblue')
+        elif tipo == 'year':
+            node_colors.append('lightgreen')
+
+    # Draw the graph
+    pos = nx.spring_layout(grafo, k=0.5, seed=42)  # Define layout for readability
+    nx.draw(grafo, pos, with_labels=True, node_color=node_colors, node_size=500, font_size=5, font_weight="bold")
+    plt.show()
+
 
 
 #analizar la cantidad de productos de cada tipo (articulo, conferencia, libro)
 def contar_tipos_producto():
     """
-        
+        Contar la totalidad de los 3 tipos de productos buscados
     """
     global data
     product_type_couting = {}
@@ -552,63 +600,45 @@ if __name__ =='__main__':
     estandarizarTiposDatos()
 
     #hacer una analisis de las instituciones
-    analizarAutores(0)
+    #analizarAutores(0)
 
     #hacer un analisis de los años de publicacion
-    analizarFecha()
+    #analizarFecha()
 
 
     #hacer un analisis de los tipos de producto
-    contar_tipos_producto()
+    #contar_tipos_producto()
 
 
     #hacer un analizis de las instituciones
-    analizarInstituciones(2015)
+    #analizarInstituciones(2015)
 
     #hacer un analisis del journal de cada producto
-    analizarJournal(0)
+    #analizarJournal(0)
 
     #hacer un analisis del publisher
-    analizarPublisher(0)
+    #analizarPublisher(0)
 
     #hacer un analisis de la base de datos
-    analizarBaseDatos(0)
+    #analizarBaseDatos(0)
 
     #hacer un analisis de la base de datos 
-    analizarArticuloMasCitado(0)
+    #analizarArticuloMasCitado(0)
 
     #analisis de autores en cada base de datos
-    analizar_database_autor()
+    #analizar_database_autor()
 
     #hacer analisis de los articulos de cada journal
-    analizar_journal_articulo()
+    #analizar_journal_articulo()
 
     #extrear el mejor autor de cada journal
-    analizar_autores_journal(3)
+    #analizar_autores_journal(3)
 
 
     #analziar los  journal con los articulos y con el  pais
     analizar_journal_articulo_pais()
 
 
-import networkx as nx
-import matplotlib.pyplot as plt
 
-# 1. Crear el grafo
-grafo = nx.Graph()
 
-# 2. Añadir nodos
-grafo.add_node("A")
-grafo.add_node("B")
-grafo.add_node("C")
-grafo.add_node("D")
 
-# 3. Añadir aristas (conexiones entre nodos)
-grafo.add_edge("A", "B")
-grafo.add_edge("A", "C")
-grafo.add_edge("B", "D")
-grafo.add_edge("C", "D")
-
-# 4. Dibujar y visualizar el grafo
-nx.draw(grafo, with_labels=True, node_color="skyblue", node_size=500, font_size=15, font_weight="bold")
-plt.show()
