@@ -491,17 +491,35 @@ def agregar_autor_journal(journal:str,autor:str,listaJournal:dict):
     
     return listaJournal
 
-    
+
+
+def analizar_journal_articulo_pais():
+    """
+        Analizar las 3 variables (journal, articulo,pais) con el fin de mostrar la relacion entre los mejores journal
+        con los articulos mas citados, y a su vez, la relacion del articulo con sus paises de procedencia.
+    """
+    #1.generar un dataframe 
+    #2.extraer los 10 mejores journal
+    #3.almacenar los journal
+    #4.extraer los 15 mejores articulos
+    #5.almacenar los 15 
+    #6.relacionar cada journal a los articulos
+    #7.extraer el pais de cada articulo, eliminar los repetidos, y unificar
+    #8.generar grafo
+
+    #variable global
+    global data
+
+    #obtener los mejores journal
+    journals=obtener_mejores_journal(10).keys()
+
+    #
+    arituclos_mas_citados=sorted(data)
+
 
 
 cargarDatos()
 estandarizarTiposDatos()
-
-for _,item in data.iterrows():
-    if(item['Authors']=='null' ):
-        print(item)
-
-
 
 if __name__ =='__main__':
 
@@ -510,10 +528,10 @@ if __name__ =='__main__':
     estandarizarTiposDatos()
 
     #hacer una analisis de las instituciones
-    analizarAutores(0)
+    #analizarAutores(0)
 
     #hacer un analisis de los años de publicacion
-    analizarFecha()
+    #analizarFecha()
 
 
     #hacer un analisis de los tipos de producto
@@ -521,25 +539,52 @@ if __name__ =='__main__':
 
 
     #hacer un analizis de las instituciones
-    analizarInstituciones(2015)
+    #analizarInstituciones(2015)
 
     #hacer un analisis del journal de cada producto
-    analizarJournal(0)
+    #analizarJournal(0)
 
     #hacer un analisis del publisher
-    analizarPublisher(0)
+    #analizarPublisher(0)
 
     #hacer un analisis de la base de datos
-    analizarBaseDatos(0)
+    #analizarBaseDatos(0)
 
     #hacer un analisis de la base de datos 
-    analizarArticuloMasCitado(2023)
+    #analizarArticuloMasCitado(2023)
 
     #analisis de autores en cada base de datos
-    analizar_database_autor()
+    #analizar_database_autor()
 
     #hacer analisis de los articulos de cada journal
-    analizar_journal_articulo()
+    #analizar_journal_articulo()
 
     #extrear el mejor autor de cada journal
-    analizar_autores_journal(3)
+    #analizar_autores_journal(3)
+
+
+    #analziar los  journal con los articulos y con el  pais
+    #analizar_journal_articulo_pais()
+
+
+import networkx as nx
+import matplotlib.pyplot as plt
+
+# 1. Crear el grafo
+grafo = nx.Graph()
+
+# 2. Añadir nodos
+grafo.add_node("A")
+grafo.add_node("B")
+grafo.add_node("C")
+grafo.add_node("D")
+
+# 3. Añadir aristas (conexiones entre nodos)
+grafo.add_edge("A", "B")
+grafo.add_edge("A", "C")
+grafo.add_edge("B", "D")
+grafo.add_edge("C", "D")
+
+# 4. Dibujar y visualizar el grafo
+nx.draw(grafo, with_labels=True, node_color="skyblue", node_size=500, font_size=15, font_weight="bold")
+plt.show()
