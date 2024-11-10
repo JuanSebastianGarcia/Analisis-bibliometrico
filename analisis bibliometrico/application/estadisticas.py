@@ -512,7 +512,7 @@ class Estadisticas():
         journals=list(self.obtener_mejores_journal(cantidad_journal).keys())   
 
         #extraer los articulos mas citados en orden desendente
-        articulos_mas_citados = data.sort_values(by='Cited by', ascending=False)[:cantidad_articulos]
+        articulos_mas_citados = self.data.sort_values(by='Cited by', ascending=False)[:cantidad_articulos]
 
         self.generar_grafo(journals,articulos_mas_citados)
 
@@ -576,64 +576,3 @@ class Estadisticas():
                     product_type_couting[item]=1
 
         self.mostrarGraficaDatosCompletos(product_type_couting,'grafica de la cantidad de productos')
-
-
-
-
-
-
-
-
-<<<<<<< HEAD
-cargarDatos()
-estandarizarTiposDatos()
-
-if __name__ =='__main__':
-
-    #preparacion
-    cargarDatos()
-    estandarizarTiposDatos()
-
-    #hacer una analisis de las instituciones
-    analizarAutores()
-
-    #hacer un analisis de los años de publicacion
-    analizarFecha()
-=======
->>>>>>> 9eece6b03aa2abce5d726ab66a4dc656e1c7442f
-
-
-
-
-<<<<<<< HEAD
-    #hacer un analizis de las instituciones
-    analizarInstituciones()
-
-    #hacer un analisis del journal de cada producto
-    analizarJournal(0)
-
-    #hacer un analisis del publisher
-    analizarPublisher(0)
-
-    #hacer un analisis de la base de datos
-    analizarBaseDatos(0)
-
-    #hacer un analisis de la base de datos 
-    analizarArticuloMasCitado(0)
-
-    #analisis de autores en cada base de datos
-    analizar_database_autor()
-
-    #hacer analisis de los articulos de cada journal
-    analizar_journal_articulo()
-
-    #extrear el mejor autor de cada journal
-    analizar_autores_journal(3)
-
-
-    #analziar los  journal con los articulos y con el  pais
-    analizar_journal_articulo_pais()
-=======
-
-
->>>>>>> 9eece6b03aa2abce5d726ab66a4dc656e1c7442f

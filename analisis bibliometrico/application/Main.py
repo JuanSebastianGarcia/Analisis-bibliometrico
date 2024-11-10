@@ -9,24 +9,15 @@
 import tkinter as tk
 from tkinter import messagebox
 from Frecuencia import Frecuencia
-from estadisticas import analizarAutores
-from estadisticas import analizarFecha 
-from estadisticas import contar_tipos_producto 
-from estadisticas import analizarInstituciones
-from estadisticas import analizarJournal 
-from estadisticas import analizarPublisher 
-from estadisticas import analizarBaseDatos 
-from estadisticas import analizarArticuloMasCitado
-from estadisticas import analizar_database_autor
-from estadisticas import analizar_journal_articulo
-from estadisticas import analizar_autores_journal
-from estadisticas import analizar_journal_articulo_pais
+from estadisticas import Estadisticas
 
-class InterfazFrecuencia:
+
+class InterfazFrecuencia:  
+    estadistica = Estadisticas()
     def __init__(self, root):
         self.root = root
         self.root.title("Procesamiento de Frecuencia de Palabras")
-        self.root.geometry("700x800")
+        self.root.geometry("500x800")
 
         # Crear los frames para organizar los botones
         frame_izquierda = tk.Frame(root)
@@ -35,83 +26,189 @@ class InterfazFrecuencia:
         frame_centro = tk.Frame(root)
         frame_centro.pack(side="left", padx=20, pady=20)
 
-        # Elementos en frame izquierda
 
+        def abrir_nueva_pantalla_para_autores():
+            nueva_ventana = tk.Toplevel(self.root)
+            nueva_ventana.title("Analizar Autores")
+            nueva_ventana.geometry("400x200")
+            
+            tk.Label(nueva_ventana, text="Introduce el año para analizar autores:").pack(pady=10)
+            
+            # Campo de entrada en la nueva ventana
+            self.autor_entry = tk.Entry(nueva_ventana)
+            self.autor_entry.pack(pady=5)
+            
+            # Botón que ejecuta self.analizar_autores
+            tk.Button(nueva_ventana, text="Aceptar", command=self.analizar_autores).pack(pady=10)
+        
+
+        #Nueva ventana para las instituciones
+        def abrir_nueva_pantalla_para_instituciones():
+            nueva_ventana = tk.Toplevel(self.root)
+            nueva_ventana.title("Analizar Instituciones")
+            nueva_ventana.geometry("400x200")
+            
+            tk.Label(nueva_ventana, text="Introduce el año para analizar Instituciones:").pack(pady=10)
+            
+            # Campo de entrada en la nueva ventana
+            self.instituciones_entry = tk.Entry(nueva_ventana)
+            self.instituciones_entry.pack(pady=5)
+            
+            # Botón que ejecuta self.analizar_autores
+            tk.Button(nueva_ventana, text="Aceptar", command=self.iniciar_analizar_instituciones).pack(pady=10)
+
+
+        #Nueva ventana para las Journal
+        def abrir_nueva_pantalla_para_journal():
+            nueva_ventana = tk.Toplevel(self.root)
+            nueva_ventana.title("Analizar Journal")
+            nueva_ventana.geometry("400x200")
+            
+            tk.Label(nueva_ventana, text="Introduce el año para analizar Journal:").pack(pady=10)
+            
+            # Campo de entrada en la nueva ventana
+            self.journal_entry = tk.Entry(nueva_ventana)
+            self.journal_entry.pack(pady=5)
+            
+            # Botón que ejecuta self.analizar_autores
+            tk.Button(nueva_ventana, text="Aceptar", command=self.iniciar_analizar_journal).pack(pady=10)
+
+        #Nueva ventana para las Journal
+        def abrir_nueva_pantalla_para_publisher():
+            nueva_ventana = tk.Toplevel(self.root)
+            nueva_ventana.title("Analizar Publisher")
+            nueva_ventana.geometry("400x200")
+            
+            tk.Label(nueva_ventana, text="Introduce el año para analizar Publisher:").pack(pady=10)
+            
+            # Campo de entrada en la nueva ventana
+            self.publisher_entry = tk.Entry(nueva_ventana)
+            self.publisher_entry.pack(pady=5)
+            
+            # Botón que ejecuta self.analizar_autores
+            tk.Button(nueva_ventana, text="Aceptar", command=self.iniciar_analizar_publiser).pack(pady=10)
+
+
+        #Nueva ventana para las Journal
+        def abrir_nueva_pantalla_para_baseDeDatos():
+            nueva_ventana = tk.Toplevel(self.root)
+            nueva_ventana.title("Analizar Base de datos")
+            nueva_ventana.geometry("400x200")
+            
+            tk.Label(nueva_ventana, text="Introduce el año para analizar la base de datos:").pack(pady=10)
+            
+            # Campo de entrada en la nueva ventana
+            self.base_datos_entry = tk.Entry(nueva_ventana)
+            self.base_datos_entry.pack(pady=5)
+            
+            # Botón que ejecuta self.analizar_autores
+            tk.Button(nueva_ventana, text="Aceptar", command=self.iniciar_analizar_base_de_datos).pack(pady=10)
+
+        #Nueva ventana para las Journal
+        def abrir_nueva_pantalla_para_articuloMasCitado():
+            nueva_ventana = tk.Toplevel(self.root)
+            nueva_ventana.title("Analizar Articulo mas citado")
+            nueva_ventana.geometry("400x200")
+            
+            tk.Label(nueva_ventana, text="Introduce el año para analizar el articulo mas citado:").pack(pady=10)
+            
+            # Campo de entrada en la nueva ventana
+            self.articulo_entry = tk.Entry(nueva_ventana)
+            self.articulo_entry.pack(pady=5)
+            
+            # Botón que ejecuta self.analizar_autores
+            tk.Button(nueva_ventana, text="Aceptar", command=self.iniciar_analizar_ArticuloMasCitado).pack(pady=10)
+
+
+        #Nueva ventana para las Journal
+        def abrir_nueva_pantalla_para_journalAutor():
+            nueva_ventana = tk.Toplevel(self.root)
+            nueva_ventana.title("Analizar Autores por cantidad de journal")
+            nueva_ventana.geometry("400x200")
+            
+            tk.Label(nueva_ventana, text="Introduce la cantidad de journal para analizar el autor:").pack(pady=10)
+            
+            # Campo de entrada en la nueva ventana
+            self.cantidad_journal_entry = tk.Entry(nueva_ventana)
+            self.cantidad_journal_entry.pack(pady=5)
+            
+            # Botón que ejecuta self.analizar_autores
+            tk.Button(nueva_ventana, text="Aceptar", command=self.iniciar_analizar_autores_journal).pack(pady=10)
+
+
+
+        def abrir_nueva_pantalla_para_analizarGrafo():
+            nueva_ventana = tk.Toplevel(self.root)
+            nueva_ventana.title("Analizar Autores por cantidad de journal y articulos mas citados")
+            nueva_ventana.geometry("400x200")
+            
+            tk.Label(nueva_ventana, text="Introduce la cantidad de journal para analizar el autor:").pack(pady=10)
+            
+            # Campo de entrada en la nueva ventana
+            self.cantidad_journal_entry_pais = tk.Entry(nueva_ventana)
+            self.cantidad_journal_entry_pais.pack(pady=5)
+
+            tk.Label(nueva_ventana, text="Introduce la cantidad de atriculos:").pack(pady=10)
+            
+            # Campo de entrada en la nueva ventana
+            self.cantidad_articulo_entry = tk.Entry(nueva_ventana)
+            self.cantidad_articulo_entry.pack(pady=5)
+            
+            # Botón que ejecuta self.analizar_autores
+            tk.Button(nueva_ventana, text="Aceptar", command=self.iniciar_journal_articulo_pais).pack(pady=10)
+
+
+        self.procesar_button = tk.Button(
+        frame_centro, 
+        text="Generar Nube de Palabras", 
+        command=self.iniciar_procesamiento,
+        font=("Arial", 10, "bold"),  # Tipo y tamaño de fuente
+        bg="#4DA6FF",  # Color de fondo (verde)
+        fg="white",    # Color del texto (blanco)
+        relief="raised",  # Tipo de borde
+        bd=3,  # Grosor del borde
+        padx=8,  # Espaciado horizontal
+        pady=4    # Espaciado vertical
+)
+        self.procesar_button.pack(pady=10)
         # Etiqueta de descripción y botón para la nube de palabras
-        self.label = tk.Label(frame_izquierda, text="Presiona el botón para generar la nube de palabras")
+        self.label = tk.Label(frame_centro, text="Presiona el botón que desee para ver la estadistica interesada", font=("Arial", 10))
         self.label.pack(pady=10)
 
-        self.procesar_button = tk.Button(frame_izquierda, text="Generar Nube de Palabras", command=self.iniciar_procesamiento)
-        self.procesar_button.pack(pady=10)
 
-        # Entrada y botón para analizar autores por año
-        self.label_autor = tk.Label(frame_izquierda, text="Introduce el año para analizar autores:")
-        self.label_autor.pack(pady=10)
-
-        self.autor_entry = tk.Entry(frame_izquierda)
-        self.autor_entry.pack(pady=5)
-
-        self.analizar_button = tk.Button(frame_izquierda, text="Analizar Autores", command=self.analizar_autores)
+        # Botón para analizar autores por año
+        self.analizar_button = tk.Button(frame_centro, text="Analizar Autores", 
+                                         command=lambda: abrir_nueva_pantalla_para_autores())
         self.analizar_button.pack(pady=10)
 
         # Botón para analizar fechas
-        self.procesar_button = tk.Button(frame_izquierda, text="Analizar Fechas", command=self.iniciar_analizarFecha)
+        self.procesar_button = tk.Button(frame_centro, text="Analizar Fechas", command=self.iniciar_analizarFecha)
         self.procesar_button.pack(pady=10)
 
         # Botón para contar tipo de producto
-        self.procesar_button = tk.Button(frame_izquierda, text="Contar Tipo de Producto", command=self.iniciar_contar_tipo_producto)
+        self.procesar_button = tk.Button(frame_centro, text="Contar Tipo de Producto", command=self.iniciar_contar_tipo_producto)
         self.procesar_button.pack(pady=10)
 
-        # Entrada y botón para analizar instituciones por año
-        self.label_instituciones = tk.Label(frame_izquierda, text="Introduce el año para analizar instituciones:")
-        self.label_instituciones.pack(pady=10)
-
-        self.instituciones_entry = tk.Entry(frame_izquierda)
-        self.instituciones_entry.pack(pady=5)
-
-        self.instituciones_button = tk.Button(frame_izquierda, text="Analizar Instituciones", command=self.iniciar_analizar_instituciones)
+        #Botón para analizar instituciones
+        self.instituciones_button = tk.Button(frame_centro, text="Analizar Instituciones", command=lambda: abrir_nueva_pantalla_para_instituciones())
         self.instituciones_button.pack(pady=10)
 
         # Entrada y botón para analizar Journal por año
-        self.label_journal = tk.Label(frame_izquierda, text="Introduce el año para analizar journal:")
-        self.label_journal.pack(pady=10)
-
-        self.journal_entry = tk.Entry(frame_izquierda)
-        self.journal_entry.pack(pady=5)
-
-        self.journal_button = tk.Button(frame_izquierda, text="Analizar Journal", command=self.iniciar_analizar_journal)
+        self.journal_button = tk.Button(frame_centro, text="Analizar Journal", command=lambda: abrir_nueva_pantalla_para_journal())
         self.journal_button.pack(pady=10)
 
         # Entrada y botón para analizar Publisher por año
-        self.label_publisher = tk.Label(frame_izquierda, text="Introduce el año para analizar el publisher:")
-        self.label_publisher.pack(pady=10)
-
-        self.publisher_entry = tk.Entry(frame_izquierda)
-        self.publisher_entry.pack(pady=5)
-
-        self.publisher_button = tk.Button(frame_izquierda, text="Analizar Publisher", command=self.iniciar_analizar_publiser)
+        self.publisher_button = tk.Button(frame_centro, text="Analizar Publisher", command=lambda: abrir_nueva_pantalla_para_publisher())
         self.publisher_button.pack(pady=10)
 
         # Elementos en frame centro
 
         # Entrada y botón para analizar base de datos por año
-        self.label_base_datos = tk.Label(frame_centro, text="Introduce el año para analizar la base de datos:")
-        self.label_base_datos.pack(pady=10)
-
-        self.base_datos_entry = tk.Entry(frame_centro)
-        self.base_datos_entry.pack(pady=5)
-
-        self.base_datos_button = tk.Button(frame_centro, text="Analizar Base de Datos", command=self.iniciar_analizar_base_de_datos)
+        self.base_datos_button = tk.Button(frame_centro, text="Analizar Base de Datos", command=lambda: abrir_nueva_pantalla_para_baseDeDatos())
         self.base_datos_button.pack(pady=10)
 
         # Entrada y botón para analizar el artículo más citado
-        self.label_articulo = tk.Label(frame_centro, text="Introduce el año para analizar el artículo más citado:")
-        self.label_articulo.pack(pady=10)
-
-        self.articulo_entry = tk.Entry(frame_centro)
-        self.articulo_entry.pack(pady=5)
-
-        self.articulo_button = tk.Button(frame_centro, text="Analizar Artículo Más Citado", command=self.iniciar_analizar_ArticuloMasCitado)
+        self.articulo_button = tk.Button(frame_centro, text="Analizar Artículo Más Citado", command=lambda: abrir_nueva_pantalla_para_articuloMasCitado())
         self.articulo_button.pack(pady=10)
 
         # Botón para analizar autores por base de datos
@@ -123,18 +220,12 @@ class InterfazFrecuencia:
         self.journal_articulo_button.pack(pady=10)
 
         # Entrada y botón para analizar autores según la cantidad de journals
-        self.label_cantidad_journal = tk.Label(frame_centro, text="Introduce la cantidad de journals para analizar el autor:")
-        self.label_cantidad_journal.pack(pady=10)
-
-        self.cantidad_journal_entry = tk.Entry(frame_centro)
-        self.cantidad_journal_entry.pack(pady=5)
-
-        self.analizar_autores_journal_button = tk.Button(frame_centro, text="Analizar Autores según Cantidad de Journals", command=self.iniciar_analizar_autores_journal)
+        self.analizar_autores_journal_button = tk.Button(frame_centro, text="Analizar Autores según Cantidad de Journals", command=lambda: abrir_nueva_pantalla_para_journalAutor())
         self.analizar_autores_journal_button.pack(pady=10)
 
-        # Botón para ArticuloJournalPorPais
-        self.journal_pais_button = tk.Button(frame_centro, text="Articulo Journal Por País", command=self.iniciar_journal_articulo_pais)
-        self.journal_pais_button.pack(pady=10)
+        # Entrada y botón para analizar  journals segun el pais
+        self.analizar_autores_journal_button = tk.Button(frame_centro, text="Analizar Autores según Cantidad de Journals", command=lambda: abrir_nueva_pantalla_para_analizarGrafo())
+        self.analizar_autores_journal_button.pack(pady=10)
 
     def iniciar_procesamiento(self):
         try:
@@ -149,7 +240,7 @@ class InterfazFrecuencia:
             # Obtener el año ingresado
             year = int(self.autor_entry.get())
             # Instancia de Estadisticas y ejecución de analizarAutores
-            analizarAutores(year)
+            self.estadistica.analizarAutores(year)
             messagebox.showinfo("Éxito", f"Análisis de autores completado para el año {year}.")
         except ValueError:
             messagebox.showerror("Error", "Por favor, introduce un año válido en formato numérico.")
@@ -158,7 +249,7 @@ class InterfazFrecuencia:
 
     def iniciar_analizarFecha(self):
         try:
-            analizarFecha()
+            self.estadistica.analizarFecha()
             messagebox.showinfo("Éxito", "Procesamiento completado.")
         except Exception as e:
             messagebox.showerror("Error", f"Ocurrió un error durante el procesamiento: {e}")
@@ -166,7 +257,7 @@ class InterfazFrecuencia:
 
     def iniciar_contar_tipo_producto(self):
         try:
-            contar_tipos_producto()
+            self.estadistica.contar_tipos_producto()
             messagebox.showinfo("Éxito", "Procesamiento completado.")
         except Exception as e:
             messagebox.showerror("Error", f"Ocurrió un error durante el procesamiento: {e}")
@@ -177,7 +268,7 @@ class InterfazFrecuencia:
             # Obtener el año ingresado
             year = int(self.instituciones_entry.get())
             # Instancia de Estadisticas y ejecución de analizarAutores
-            analizarInstituciones(year)
+            self.estadistica.analizarInstituciones(year)
             messagebox.showinfo("Éxito", f"Análisis de autores completado para el año {year}.")
         except ValueError:
             messagebox.showerror("Error", "Por favor, introduce un año válido en formato numérico.")
@@ -189,7 +280,7 @@ class InterfazFrecuencia:
             # Obtener el año ingresado
             year = int(self.journal_entry.get())
             # Instancia de Estadisticas y ejecución de analizarAutores
-            analizarJournal(year)
+            self.estadistica.analizarJournal(year)
             messagebox.showinfo("Éxito", f"Análisis de Journal para el año {year}.")
         except ValueError:
             messagebox.showerror("Error", "Por favor, introduce un año válido en formato numérico.")
@@ -202,7 +293,7 @@ class InterfazFrecuencia:
             # Obtener el año ingresado
             year = int(self.publisher_entry.get())
             # Instancia de Estadisticas y ejecución de analizarAutores
-            analizarPublisher(year)
+            self.estadistica.analizarPublisher(year)
             messagebox.showinfo("Éxito", f"Análisis de Publisher para el año {year}.")
         except ValueError:
             messagebox.showerror("Error", "Por favor, introduce un año válido en formato numérico.")
@@ -215,7 +306,7 @@ class InterfazFrecuencia:
             # Obtener el año ingresado
             year = int(self.base_datos_entry.get())
             # Instancia de Estadisticas y ejecución de analizarAutores
-            analizarBaseDatos(year)
+            self.estadistica.analizarBaseDatos(year)
             messagebox.showinfo("Éxito", f"Análisis de base de datos para el año {year}.")
         except ValueError:
             messagebox.showerror("Error", "Por favor, introduce un año válido en formato numérico.")
@@ -227,7 +318,7 @@ class InterfazFrecuencia:
             # Obtener el año ingresado
             year = int(self.articulo_entry.get())
             # Instancia de Estadisticas y ejecución de analizarAutores
-            analizarArticuloMasCitado(year)
+            self.estadistica.analizarArticuloMasCitado(year)
             messagebox.showinfo("Éxito", f"Análisis de Articulo mas citado para el año {year}.")
         except ValueError:
             messagebox.showerror("Error", "Por favor, introduce un año válido en formato numérico.")
@@ -236,14 +327,14 @@ class InterfazFrecuencia:
 
     def iniciar_database_autor(self):
         try:
-            analizar_database_autor()
+            self.estadistica.analizar_database_autor()
             messagebox.showinfo("Éxito", "Procesamiento completado.")
         except Exception as e:
             messagebox.showerror("Error", f"Ocurrió un error durante el procesamiento: {e}")
 
     def iniciar_journal_articulo(self):
         try:
-            analizar_journal_articulo()
+            self.estadistica.analizar_journal_articulo()
             messagebox.showinfo("Éxito", "Procesamiento completado.")
         except Exception as e:
             messagebox.showerror("Error", f"Ocurrió un error durante el procesamiento: {e}")
@@ -253,7 +344,7 @@ class InterfazFrecuencia:
             # Obtener el año ingresado
             cantidadJournal = int(self.cantidad_journal_entry.get())
             # Instancia de Estadisticas y ejecución de analizarAutores
-            analizar_autores_journal(cantidadJournal)
+            self.estadistica.analizar_autores_journal(cantidadJournal)
             messagebox.showinfo("Éxito", f"Análisis de Articulo mas citado para el año {cantidadJournal}.")
         except ValueError:
             messagebox.showerror("Error", "Por favor, introduce un año válido en formato numérico.")
@@ -263,13 +354,20 @@ class InterfazFrecuencia:
 
     def iniciar_journal_articulo_pais(self):
         try:
-            analizar_journal_articulo_pais()
-            messagebox.showinfo("Éxito", "Procesamiento completado.")
+            # Obtener el año ingresado
+            journals = int(self.cantidad_journal_entry_pais.get())
+            articulos_mas_citados= int(self.cantidad_articulo_entry.get())
+            # Instancia de Estadisticas y ejecución de analizarAutores
+            self.estadistica.analizar_journal_articulo_pais(journals,articulos_mas_citados)
+            messagebox.showinfo("Éxito", f"Análisis de Articulo mas citado para el año .")
+        except ValueError:
+            messagebox.showerror("Error", "Por favor, introduce un año válido en formato numérico.")
         except Exception as e:
-            messagebox.showerror("Error", f"Ocurrió un error durante el procesamiento: {e}")
+            messagebox.showerror("Error", f"Ocurrió un error durante el análisis de autores: {e}")
 
 
 if __name__ == "__main__":
+
     root = tk.Tk()
     app = InterfazFrecuencia(root)
     root.mainloop()
